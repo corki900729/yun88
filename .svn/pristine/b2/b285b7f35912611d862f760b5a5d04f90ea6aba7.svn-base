@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>优选客户</title>
+
+  <meta charset="UTF-8"></meta>
+
+  <meta
+    name="renderer"
+    content="webkit"
+  ></meta>
+
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  ></meta>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  ></meta>
+
+  <!-- 公用组件 -->
+
+  <link
+    href="../../dist/assets.css"
+    rel="stylesheet"
+  ></link>
+
+  <script src="../../dist/assets.js"></script>
+</head>
+
+<body>
+  <!-- 页面特有CSS -->
+
+  <link
+    href="../../dist/clients/clients.css"
+    rel="stylesheet"
+  ></link>
+
+  <main class="page-wrap clients devHead">
+    <section class="banner banner-clients parallax">
+      <div class="container">
+        <h1 class="banner-title">优选客户</h1>
+
+        <p class="banner-text">
+          云88专家以严谨的态度为您甄选可靠安全的云产品&服务，倾力打造中国首个企业级B2B云平台
+        </p>
+
+        <a
+          href=""
+          class="btns btn-details"
+        >立即咨询</a>
+      </div>
+    </section>
+
+    <section class="client-details">
+      <div class="container">
+        <a href="">返回优选客户</a>
+
+        <div class="snapshot">
+          <div class="row">
+            <div class="l-col-3 m-col-3 s-col-12">
+              <div class="logo">
+                <img
+                  src="/images/client1.png"
+                  alt=""
+                >
+              </div>
+            </div>
+
+            <div class="l-col-9 m-col-9 s-col-12">
+              <div>
+                <h3>浙江天下商邦科技股份有限公司:</h3>
+
+                <p>
+                  浙江天下商邦科技股份有限公司投资1.3个亿，搭建“品牌直供平台”的电子商务技术服务型企业。创造性的B2B2C（BrandToBusinessToCustomer品牌-平台-终端）“天下商邦品牌直供平台”，以全新商业模式实现厂商与店铺零中间商对接，高效整合传统渠道业态的产销链，在直供平台上终端商与品牌商直接的双向选择。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="details">
+          <h1>面临挑战和问题</h1>
+
+          <h2>·  灵活性不够，成本过高：</h2>
+
+          <p>
+            为了应对日益增长的访问量，不得不购置大量机器，在IDC机柜租用和带宽费用上的开销也随之大幅增长，但峰值过后，资源严重过剩，造成了极大的浪费。
+          </p>
+
+          <h2>·  管的太多，不够聚焦：</h2>
+
+          <p>
+            选机房、买机器、租机柜、装系统、数据备份、异地容灾等事情全部一条龙自己搞定，加之对IDC服务质量的更高要求，历经过多次机房搬迁，这些都消耗运维人员许多精力，导致在运维自动化、系统架构的持续优化等方面不够聚焦，影响了对日益复杂的业务系统的有效支撑。
+          </p>
+
+          <h2>·  突发性故障应对能力欠佳：</h2>
+
+          <p>
+            随着服务器数量的增加，硬件故障数也开始攀升，虽然有应对预案，但面对一些突发性硬件故障，恢复的时间和成本还是比较高，直接影响了网站的稳定性和可用性。
+          </p>
+
+          <h1>解决方案</h1>
+
+          <p>
+            元鼎科技通过分析其存在的问题帮其制定了详细的阿里云服务ＥＣＳ方案。通过云监控完备的数据图表和各项服务，可以很及时的发现问题，快速的动态增加云主机和RDS只读实例，比之前临时采购机器的过程简单高效N倍；为应对高峰期图片处理业务对磁盘的频繁读写，还临时购置了性能相比云磁盘高出10倍的SSD盘作为写缓存，高峰过后数据再迁回云磁盘即可；带宽使用上，也灵活选用按量或按带宽的计费方式，比之前IDC按固定带宽包年的方式合理许多；同时还启用了私网SLB的服务，非常便于对各业务应用的动态扩展。
+          </p>
+
+          <h1>使用效果</h1>
+
+          <p>
+            通过元鼎科技使用上阿里云服务器之后，只用之前一半数量的服务器，就可以轻松应对日常的流量。相较以前在IDC的日子，阿里云服务器不仅能给用户带来更稳定的体验，也让运维人员变的更从容，同时也给公司节约了大量成本，可谓是一箭三雕。
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

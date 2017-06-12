@@ -1,0 +1,341 @@
+// out:../index
+@charset 'utf-8';
+
+@import "less-components/variables.less";
+@import "less-components/mic.less";
+/* * 
+ * Create by ZHANG MENG
+ * Modify by LIJAILIN
+ *
+ *  Styling of index page.
+ *  Sepeerated file so it can load faster.
+ */
+.white-back {
+  background-color: #ebeef3;
+}
+
+.black-back {
+  background-color: #212629;
+}
+
+.banner {
+  width: 100%;
+}
+
+.cross {
+  &:after {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: .25em;
+    color: @blue;
+    content: "+";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+  }
+}
+
+.layer {
+  overflow: hidden;
+  letter-spacing: .15em;
+
+  .layer-tit {
+    &>* {
+      font-size: 2.917em;
+    }
+  }
+
+  .layer-button {
+    position: relative;
+    display: inline-block;
+    padding: .7em 3em;
+    border: 1px solid #fff;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+
+    * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  /* layer 01 */
+  &.lay01 > .container {
+    padding: 5em 0;
+    height: 27.917em;
+
+    p {
+      color: #666;
+      font-size: 18px;
+    }
+
+    a>p {
+      padding-top: .5em;
+      font-size: 24px;
+    }
+  }
+  /* layer 02 */
+  &.lay02 {
+    .container {
+      padding: 10em 0;
+      color: #fff;
+    }
+
+    .layer-tit + .row {
+      padding-top: 3.750em;
+    }
+
+    .text {
+      padding-right: 5%;
+
+      p {
+        display: none;
+        overflow: hidden;
+        max-height: 185px;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .subtitle {
+      .useClearFix();
+
+      img {
+        float: left;
+        vertical-align: middle;
+      }
+
+      img+span {
+        vertical-align: middle;
+        font-size: 14px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .bLogo-1 {
+      float: left;
+      overflow: hidden;
+      margin-top: 2em;
+      width: 24.998%;
+      height: 123px;
+
+      @media @containerBreakPoint {
+        width: 50%;
+
+        &:nth-child(odd) {
+          padding-left: 5em;
+        }
+      }
+
+      img {
+        position: relative;
+        cursor: pointer;
+      }
+    }
+  }
+  /* lay 03 */
+  &.lay03 {
+    padding-bottom: 5em;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+
+    &>* {
+      display: inline-block;
+      // float: left;
+      margin-top: 5em;
+      vertical-align: top;
+    }
+
+    .pc-img {
+      max-width: 714px;
+      width: 50%;
+      height: 471px;
+      background-image: url('../images/index/icon06.png');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .layer-tit + div {
+      height: 3.167em;
+      background-image: url('../images/index/icon07.png');
+      background-position: left;
+      background-repeat: no-repeat;
+
+      p {
+        padding-left: 3.500em;
+        max-width: 41em;
+        /* white-space: pre-wrap; */
+        word-wrap: break-word;
+        word-break: break-all;
+        font-size: 1.167em;
+      }
+    }
+
+    .des {
+      padding-left: 3em;
+      width: 50%;
+      text-align: left;
+      white-space: normal;
+
+      .bLogo-2 {
+        float: left;
+        margin-top: 3em;
+        padding-right: 2em;
+        width: 33.333%;
+        cursor: pointer;
+
+        .bg-wrapper {
+          padding: 1.083em;
+          max-width: 180px;
+          max-height: 10.167em;
+          background: url('../images/index/bLogoBase.png') no-repeat;
+          background-size: contain;
+
+          img {
+            max-width: 155px;
+            max-height: 98px;
+            width: 100%;
+          }
+
+          &:hover {
+            background-image: url('../images/index/bLogoBaseHover.png');
+            background-repeat: none;
+          }
+        }
+      }
+    }
+  }
+  /* ---文字描述行 */
+  /* lay04 */
+  &.lay04 {
+    background-image: url('../images/index/banner2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+    p,
+    span {
+      word-wrap: break-word;
+      word-break: break-all;
+      font-size: 1.167em;
+    } 
+
+    .container {
+      padding-top: 20em; 
+      height: 50.000em;
+    }
+
+    .layer-button {
+      color: white;
+      margin: 0 auto;
+      background-color: #212629;
+    }
+  }
+  /* lay 05 */
+  &.lay05 {
+    position: relative;
+
+    p {
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+
+    .slick-dots-larger {
+      button:before {
+        font-size: 15px;
+        line-height: 1.5em;
+      }
+    }
+
+    .layer-wrapper {
+      position: relative;
+      // float: right;
+      white-space: nowrap;
+
+      &>* {
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+      }
+
+      .lefty {
+        position: relative;
+        width: 40%;
+        height: 100%;
+        // text-align: left;
+        // text-align: right;
+        white-space: normal;
+        overflow: hidden;
+
+        .cell-wrapper {
+          padding: 4em 0 4em 15%;
+          text-align: left;
+
+          span:first-child {
+            // height: 100%;
+            // display: inline-block;
+            // vertical-align: middle;
+          }
+
+          .sliders {
+            padding: 0 1.25em;
+          }
+
+          .subtitle {
+            margin: 2em 0 1.25em;
+            font-weight: 600;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .righty {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        background: url("../images/index/icon08.png") center center no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .layer-button {
+      margin-top: 3em;
+      border-color: black;
+      border-radius: .25em;
+      background-color: #ebeef2;
+      color: #666;
+    }
+  }
+  /* lay06 */
+  &.lay06 {
+    height: 39.083em;
+    background-image: url('../images/index/banner3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .container {
+      padding-top: 15em;
+    }
+
+    .layer-tit {
+      color: white;
+    }
+
+    .layer-button {
+      margin: 0 auto;
+      border-width: 2px;
+      border-radius: .25em;
+      background-color: #404345;
+      color: white;
+      font-size: 21px;
+    }
+  }
+}

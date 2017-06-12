@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--通用样式-->
+  
+  
+
+  <script src="/dist/headerfooter/headerfooter.js"></script>
+</head>
+
+<body>
+  <link href="/dist/new_index/new_index.css" rel="stylesheet">
+  <script src="/dist/new_index/new_index.js"></script>
+
+
+
+  <div class="page-contents-wrapper">
+    <!--header-->
+
+
+
+    <!--banner-->
+    <div class="banner">
+      <div class="img-holder" style="background-image: url('../images/new_index/banner.jpg');">
+        <img src="" alt="">
+      </div>
+    </div>
+
+    <!--第一层：为什么选择云88-->
+
+    <div class="lay01">
+      <div class="container">
+        <div class="lay01-inner">
+          <h1>为什么选择YUN88？</h1>
+          <p class="line"><span></span></p>
+          <p class="mean">YUN88专家以严谨的态度，为您甄选可靠、安全的云产品&服务，倾力打造中国首个企业级B2B云平台</p>
+          <div class="row">
+            <div class="l-col-3">
+              <div class="lay01-block">
+                <div class="img-holder">
+                  <img src="../images/new_index/icon1_03.jpg" />
+                </div>
+                <div class="text-holder">
+                  <p class="work">甄选/Selection</p>
+                  <p class="help">帮你严选可靠、安全、领先的云产品、应用</p>
+                </div>
+              </div>
+            </div>
+            <div class="l-col-3">
+              <div class="lay01-block">
+                <div class="img-holder">
+                  <img src="../images/new_index/icon2_03.jpg" />
+                </div>
+                <div class="text-holder">
+                  <p class="work">服务/Service</p>
+                  <p class="help">提供专业、个性化的线上+线下咨询和服务</p>
+                </div>
+              </div>
+            </div>
+            <div class="l-col-3">
+              <div class="lay01-block">
+                <div class="img-holder">
+                  <img src="../images/new_index/icon3_03.jpg" />
+                </div>
+                <div class="text-holder">
+                  <p class="work">可靠/Reliable</p>
+                  <p class="help">依托元鼎专业技术实力加速传统IT架构,IT业务系统和云的融合，迁移</p>
+                </div>
+              </div>
+            </div>
+            <div class="l-col-3">
+              <div class="lay01-block">
+                <div class="img-holder">
+                  <img src="../images/new_index/icon4_03.jpg" />
+                </div>
+                <div class="text-holder">
+                  <p class="work">效率/Efficiency</p>
+                  <p class="help">一站式采购综合型管理平台便捷、高效、降低成本</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--第二层-->
+    <div class="lay02">
+      <div class="container">
+        <div class="lay02-inner">
+          <div class="row">
+            <div class="l-col-4">
+              <div class="lay02-left">
+                <h1>优选、领先的公有云平台</h1>
+                <p class="line"><span></span></p>
+                <p class="mean">整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用。</p>
+                <p class="more"><a href="">了解更多</a></p>
+              </div>
+            </div>
+            <div class="l-col-7">
+              <div class="lay02-right">
+                <div class="row">
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <div class="img-holder">
+                          <img src="../images/new_index/l1_03.jpg" />
+                        </div>
+                        <div class="text-holder">
+                          <p class="logo-title">AWS - 亚马逊</p>
+                          <p class="logo-text">AWS - 亚马逊公司旗下云计算服务平台，为全世界各个国家和 亚马逊公司旗下云计算服务平台，为全世界各个国家和 亚马逊公司旗下云计算服务平台，为全世界各个国家和 亚马逊公司旗下云计算服务平台，为全世界各个国家和
+                            亚马逊公司旗下云计算服务平台，为全世界各个国家和</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <div class="img-holder">
+                          <img src="../images/new_index/l1_03.jpg" />
+                        </div>
+                        <div class="text-holder">
+                          <p class="logo-title">AWS - 亚马逊</p>
+                          <p class="logo-text">AWS - 亚马逊公司旗下云计算服务平台，为全世界各个国家和</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <div class="img-holder">
+                          <img src="../images/new_index/l1_03.jpg" />
+                        </div>
+                        <div class="text-holder">
+                          <p class="logo-title">AWS - 亚马逊</p>
+                          <p class="logo-text">AWS - 亚马逊公司旗下云计算服务平台，为全世界各个国家和</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <div class="img-holder">
+                          <img src="../images/new_index/l1_03.jpg" />
+                        </div>
+                        <div class="text-holder">
+                          <p class="logo-title">AWS - 亚马逊</p>
+                          <p class="logo-text">AWS - 亚马逊公司旗下云计算服务平台，为全世界各个国家和</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--第三层-->
+
+    <div class="lay03">
+      <div class="container">
+        <div class="lay03-inner">
+          <p class="lay03-title"><span>甄选、可靠的云端应用</span></p>
+          <p class="lay03-text">YUN88设立独立的云产品研究院，基于客户应用场景测试各种云应用，力求帮用户甄选出最优质的产品</p>
+          <div class="slick">
+            <!--第1个图标-->
+            <div>
+              <a href=""><img src="../images/new_index/logo1.png" /></a>
+            </div>
+            <!--第2个图标-->
+            <div>
+              <a href=""><img src="../images/new_index/logo3.jpg" /></a>
+            </div>
+            <!--第3个图标-->
+            <div>
+              <a href=""><img src="../images/new_index/logo5.jpg" /></a>
+            </div>
+            <!--第4个图标-->
+            <div>
+              <a href=""><img src="../images/new_index/logo1.jpg" /></a>
+            </div>
+            <div>
+              <a href=""><img src="../images/new_index/logo1.jpg" /></a>
+            </div>
+            <div>
+              <a href=""><img src="../images/new_index/logo1.jpg" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--第四层-->
+    <div class="lay02">
+      <div class="container">
+        <div class="lay02-inner">
+          <div class="row">
+            <div class="l-col-4">
+              <div class="lay02-left">
+                <h1>优选、领先的公有云平台</h1>
+                <p class="line"><span></span></p>
+                <p class="mean">整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用。</p>
+                <p class="more"><a href="">了解更多</a></p>
+              </div>
+            </div>
+            <div class="l-col-7">
+              <div class="lay02-right">
+                <div class="row">
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <img src="../images/new_index/case5_03.jpg"/>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <img src="../images/new_index/case5_03.jpg"/>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <img src="../images/new_index/case5_03.jpg"/>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="l-col-6">
+                    <div class="case">
+                      <a href="">
+                        <img src="../images/new_index/case5_03.jpg"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--第五层-->
+    <div class="lay05">
+
+      <div class="lay05-left">
+        <div class="slick2">
+          <div>
+            <h1>客户案例</h1>
+            <p class="lay05-title">oracle cx云客户案例</p>
+            <p class="lay05-text">整合国内外顶尖厂商的公有云产品，供不同业务需求整合国内外顶尖厂商的公有云产品，供不同业务需求整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用</p>
+            <a class="more-details" href="">更多详细<span>+</span></a>
+          </div>
+          <div>
+            <h1>客户案例</h1>
+            <p class="lay05-title">oracle cx云客户案例</p>
+            <p class="lay05-text">整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用</p>
+            <a class="more-details" href="">更多详细<span>+</span></a>
+          </div>
+          <div>
+            <h1>客户案例</h1>
+            <p class="lay05-title">oracle cx云客户案例</p>
+            <p class="lay05-text">整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用</p>
+            <a class="more-details" href="">更多详细<span>+</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="lay05-right"></div>
+    </div>
+
+  
+
+    
+
+
+
+
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/IntroController.class.php" line="101" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="aff9aa03-f97d-4130-9021-97db4e54d1e0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/avatar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/avatar/578734a7eccd3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/avatar/5787350241a01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/avatar/5796d359df7c5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58a16f879f639.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58acf7a3aebdb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58acf8055d083.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58acf81870714.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a0744c5f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a075e63b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a0778b70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a0796760.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a07b29bf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a07c728b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a07dc98d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a07f3c48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a08178a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7a082cb34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae7fdf81327.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae846213bac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae847f8c9ac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae918239c53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae923ac4a24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58ae92487ab21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0118172938.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b03d84673e2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b03d9031dfa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04079c05aa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04081f354e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0420782582.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0428f1b8f4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b042a07de18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b043a2f034a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b043af1f388.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b044030a77d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0440b25e3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0466fed080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0467fdaab1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b046803bc91.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0492c9e7aa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0493b840d6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04a030595f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04b91f23e6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04ba1cb415.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04ba206341.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04c1a7fd9e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04c1aa4563.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04c267007f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04c2689dc1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04cdcea1a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04ce451837.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04d23c2b3e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b04d23de23c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b0515530cca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b05215d9caf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b05234ad113.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b05234bfe32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/02/58b052c85144e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/03" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/03/58bf6efe3b1ca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/03/58bf6f20b6f0c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/03/58bf71dd182e4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/2017/03/58bf71ed9d4a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000/00" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000/00/00" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000/00/00/1_180x180.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000/00/00/1_30x30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000/00/00/1_45x45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/avatar/000/00/00/1_90x90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/06" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/06/57722a2bdae07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/06/57723211e0854.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/06/57723c5e0520f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/06/57723d7e285a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/06/5774ea2f047b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577ccbc0ea452.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577cd23c35c4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577cd61790206.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577cd6ceccffb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577e06d1c09ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577e070d461fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577e073f15db7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577e0794a3ea8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577f05d6add55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577f09db875e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577f0d3d42db1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577f0d7343b8d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/577f4ddd0cb8d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/57834d57e1c36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5783643691d7e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5783687a3e6ee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/57844e1e3fc00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a1dd20894.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a1f5739b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a22775ba5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a243e2904.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a259c087e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a266162d4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a301b7cfc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a40948c91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a41e83540.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a42e00e5f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a7f242b62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5784a803480bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5785b6ca30e37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/5785b706503f8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/57885f434e735.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/578874db82cf7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/578876aa3cb80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/07/578877c63bc9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a00a1eb5f63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a00a2e310a7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a00a6f2ae8e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a00a7645a17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a00a8bbbf63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a00a919c5ad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a053948985c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a054477ee0c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a054a1d6af0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a054b851dc0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a0552979a03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a0556a7efa7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a055868de86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a0559fe29d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a055d5dbfe6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a055ef366ea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a05604342fb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a2f4ece5542.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a3fb9326e15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a3fdae8e945.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a433ea7920f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43433a2135.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a4362b717ee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a437157db2a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43804ae41b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43879abedb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43c0841a70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43e2c799a5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43e55ba168.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a43e8c73555.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57a93b766a8b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57ac30046edb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/57b661ec94564.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2016/08/thumb_1122_793_57ac30046edb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/01" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/01/58870ef1eca1d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/01/58870f1124a0c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/01/5887115b8c46a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c1226545bd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c123094778.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c12e1a6138.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c130a7786e.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c246704583.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c24708b7cd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c24e972cf0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589c24f72368e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589d2b2183f41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/589d6adf9658e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58a135a7c55f7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58a169d1246d6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58a169e22e6e5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58a16a1716fff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58a16d4d36be6.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58aba2b037ffb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58aba2b6b499f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58aba2c17601d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58aba3643d32b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58aba36a03e7d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58aba38b90445.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58acf673d2a7a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58acf699dd279.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58acf73ec2dbd.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58acf75a8b625.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58acf793ca791.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ad02d89463b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae796cbe55c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae7ff90cb6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae806404b2b.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae849ab425c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae90d35e5ba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae91a9c8fb3.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58ae91b691f9d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58af91b6a5e2d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afd2cfcf1f6.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afd5134652a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afd555cf536.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afd59df4232.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afd5cd5a7c1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afd5ee41216.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afe67b9a4e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58afe6bb03933.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b039b3be0b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b039d237b57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b039e07c2dd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b03b0f5ef16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b03ce9e57b2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b03d6c7eb03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b03d98c6c70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b03f59d5598.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b04008a044b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b0418c19b32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b0443dae880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b046d68006e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b0472a1b590.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b0473670464.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b04914ac8c3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b049eb1ff41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b04a39f1aba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/58b0508fc2943.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/02/thumb_971_629_589d6adf9658e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b63afdaf5c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b63c473568a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b63c6c73afc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b6680966e8d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b66886ecad9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b67c3f0077c.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b67d942db06.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b67fb2809c5.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b6809857dca.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b680f1bba94.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b681f722e51.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b6829828265.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b6844463eda.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b691d873820.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b776b427471.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b777062b67d.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b77719c3b4e.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b9027e4b186.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b92d52b5158.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58b932471aff2.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcc8de39747.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bccbcb6254c.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bccf161d2e4.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd1ce735f8.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd675be6bc.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd6ab9efb3.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd6f7a0939.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd88127a57.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd8ad80163.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd9034c91c.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bcd92f758e6.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58be5b208ffd9.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf6ced02855.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf6ea1c6dc3.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf6ebeaa209.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf6f29a6eea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf71b675898.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf71f61348e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf8d72d803a.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58bf8ec2e8648.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c0d221af276.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7b816ad251.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7b81f08775.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7b92ad9876.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7b93055c4e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7ba392b149.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7ba434cab5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7ba91030c1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7ba9648f1f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7bb55c6aa9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7bbeb154eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c7bbf0f294d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c8bab23cd15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c8bac02f18b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c8baf1244e3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58c8bb1d3d175.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58cb4ae509986.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58cb4afff0af3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58cb4b1d4c4c8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58ddc77b514de.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58ddea83c7b46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/03/58ddeac9a1210.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/05" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/content/2017/05/591561f8307ab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc810186a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc81039540.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc8104e538.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc81067fac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc81085615.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc8109de60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc810b3ea5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc810ce11d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d/file/contents/2016/07/577cc810e383d.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Application/Content/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/shuipf/Application/Content/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Application/Member/Controller/MemberbaseController.class.php" afterPath="$PROJECT_DIR$/shuipf/Application/Member/Controller/MemberbaseController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Application/Member/Controller/PublicController.class.php" afterPath="$PROJECT_DIR$/shuipf/Application/Member/Controller/PublicController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Application/Member/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/shuipf/Application/Member/Controller/UserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Common/Common/common.php" afterPath="$PROJECT_DIR$/shuipf/Common/Common/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Market/index.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Market/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Content/Index/index.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Content/Index/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Content/Page/page_join-us.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Content/Page/page_join-us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Content/Show/show_clients-details.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Content/Show/show_clients-details.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Content/header.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Content/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Member/Public/register.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Member/Public/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shuipf/Template/Default/Member/User/edit-infos.php" afterPath="$PROJECT_DIR$/shuipf/Template/Default/Member/User/edit-infos.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yun888" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="service.php" pinned="false" current-in-tab="true">
+        <entry file="file://E:/study/php/service.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.php" pinned="false" current-in-tab="false">
+        <entry file="file://E:/study/php/http.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="368" column="24" lean-forward="true" selection-start-line="368" selection-start-column="24" selection-end-line="368" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.php" pinned="false" current-in-tab="false">
+        <entry file="file://E:/study/php/success.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>..{$config_siteurl}</find>
+      <find>favicon.ico</find>
+      <find>../images/</find>
+      <find>/dist/</find>
+      <find>token</find>
+      <find>encrypt</find>
+      <find>$order</find>
+      <find>addBCC</find>
+      <find>../..</find>
+      <find>../../</find>
+      <find>content</find>
+      <find>URL</find>
+      <find>../dist/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{$config_siteurl}</replace>
+      <replace>{$config_siteurl}statics/market/images/</replace>
+      <replace>{$config_siteurl}statics/market/dist/</replace>
+      <replace>{$config_siteurl}statics</replace>
+      <replace>{$config_siteurl}statics/</replace>
+      <replace>{$config_siteurl}statics/dist/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/study/cockpit" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Ser/service-cloud.php" />
+        <option value="$PROJECT_DIR$/shuipf/Common/Controller/Base.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/medical.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/finance.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/safe.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/game.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/video.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Bazaar/Controller/SolutionController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/figure.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Solution/travel.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Mail/Controller/IntroController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Member/Controller/OrderController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Yun/Company/list.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Market/index.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Bazaar/Market/list.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Content/Page/page_about-us.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Content/List/list_newsCenter.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Yun/Controller/CompanyController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Content/Model/ContentModel.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Template/Default/Content/Index/index.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Mail/Controller/InvoiceController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Bazaar/Controller/SerController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Common/Conf/dataconfig.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Content/Controller/ContentController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Mail/Controller/GoodsCateController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Bazaar/Controller/MarketController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Mail/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Mail/Controller/ServicesController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Common/Common/common.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Content/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Member/Controller/MemberbaseController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Member/Controller/PublicController.class.php" />
+        <option value="$PROJECT_DIR$/shuipf/Application/Member/Controller/UserController.class.php" />
+        <option value="E:/study/php/service.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yun888" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="getUploadPhotosHtml&#9;null&#9;null&#10;static&#9;null&#9;null&#10;php&#9;null&#9;null&#10;redis&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.UserController.class.php">
+    <configuration default="false" name="UserController.class.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yun888/shuipf/Application/Member/Controller/UserController.class.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.UserController.class.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.UserController.class.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\yun888" />
+          <option name="myCopyRoot" value="E:\yun888" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\yun888" />
+          <option name="myCopyRoot" value="E:\yun888" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aff9aa03-f97d-4130-9021-97db4e54d1e0" name="Default" comment="" />
+      <created>1489480487734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489480487734</updated>
+      <workItem from="1489480490176" duration="7518000" />
+      <workItem from="1489539796431" duration="3000" />
+      <workItem from="1489541170804" duration="760000" />
+      <workItem from="1489542820489" duration="11681000" />
+      <workItem from="1489631280613" duration="788000" />
+      <workItem from="1489634374530" duration="740000" />
+      <workItem from="1489712310242" duration="3514000" />
+      <workItem from="1489739001838" duration="3050000" />
+      <workItem from="1490351190651" duration="786000" />
+      <workItem from="1490668024494" duration="1759000" />
+      <workItem from="1490691299320" duration="5853000" />
+      <workItem from="1490748846616" duration="1000" />
+      <workItem from="1490748877431" duration="8180000" />
+      <workItem from="1490835469365" duration="2554000" />
+      <workItem from="1490922686864" duration="9603000" />
+      <workItem from="1491008213277" duration="1337000" />
+      <workItem from="1491012038371" duration="299000" />
+      <workItem from="1491014647299" duration="50000" />
+      <workItem from="1491371095150" duration="1262000" />
+      <workItem from="1492133657357" duration="20923000" />
+      <workItem from="1492390441013" duration="9586000" />
+      <workItem from="1492477693408" duration="2548000" />
+      <workItem from="1492564230674" duration="9502000" />
+      <workItem from="1492650448316" duration="1738000" />
+      <workItem from="1492668828429" duration="4332000" />
+      <workItem from="1492736447595" duration="2582000" />
+      <workItem from="1492997169978" duration="7135000" />
+      <workItem from="1493083371425" duration="8993000" />
+      <workItem from="1493102756568" duration="6243000" />
+      <workItem from="1493170089545" duration="8169000" />
+      <workItem from="1493256722376" duration="1864000" />
+      <workItem from="1493342039408" duration="5784000" />
+      <workItem from="1493687396154" duration="12528000" />
+      <workItem from="1493773664709" duration="6282000" />
+      <workItem from="1493859321606" duration="10535000" />
+      <workItem from="1493947657232" duration="895000" />
+      <workItem from="1493948634441" duration="9478000" />
+      <workItem from="1494206591811" duration="4919000" />
+      <workItem from="1494291565553" duration="3767000" />
+      <workItem from="1494377729704" duration="3073000" />
+      <workItem from="1494463884837" duration="1217000" />
+      <workItem from="1494550192005" duration="8602000" />
+      <workItem from="1494810103437" duration="237000" />
+      <workItem from="1494812531806" duration="12241000" />
+      <workItem from="1494896358832" duration="5343000" />
+      <workItem from="1494983412768" duration="8426000" />
+      <workItem from="1495069711288" duration="18077000" />
+      <workItem from="1495155861434" duration="14989000" />
+      <workItem from="1495414357521" duration="2479000" />
+      <workItem from="1495418674747" duration="15392000" />
+      <workItem from="1495501132647" duration="1078000" />
+      <workItem from="1495503386787" duration="15965000" />
+      <workItem from="1495587938319" duration="8390000" />
+      <workItem from="1495612096264" duration="4224000" />
+      <workItem from="1495674083573" duration="19848000" />
+      <workItem from="1495762953828" duration="16637000" />
+      <workItem from="1495847393019" duration="10160000" />
+      <workItem from="1496192282407" duration="3524000" />
+      <workItem from="1496278441023" duration="615000" />
+      <workItem from="1496365123764" duration="703000" />
+      <workItem from="1496392687543" duration="50000" />
+      <workItem from="1496625009098" duration="1547000" />
+      <workItem from="1496907811540" duration="91000" />
+      <workItem from="1496972587010" duration="394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="370843000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24283667" sideWeight="0.55720055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5028653" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24283667" sideWeight="0.44279945" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5028653" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24283667" sideWeight="0.55720055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24283667" sideWeight="0.44279945" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Yun/Controller/PaymentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Libs/Driver/Passport/Ucenter.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="230" column="19" lean-forward="false" selection-start-line="230" selection-start-column="19" selection-end-line="230" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Libs/Util/Form.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="182" column="27" lean-forward="false" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Yun/Controller/MallController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="144" column="20" lean-forward="false" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Core/Library/Think/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="246" column="12" lean-forward="false" selection-start-line="246" selection-start-column="12" selection-end-line="246" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Common/Common/corefun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20286">
+          <caret line="1133" column="9" lean-forward="false" selection-start-line="1133" selection-start-column="9" selection-end-line="1133" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Libs/Util/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/js/content_addtop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="602" column="25" lean-forward="false" selection-start-line="602" selection-start-column="24" selection-end-line="602" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/View/Invoice/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/InvoiceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/Fields/omnipotent/form.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Common/Conf/dataconfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/CategoryController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="64" column="52" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/singlepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/Controller/ContentController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="278" column="31" lean-forward="false" selection-start-line="278" selection-start-column="31" selection-end-line="278" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/classlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/add_othors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/remove.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/relationlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1473">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/push_to_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1095">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/push_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/public_categorys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/View/Content/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="86" column="56" lean-forward="false" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="85" column="3" lean-forward="false" selection-start-line="85" selection-start-column="3" selection-end-line="88" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/ServicesController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Yun/Controller/CompanyController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/CompanyController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Bazaar/Controller/MarketController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="195" column="27" lean-forward="false" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Bazaar/Controller/SerController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Mail/Controller/GoodsCateController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="2" selection-end-line="149" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Api/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Common/Controller/ShuipFCMS.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="236" column="27" lean-forward="false" selection-start-line="236" selection-start-column="27" selection-end-line="236" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Libs/System/Service.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Admin/Controller/PublicController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
+          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Api/Controller/CheckcodeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Libs/Util/Checkcode.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Member/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Common/Common/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Common/Conf/alias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Content/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="129" column="46" lean-forward="false" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Member/Controller/MemberbaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="41" column="41" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Member/Controller/PublicController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="178" column="64" lean-forward="false" selection-start-line="178" selection-start-column="56" selection-end-line="178" selection-end-column="64" />
+          <folding>
+            <element signature="e#1814#3066#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Libs/Service/Passport.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shuipf/Application/Member/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="160" column="51" lean-forward="false" selection-start-line="160" selection-start-column="51" selection-end-line="160" selection-end-column="51" />
+          <folding>
+            <marker date="1495855800760" expanded="true" signature="23018:23027" ph="..." />
+            <marker date="1495855800760" expanded="true" signature="23134:23145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/study/php/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/study/php/http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="368" column="24" lean-forward="true" selection-start-line="368" selection-start-column="24" selection-end-line="368" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/study/php/service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

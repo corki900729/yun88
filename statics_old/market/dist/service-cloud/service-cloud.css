@@ -1,0 +1,574 @@
+/**
+* This file contains critical variabes, NEED to be import in every "get togather" less files, and in the first import order.
+* 此文件为基础关键变量，尽量在汇总性less文件中，第一个引入。
+*/
+/**
+* Common classes.
+* mainly for tweeking or other minor styles.
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+}
+.form-block > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+span {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+.page-contents-wrapper {
+  overflow: hidden;
+}
+.floor {
+  padding: 2em 0;
+}
+.floor.f-one {
+  padding-top: 4em;
+}
+.floor.f-btm {
+  padding-bottom: 0;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:after,
+body:before {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.row {
+  *zoom: 1;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.row:after,
+.row:before {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@media (min-width:1201px) {
+  .l-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-push-1 {
+    margin-left: 8.33333333%;
+  }
+  .l-push-2 {
+    margin-left: 16.66666667%;
+  }
+  .l-push-3 {
+    margin-left: 25%;
+  }
+  .l-push-4 {
+    margin-left: 33.33333333%;
+  }
+  .l-push-5 {
+    margin-left: 41.66666667%;
+  }
+  .l-push-6 {
+    margin-left: 50%;
+  }
+  .l-push-7 {
+    margin-left: 58.33333333%;
+  }
+  .l-push-8 {
+    margin-left: 66.66666667%;
+  }
+  .l-push-9 {
+    margin-left: 75%;
+  }
+  .l-push-10 {
+    margin-left: 83.33333333%;
+  }
+  .l-push-11 {
+    margin-left: 91.66666667%;
+  }
+  .l-push-12 {
+    margin-left: 100%;
+  }
+}
+@media (max-width:1200px) and (min-width:800px) {
+  .m-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+@media (max-width:800px) and (min-width:300px) {
+  .s-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+/*
+    Mixins
+
+    these contents wouldn't be output to the actual css unless it's used somewhere.
+
+    除非在引入的less文件中使用，否则这些mixin将不会被全部包含在最终css里。
+*/
+.isHidden {
+  display: none;
+}
+.ta_c {
+  text-align: center;
+}
+.ta_l {
+  text-align: left;
+}
+.ta_r {
+  text-align: right;
+}
+.va_t {
+  vertical-align: top;
+}
+.va_m {
+  vertical-align: middle;
+}
+.m_center {
+  margin: 0 auto;
+}
+.mb_1 {
+  margin-bottom: 1em!important;
+}
+.mb_2 {
+  margin-bottom: 2em!important;
+}
+.mb_3 {
+  margin-bottom: 3em!important;
+}
+.mt_05 {
+  margin-top: .5em;
+}
+.mt_1 {
+  margin-top: 1em;
+}
+.mt_2 {
+  margin-top: 2em;
+}
+.mt_3 {
+  margin-top: 3em;
+}
+.mt_5 {
+  margin-top: 5em;
+}
+.fa_025 {
+  font-size: .25em!important;
+}
+.fa_05 {
+  font-size: .5em!important;
+}
+.fa_1 {
+  font-size: 1em!important;
+}
+.fa_2 {
+  font-size: 2em!important;
+}
+.fa_3 {
+  font-size: 3em!important;
+}
+.fa_4 {
+  font-size: 4em!important;
+}
+.fa_5 {
+  font-size: 5em!important;
+}
+.fa_6 {
+  font-size: 6em!important;
+}
+.fa_7 {
+  font-size: 7em!important;
+}
+.fa_8 {
+  font-size: 8em!important;
+}
+.f_l {
+  float: left;
+}
+.f_r {
+  float: right;
+}
+.page-contents-wrapper .banner {
+  position: relative;
+  padding: 0!important;
+}
+.page-contents-wrapper .banner .img-holder {
+  width: 100%;
+  height: 498px!important;
+  background-position: center center;
+  background-size: cover;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner {
+  position: relative;
+  height: 498px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-title {
+  font-size: 35px;
+  color: #d3d3d2;
+  position: absolute;
+  left: 0;
+  top: 72px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-title .zx {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-text1 {
+  width: 45%;
+  font-size: 16px;
+  color: #dcdcdc;
+  position: absolute;
+  left: 0;
+  top: 170px;
+  line-height: 25px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .consult2 {
+  position: absolute;
+  left: 0;
+  top: 350px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .consult2 a {
+  display: inline-block;
+  padding: 15px 45px;
+  background: #0668d7;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.page-contents-wrapper .lay01 {
+  padding: 50px 0;
+}
+.page-contents-wrapper .lay01 .lay01-title {
+  font-size: 25px;
+  font-weight: 500;
+  border-left: 4px solid #0668d7;
+  text-indent: 30px;
+}
+.page-contents-wrapper .lay01 .list-box .list-block {
+  height: 320px;
+  margin-top: 20px;
+  border-bottom: 2px solid #cccccc;
+  position: relative;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .show-block {
+  overflow: hidden;
+  height: 320px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .show-block .img-holder {
+  text-align: center;
+  height: 150px;
+  padding-top: 50px;
+  vertical-align: bottom;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .show-block .text-holder {
+  overflow: hidden;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .show-block .text-holder .pro-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .show-block .text-holder .pro-text {
+  padding: 0 30px;
+  overflow: hidden;
+  line-height: 25px;
+  font-size: 14px;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .hide-block {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #00a0e9;
+  color: #ffffff;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .hide-block .hide-title {
+  font-size: 18px;
+  text-align: center;
+  line-height: 70px;
+}
+.page-contents-wrapper .lay01 .list-box .list-block .hide-block .hide-text {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0 20px;
+}
+.page-contents-wrapper .lay02 {
+  background: url(../../images/service-cloud/bg.jpg) center center no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  padding: 40px 0;
+}
+.page-contents-wrapper .lay02 .lay02-title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.page-contents-wrapper .lay02 .service {
+  margin-top: 50px;
+}
+.page-contents-wrapper .lay02 .service .img-holder {
+  text-align: center;
+}
+.page-contents-wrapper .lay02 .service .text-holder {
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+}
+.bottom {
+  margin-top: 0!important;
+}
+.layui-layer-ico {
+  background: url(../../images/index/icon.png) center center no-repeat !important;
+}

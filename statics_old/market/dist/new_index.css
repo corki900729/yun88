@@ -1,0 +1,735 @@
+/**
+* This file contains critical variabes, NEED to be import in every "get togather" less files, and in the first import order.
+* 此文件为基础关键变量，尽量在汇总性less文件中，第一个引入。
+*/
+/**
+* Common classes.
+* mainly for tweeking or other minor styles.
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+}
+.form-block > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+span {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+.page-contents-wrapper {
+  overflow: hidden;
+}
+.floor {
+  padding: 2em 0;
+}
+.floor.f-one {
+  padding-top: 4em;
+}
+.floor.f-btm {
+  padding-bottom: 0;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:after,
+body:before {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.row {
+  *zoom: 1;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.row:after,
+.row:before {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@media (min-width:1201px) {
+  .l-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-push-1 {
+    margin-left: 8.33333333%;
+  }
+  .l-push-2 {
+    margin-left: 16.66666667%;
+  }
+  .l-push-3 {
+    margin-left: 25%;
+  }
+  .l-push-4 {
+    margin-left: 33.33333333%;
+  }
+  .l-push-5 {
+    margin-left: 41.66666667%;
+  }
+  .l-push-6 {
+    margin-left: 50%;
+  }
+  .l-push-7 {
+    margin-left: 58.33333333%;
+  }
+  .l-push-8 {
+    margin-left: 66.66666667%;
+  }
+  .l-push-9 {
+    margin-left: 75%;
+  }
+  .l-push-10 {
+    margin-left: 83.33333333%;
+  }
+  .l-push-11 {
+    margin-left: 91.66666667%;
+  }
+  .l-push-12 {
+    margin-left: 100%;
+  }
+}
+@media (max-width:1200px) and (min-width:800px) {
+  .m-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+@media (max-width:800px) and (min-width:300px) {
+  .s-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+.page-contents-wrapper .banner {
+  position: relative;
+  padding: 0!important;
+}
+.page-contents-wrapper .banner .img-holder {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner {
+  position: relative;
+  height: 498px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #e9f1fe;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-text1 {
+  font-size: 30px;
+  color: #e9f1fe;
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-text2 {
+  font-size: 30px;
+  color: #e9f1fe;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.page-contents-wrapper .lay01 {
+  padding: 60px 0;
+  background: #f0f4f7;
+}
+.page-contents-wrapper .lay01 .container {
+  overflow: visible;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .title-one {
+  text-align: center;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .title-one span {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 2px solid #98d6dc;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .mean {
+  font-size: 18px;
+  line-height: 3em;
+  padding-top: 10px;
+  text-align: center;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .lay01-block {
+  padding: 10px;
+  background: white;
+  margin-top: 20px;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .lay01-block:hover {
+  position: relative;
+  animation: shadow 1.5s linear 0s infinite alternate;
+  -webkit-animation: shadow 1.5s linear 0s infinite alternate;
+  -moz-animation: shadow 1.5s linear 0s infinite alternate;
+  -o-animation: shadow 1.5s linear 0s infinite alternate;
+}
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 15px #d1e1f1;
+    z-index: 0;
+  }
+  100% {
+    box-shadow: 0 0 20px #d1e1f1;
+    z-index: 99;
+  }
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .lay01-block .img-holder img {
+  width: 100%;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .lay01-block .text-holder {
+  padding: 0 25px;
+  height: 130px;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .lay01-block .text-holder .work {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+.page-contents-wrapper .lay01 .container .lay01-inner .lay01-block .text-holder .help {
+  font-size: 14px;
+  line-height: 20px;
+}
+.page-contents-wrapper .lay02 {
+  padding: 50px 0;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-left {
+  padding-top: 30px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-left .title-two {
+  text-align: left;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-left .title-two span {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 23px;
+  font-weight: bold;
+  border-bottom: 2px solid #98d6dc;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-left .mean {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-left .more {
+  margin-top: 90px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-left .more a {
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  padding: 15px 50px;
+  background: #387aff;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right {
+  float: right;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case {
+  border: 1px solid #d9e2e9;
+  margin-top: 20px;
+  width: 100%;
+  height: 145px;
+  overflow: hidden;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case a img {
+  width: 100%!important;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case a .img-holder {
+  width: 40%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case a .img-holder img {
+  width: 100%!important;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case a .text-holder {
+  width: 58%;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case a .text-holder .logo-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-right .case a .text-holder .logo-text {
+  margin-top: 15px;
+  line-height: 20px;
+  height: 57px;
+  overflow: hidden;
+}
+.page-contents-wrapper .lay03 {
+  padding: 50px 0;
+  background: url(../../images/new_index/bg1.jpg);
+}
+.page-contents-wrapper .lay03 .container {
+  overflow: visible;
+  position: relative;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .lay03-title {
+  text-align: center;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .lay03-title span {
+  color: white;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 50px;
+  border-bottom: 2px solid white;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .lay03-text {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 4em;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .slick {
+  width: 85%;
+  margin: 0 auto;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .slick a {
+  background: white;
+  display: inline-block;
+  margin-top: 30px;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .slick .arrows-prev {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: -57px;
+  top: 75px;
+  z-index: 100;
+  cursor: pointer;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .slick .arrows-prev:hover {
+  color: #feae3f;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .slick .arrows-next {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  right: -40px;
+  top: 75px;
+  z-index: 100;
+  cursor: pointer;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.page-contents-wrapper .lay03 .container .lay03-inner .slick .arrows-next:hover {
+  color: #feae3f;
+}
+.page-contents-wrapper .lay05 {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  height: 480px;
+  background: #eaeef4;
+}
+.page-contents-wrapper .lay05 .slick-prev:before {
+  content: '' !important;
+}
+.page-contents-wrapper .lay05 .slick-next:before {
+  content: '' !important;
+}
+.page-contents-wrapper .lay05 .lay05-left {
+  width: 50%;
+  float: left;
+  height: 480px;
+  padding: 5em 2em 4em 0;
+}
+.page-contents-wrapper .lay05 .lay05-left .slick2 {
+  padding: 10px;
+}
+.page-contents-wrapper .lay05 .lay05-left .slick2 .slick-dots li button:before {
+  color: #b0b3b8;
+}
+.page-contents-wrapper .lay05 .lay05-left .slick2 .slick-dots li.slick-active button:before {
+  color: #463c48;
+}
+.page-contents-wrapper .lay05 .lay05-left .lay05-title {
+  font-size: 18px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+.page-contents-wrapper .lay05 .lay05-left .lay05-text {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+  height: 95px;
+  overflow: hidden;
+}
+.page-contents-wrapper .lay05 .lay05-left .more-details {
+  padding: 10px 28px;
+  border: 1px solid #333;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.page-contents-wrapper .lay05 .lay05-left .more-details span {
+  color: #198cd7;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.page-contents-wrapper .lay05 .lay05-right {
+  width: 50%;
+  height: 480px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.page-contents-wrapper .lay05 .lay05-right .slick3 {
+  position: relative;
+}
+.page-contents-wrapper .lay05 .lay05-right .slick3 img {
+  width: 100%;
+  height: 480px;
+}
+.page-contents-wrapper .lay05 .lay05-right .slick3 .slick-dots {
+  opacity: 0;
+}
+.page-contents-wrapper .lay05 .lay05-right .slick3 .slick-dots li button:before {
+  color: #b0b3b8;
+}
+.page-contents-wrapper .lay05 .lay05-right .slick3 .slick-dots li.slick-active button:before {
+  color: #463c48;
+}
+@media (max-width:800px) and (min-width:300px) {
+  .page-contents-wrapper .banner .img-holder .banner-inner {
+    height: 400px;
+  }
+  .page-contents-wrapper .banner .img-holder .banner-inner .banner-title {
+    font-size: 25px!important;
+    left: 0!important;
+  }
+  .page-contents-wrapper .banner .img-holder .banner-inner .banner-text1 {
+    font-size: 22px!important;
+    top: 190px!important;
+    left: 0!important;
+  }
+  .page-contents-wrapper .banner .img-holder .banner-inner .banner-text2 {
+    font-size: 22px!important;
+    top: 240px!important;
+    left: 0!important;
+  }
+  .page-contents-wrapper .slick {
+    width: 80%!important;
+  }
+  .page-contents-wrapper .slick .slick-list .slick-slide a {
+    width: 95%!important;
+  }
+  .page-contents-wrapper .slick .slick-list .slick-slide a img {
+    width: 100%!important;
+  }
+  .page-contents-wrapper .lay01 .lay01-inner .mean {
+    line-height: 2em!important;
+  }
+  .page-contents-wrapper .lay01 .lay01-inner .lay01-block .text-holder {
+    padding: 0 5px!important;
+    text-align: center;
+  }
+  .page-contents-wrapper .lay01 .lay01-inner .lay01-block .text-holder .work {
+    font-size: 16px!important;
+  }
+  .page-contents-wrapper .lay02 .lay02-inner {
+    margin: 0 auto;
+  }
+  .page-contents-wrapper .lay02 .lay02-inner .row {
+    margin: 0 auto;
+  }
+  .page-contents-wrapper .lay02 .lay02-inner .row .lay02-left {
+    padding-top: 0!important;
+  }
+  .page-contents-wrapper .lay02 .lay02-inner .row .lay02-left .more {
+    margin-top: 20px!important;
+  }
+  .page-contents-wrapper .lay03 {
+    padding: 30px 0!important;
+  }
+  .page-contents-wrapper .lay03 .lay03-inner .lay03-title {
+    margin-bottom: 20px;
+  }
+  .page-contents-wrapper .lay03 .lay03-inner .lay03-text {
+    line-height: 2em!important;
+  }
+  .page-contents-wrapper .lay03 .lay03-inner .slick .slick-slide img {
+    width: 100%;
+  }
+  .page-contents-wrapper .lay05 .lay05-left {
+    width: 100%;
+  }
+  .page-contents-wrapper .lay05 .lay05-right {
+    display: none;
+  }
+}
+.bottom {
+  margin-top: 0!important;
+}
+.layui-layer-ico {
+  background: url(../../images/index/icon.png) center center no-repeat !important;
+}

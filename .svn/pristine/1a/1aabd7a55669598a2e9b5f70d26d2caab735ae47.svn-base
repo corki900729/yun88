@@ -1,0 +1,1165 @@
+// For the pages outside andy sub-domain.
+@import "less-components/variables.less";
+// input size
+@inp-normal: 25em;
+@inp-large: 28.333em;
+@inp-small: 15.833em;
+
+body {
+  color: @font-gray;
+  background-color: white;
+}
+// text text title with divide line on the back thingy.
+// NOTE:this will not be out putted.
+.headsUp() {
+  position: relative;
+  margin-top: 3em;
+  height: 4.167em;
+  text-align: center;
+
+  span,
+  p {
+    z-index: 1;
+    display: inline;
+    padding: 0 .5em;
+    background-color: white;
+    font-size: 30px;
+  }
+
+  &:after {
+    position: relative;
+    top: -1.23em;
+    z-index: -1;
+    // width: 100%;
+    display: block;
+    border-top: 1.5px solid #ccc;
+    content: ' ';
+  }
+}
+// a css3 solution
+// make sure a img tag is both vertically and horizontally centered, no matter the size.
+//  * note:the container must be a relative one.
+.imgCentering() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+// create a circle.
+.circled() {
+  border-radius: 50%;
+}
+
+.useIconBack(@iconNum) {
+  background-image: url("../images/icon@{iconNum}.png");
+  background-repeat: no-repeat;
+}
+
+.useIconBack(@iconNum; alt) {
+  background-image: url("../images/icon@{iconNum}-alt.png");
+  background-repeat: no-repeat;
+}
+
+.line-break {
+  display: none;
+  width: 100%;
+}
+
+.banner {
+  background-color: black;
+}
+
+.banner-coop {
+  background: url('../images/banners/banner-coop.png');
+}
+
+.banner-join {
+  background: url('../images/banners/banner-join.png');
+}
+
+.banner-boutus {
+  background: url('../images/banners/banner-boutus.png');
+}
+
+.banner-publicCloudList {
+  background: url("../images/banners/banner-publicCloudList.png");
+}
+
+.banner-clients {
+  background: url("../images/banners/banner-clients.png");
+}
+
+.banner-why {
+  background: url("../images/banners/banner-why.png");
+}
+
+.banner-cloud-services {
+  background: url("../images/banners/banner-cloud-services.png");
+}
+
+.banner-contact {
+  background: url("../images/banners/banner-contact-us.png");
+}
+// 新闻列表、新闻详情
+.news-list-headsup {
+  margin-top: 3em;
+
+  span {
+    &:first-child {
+      padding-bottom: 7px;
+      border-bottom: 2px solid @blue;
+      font-size: 1.833em;
+    }
+  }
+
+  .container {
+    padding-bottom: 7px;
+    padding-left: 0;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.news-list {
+  overflow: hidden;
+  padding: 1em 0 3em;
+
+  .news-item {
+    padding-top: 1.5em;
+    padding-bottom: 3.5em;
+    border-bottom: 1px dashed #ccc;
+
+    & > div {
+      float: left;
+    }
+
+    .news-date {
+      width: 55px;
+      height: 64px;
+      background: url('../images/news-date.png') no-repeat center top;
+
+      span {
+        display: block;
+        color: white;
+        text-align: center;
+        line-height: normal;
+
+        &:first-child {
+          padding-top: 2px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .news-img {
+      margin: 0 1.5em;
+      max-width: 140px;
+      max-height: 85px;
+    }
+
+    .news-des {
+      float: none;
+      clear: right;
+      max-height: 85px;
+      width: 100%;
+
+      & > div {
+        overflow: hidden;
+        max-height: 71px;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+      & > span:extend(.news-list .news-item .news-des>div){
+        max-height: 14px;
+        font-size: 1.167em;
+      }
+    }
+  }
+}
+
+.news-paging {
+  overflow: hidden;
+  padding: 1.5em 0 5em;
+
+  .container {
+    button {
+      &:extend(.news-paging .container label);
+
+      &:hover {
+        background-color: #4c8aba;
+      }
+    }
+
+    .page-num-btns {
+      display: inline-block;
+      overflow: hidden;
+      max-width: 40em;
+      vertical-align: middle;
+    }
+
+    & > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    label {
+      padding: .5em 5px;
+      background-color: #ccc;
+      color: white;
+    }
+  }
+}
+
+.news-details-view {
+  padding-bottom: 3em;
+
+  .title {
+    padding-top: 3em;
+    text-align: center;
+
+    p:first-child {
+      font: 14px bold;
+    }
+  }
+
+  .contain {
+    font-size: 13px;
+  }
+}
+
+.news-item-roller {
+  .container {
+    overflow: hidden;
+    margin-bottom: 5em;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+  }
+
+  .pre,
+  .next {
+    padding-left: 1em;
+  }
+}
+// 合作
+.partners-section {
+  .container > p {
+    text-align: center;
+  }
+
+  .heads-up {
+    .headsUp()
+  }
+
+  .coop-logos {
+    & > div {
+      position: relative;
+      display: inline-block;
+      margin: 2.750em 0 0 2.500em;
+      width: 200px;
+      height: 120px;
+      border: 1px solid #ccc;
+      vertical-align: top;
+
+      img {
+        .imgCentering()
+      }
+    }
+  }
+
+  .join-form {
+    margin-top: 5em;
+    margin-bottom: 15em;
+
+    form {
+      width: 100%;
+
+      .inp-normal {
+        width: @inp-normal;
+      }
+
+      .inp-large {
+        width: @inp-large;
+      }
+
+      .inp-small {
+        width: @inp-small;
+      }
+
+      & > div {
+        // display: table-row;
+        margin: 1em 0;
+
+        &:first-of-type {
+          margin-top: 3em;
+        }
+
+        * {
+          display: inline-block;
+        }
+      }
+
+      label {
+        position: relative;
+        padding-right: 1em;
+        width: 40%;
+        text-align: right;
+
+        @media (max-width: 765px) {
+          width: auto;
+        }
+      }
+      // the inputs
+      input,
+      textarea {
+        padding: .6em 0 .6em .5em;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+
+      textarea {
+        vertical-align: top;
+      }
+
+      .join-button {
+        width: 12.000em;
+        height: 2.444em;
+        border-radius: .5em;
+        background-color: #e66c12;
+        color: white;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .join-coop {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    height: 65px;
+
+    .heads-up:after {
+      top: -2.2em;
+    }
+
+    .join-button {
+      margin: 0 auto;
+      padding-top: .8em;
+      width: 246px;
+      height: 65px;
+      background: url('../images/coop-logos/join-button.png') center no-repeat;
+      color: white;
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+}
+// 加入云88
+.hiring-section {
+  margin-top: 2em;
+
+  .heads-up {
+    .headsUp()
+  }
+
+  .heads-up+div {
+    margin-top: 3.5em;
+  }
+
+  .subtitle {
+    padding: .5em 0 .5em 1.5em;
+    width: 100%;
+    background-color: #e6f4fa;
+    color: @blue;
+    font: 1.500em;
+  }
+
+  p {
+    // padding-left: 3em;
+    max-width: 85.583em;
+    text-indent: 2em;
+    font-size: 1.167em;
+
+    &.blue {
+      color: @blue;
+    }
+  }
+}
+// 关于我们
+.about-us {
+  p {
+    line-height: 2em;
+  }
+  // involved icons
+  .icon-back {
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .icon-1 {
+    background-image: url("../images/icon01.png");
+  }
+
+  .icon-2 {
+    background-image: url("../images/icon02.png");
+  }
+
+  .icon-3 {
+    background-image: url("../images/icon03.png");
+  }
+
+  .icon-4 {
+    background-image: url("../images/icon04.png");
+  }
+  // heads up titles, same as usual
+  .heads-up {
+    .headsUp()
+  }
+
+  p,
+  span {
+    font-size: 1.167em;
+  }
+
+  p {
+    text-indent: 2em;
+  }
+  // top 3 icons
+  .basic {
+    margin-bottom: 10em;
+
+    &>div {
+      margin-top: 5em;
+      padding: 175px 3em .5em;
+      min-width: 226px;
+      min-height: 300px;
+      height: 303px;
+      text-align: center;
+
+      h1 {
+        margin-bottom: .5em;
+        font-size: 1.833em;
+      }
+    }
+  }
+  // sink contents
+  .heads-up + div {
+    &:extend(.hiring-section .heads-up+div);
+  }
+
+  .hex-logos {
+    margin-top: 5em;
+    background: url("../images/hexback.png") left no-repeat;
+
+    @media(max-width: 1429px) {
+      background-image: none;
+    }
+
+    * {
+      display: inline-block;
+      vertical-align: bottom;
+    }
+
+    div {
+      width: 115px;
+      height: 132px;
+      background-image: url("../images/hex-more.png");
+      background-position: center;
+    }
+
+    .hex {
+      margin-right: 23px;
+
+      @media(min-width: 1280px) {
+        &.one {
+          margin-right: 66px;
+        }
+
+        &.five {
+          margin-right: 30px;
+        }
+
+        &.six {
+          margin-right: 55px;
+        }
+
+        &.seven {
+          margin-right: 55px;
+        }
+      }
+    }
+  }
+
+  .qoute {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    padding-left: 2em;
+    width: 100%;
+    color: white;
+
+    &>* {
+      display: inline-block;
+      vertical-align: middle;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+    }
+
+    .icon-qoute-pre {
+      width: 66px;
+      height: 56px;
+      background: url("../images/qoute-pre.png") center no-repeat;
+    }
+
+    .icon-qoute1 {
+      width: 25px;
+      height: 56px;
+      background-image: url("../images/qoute1.png");
+    }
+
+    .qouted {
+      flex: 1 1 auto;
+      display: flex;
+      justify-content: space-between;
+
+      .roundback {
+        flex: 0 1 auto;
+        padding: .5em 3em;
+        background-color: @blue;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+      }
+    }
+
+    .icon-qoute2 {
+      width: 25px;
+      height: 56px;
+      background-image: url("../images/qoute2.png");
+    }
+  }
+}
+// 公有云列表
+.public-cloud-list {
+  padding-bottom: 7em;
+
+  &>div {
+    margin: 3em 0;
+  }
+
+  .top > .container {
+    border-bottom: 1px solid #ccc;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 1.167em;
+  }
+
+  .list-item {
+    position: relative;
+    // height: 196px;
+    padding: 3em 0;
+    width: 100%;
+
+    .logo {
+      position: relative;
+      float: left;
+      margin-right: 5.5em;
+      padding-right: 1em;
+      width: 330px;
+      height: 196px;
+      border-right: 1px solid #ccc;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      img {
+        .imgCentering()
+      }
+    }
+
+    .logo+div {
+      padding-top: 20px;
+
+      p {
+        position: relative;
+        overflow: hidden;
+        max-height: 7.5em;
+      }
+    }
+
+    .button {
+      position: relative;
+      bottom: -2em;
+      z-index: 2;
+
+      a {
+        display: inline-block;
+        padding: .3em 3em;
+        border-radius: .25em;
+        background-color: @blue;
+        color: white;
+        font-size: 1.333em;
+      }
+    }
+  }
+
+  .bottom {
+    padding-top: 5em;
+    text-align: center;
+
+    .button {
+      a {
+        display: inline-block;
+        padding: 1.5em 2em;
+        width: 20.667em;
+        border-radius: .25em;
+        background-color: #404345;
+        color: white;
+
+        span {
+          font-size: 21.87px;
+        }
+      }
+    }
+  }
+}
+// 优选客户 - 展示
+.clients-show {
+  .shelf {
+    padding-top: 4em;
+    padding-bottom: 10em;
+
+    div {
+      position: relative;
+      display: inline-block;
+      margin-right: 20px;
+      margin-bottom: 3em;
+      margin-left: 20px;
+      padding-top: 12%;
+      // make it responsive.
+      width: 44.5%;
+      height: 345px;
+      border: 1px solid black;
+      color: white;
+
+      a {
+        z-index: 5;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      @media(max-width: 800px) {
+        margin: 4em auto;
+        width: 80%;
+      }
+      // the image inside
+      img {
+        margin: 0 auto;
+        .imgCentering();
+      }
+      // bottom bar thingy
+      span {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        padding: .5em 0;
+        width: 100%;
+        background-color: #ccc;
+        text-align: center;
+      }
+
+      &:hover {
+        span {
+          background-color: #00a0ea;
+        }
+      }
+    }
+  }
+}
+// 优选客户 - 详情
+.client-details {
+  margin-top: 3em;
+  margin-bottom: 10em;
+
+  h1 {
+    margin: 1.5em 0;
+    color: @blue;
+    font-size: 1.500em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 1.500em;
+  }
+
+  .snapshot {
+    margin-top: 2em;
+    margin-bottom: 10em;
+    padding: 3em;
+    width: 100%;
+    border: 1px solid #ccc;
+    // clear fucking fix.
+    &:after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+
+    .logo {
+      &:extend(.public-cloud-list .list-item .logo);
+
+      img {
+        &:extend(.public-cloud-list .list-item .logo img);
+      }
+    }
+
+    .logo+div {
+      &:extend(.public-cloud-list .list-item .logo+div);
+
+      p {
+        max-height: 10.5em;
+
+        @media(max-width: 800px) {
+          display: none;
+        }
+        &:extend(.public-cloud-list .list-item .logo+div p);
+      }
+    }
+  }
+}
+// 为什么选择我们
+.why-us {
+  margin-top: 5em;
+  padding-bottom: 20em;
+  // padding-bottom: 400px;
+  .sink {
+    margin-bottom: 3em;
+    height: 470px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &.one {
+      background-image: url("../images/sink-why1.png");
+      background-position: bottom left;
+    }
+
+    &.two {
+      background-image: url("../images/sink-why2.png");
+      background-position: bottom right;
+    }
+
+    &.three {
+      background-image: url("../images/sink-why3.png");
+      background-position: bottom right;
+    }
+
+    &.four {
+      background-image: url("../images/sink-why4.png");
+      background-position: bottom left;
+    }
+
+    h1 {
+      margin-bottom: 1em;
+      font-size: 26px;
+    }
+  }
+
+  .arrow-divider {
+    margin: 2em 0 5em;
+    height: 1em;
+    text-align: center;
+
+    div {
+      margin: 0 auto;
+      width: 23px;
+      height: 22px;
+      background: url("../images/icon-arrowdown.png") no-repeat center center;
+    }
+  }
+}
+// 云服务
+.cloud-services {
+  padding: 3em 0;
+  color: @font-gray;
+
+  h1 {
+    font-size: 2.500em;
+    line-height: 2.65em;
+  }
+
+  h2 {
+    font-size: 2.167em;
+    line-height: 2.167em;
+  }
+
+  h3 {
+    font-size: 1.167em;
+    line-height: 1.167em;
+  }
+
+  p {
+    font-size: 1.167em;
+    line-height: 1.167em;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .sink {
+    &:extend(.about-us .icon-back);
+
+    &.one {
+      padding-top: 65px;
+      background-image: url("../images/icon-heart.png");
+
+      .nails {
+        // display: inline-block;
+        position: relative;
+        // height: 300px;
+        padding-top: 41px;
+        cursor: pointer;
+
+        .nailhead {
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          margin: 0 auto;
+          width: 82px;
+          height: 82px;
+          border: 5px solid #ccc;
+          background-position: center;
+          .circled();
+
+          &.icon05 {
+            .useIconBack("05")
+          }
+
+          &.icon06 {
+            .useIconBack("06")
+          }
+
+          &.icon07 {
+            .useIconBack("07")
+          }
+        }
+
+        .nailhead+div {
+          padding-top: 66px;
+          padding-right: 2em;
+          padding-left: 2em;
+          height: 249px;
+        }
+
+        &:hover {
+          color: white;
+
+          .nailhead+div {
+            background-color: darken(@light-blue,15%);
+          }
+
+          .nailhead {
+            border-color: white;
+            background-color: darken(@light-blue,15%);
+
+            &.icon05 {
+              .useIconBack("05", alt)
+            }
+
+            &.icon06 {
+              .useIconBack("06", alt)
+            }
+
+            &.icon07 {
+              .useIconBack("07", alt)
+            }
+          }
+        }
+      }
+    }
+
+    &.two {
+      position: relative;
+      margin-top: 2em;
+      padding-top: 14em;
+      height: 621px;
+      background: url("../images/sink-cloudSer2.png") center center no-repeat;
+      color: white;
+
+      p {
+        line-height: 1.5em;
+      }
+
+      @media(max-width: 1150px) {
+        padding-top: 10em;
+      }
+
+      .roundies {
+        position: absolute;
+        right: 0;
+        bottom: 12%;
+        left: 0;
+        margin: auto;
+        max-width: 100em;
+        width: 80%;
+        text-align: center;
+
+        .rd-group {
+          margin: 0 -4px;
+          width: 50%;
+          display: inline-block;
+          text-align: left;
+
+          &>* {
+            padding: 0 1em;
+            margin: 0 -4px;
+            text-align: center;
+            width: 33%;
+            display: inline-block;
+            cursor: pointer;
+
+            img {
+              margin-bottom: 2em;
+              width: 100%;
+              max-width: 115px;
+              max-height: 115px;
+            }
+          }
+        }
+      }
+    }
+
+    &.three {
+      margin-bottom: 11em;
+      padding-top: 7em;
+      background: url('../images/icon-arrowdown-large.png') top center no-repeat;
+    }
+
+    &.four {
+      position: relative;
+      padding-top: 8em;
+      height: 595px;
+      background: url("../images/sink-cloudSer4.png") center center no-repeat black;
+      color: white;
+
+      @media(max-width: 1220px) {
+        padding-top: 40px;
+      }
+
+      .roundies {
+        margin: 3em 0 4em;
+        // padding: 0 4em;
+        text-align: center;
+
+        @media @smallScreen {
+          display: none;
+        }
+
+        &>.rd-item {
+          position: relative;
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          width: 20%;
+
+          &>img {
+            max-width: 90px;
+            max-height: 90px;
+            width: 100%;
+            margin-bottom: 1em;
+          }
+
+          &>img+p {
+            position: relative;
+            bottom: .5em;
+          }
+        }
+
+        &>hr {
+          display: inline-block;
+          max-width: 263px;
+          width: 15%;
+          border: 1px dashed #FFF;
+        }
+      }
+
+      .blockies {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        color: white;
+        text-align: center;
+
+        h3 {
+          line-height: 2em;
+        }
+
+        p {
+          text-align: left;
+          font-size: 1em;
+          line-height: 1.25em;
+
+          @media(max-width: 1170px) {
+            max-height: 2em;
+          }
+        }
+
+        .bk-group {
+          display: inline-block;
+          vertical-align: top;
+
+          &>div {
+            display: inline-block;
+            margin-top: .5em;
+            margin-right: .5em;
+            padding: 1em 2em 0;
+            min-height: 127px;
+            max-width: 16em;
+            background-color: #5b5d61;
+            vertical-align: top;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    &:extend(.public-cloud-list .bottom all);
+  }
+}
+// 联系我们 
+.contact-us {
+  h1 {
+    font-size: 2.167em;
+  }
+
+  h2 {
+    font-size: 1.167em;
+  }
+
+  h1,
+  h2 {
+    line-height: 1.5em;
+  }
+
+  p {
+    font-size: 1.167em;
+    line-height: 1.1em;
+  }
+
+  .phone-num {
+    color: @blue;
+  }
+
+  .infos {
+    margin-bottom: 2em;
+    padding-top: 2em;
+
+    &:after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+
+    .first-line {
+      &>* {
+        display: inline-block;
+      }
+    }
+
+    .lefty {
+      float: left;
+    }
+
+    .righty {
+      float: right;
+
+      &>* {
+        text-align: center;
+
+        img {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .map {
+    margin-bottom: 5em;
+    min-height: 5em;
+    border: 1px solid #ccc;
+
+    &:after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+
+    .lefty {
+      float: left;
+      padding-top: 3em;
+      padding-left: 2em;
+
+      @media @smallScreen {
+        width: 100%;
+        text-align: center;
+      }
+
+      h1 {
+        color: @blue;
+      }
+
+      h1+div {
+        margin-top: 1em;
+        display: inline-block;
+        padding-left: 1em;
+        text-align: left;
+
+        p+p {
+          margin-top: .5em;
+        }
+      }
+    }
+
+    .righty {
+      float: right;
+      overflow: hidden;
+      border-left: 1px solid #ccc;
+      text-align: center;
+
+      @media @smallScreen {
+        float: none;
+      }
+
+      img {
+        display: inline-block;
+
+        @media @smallScreen {
+          padding-top: 2em;
+        }
+      }
+    }
+  }
+}

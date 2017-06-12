@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--公用组件-->
+  <link href="../dist/assets.css" rel="stylesheet">
+  <script src="../dist/assets.js"></script>
+
+</head>
+
+<body class="banner-toped-navi">
+
+  <!--页面特有CSS-->
+  <link href="../dist/index/index.css" rel="stylesheet">
+  <script src="../dist/index/index.js"></script>
+
+  <main class="page-wrap devHead index">
+
+    <section class="banner">
+      <div class="inner">
+        <h2>
+          倾力打造中国首个<b>企业级B2B云平台</b>
+        </h2>
+        <h2>
+          YUN88专家以严谨的态度,为您甄选可靠安全的云产品&服务
+        </h2>
+      </div>
+    </section>
+
+    <section class="floors">
+
+      <div class="floor f-1" >
+        <div class="contents">
+          <div class="row" autoHi>
+            <div class="l-col-3 m-col-3 s-col-6 ">
+              <div class="icon-holder">
+                <img src="../images/index/ticon01.png" alt="">
+                <span>甄选  Selection</span>
+              </div>
+            </div>
+            <div class="l-col-3 m-col-3 s-col-6">
+              <div class="icon-holder">
+                <img src="../images/index/ticon02.png" alt="">
+                <span>服务  Service</span>
+              </div>
+            </div>
+            <div class="l-col-3 m-col-3 s-col-6">
+              <div class="icon-holder">
+                <img src="../images/index/ticon03.png" alt="">
+                <span>可靠  Reliable</span>
+              </div>
+            </div>
+            <div class="l-col-3 m-col-3 s-col-6">
+              <div class="icon-holder">
+                <img src="../images/index/ticon04.png" alt="">
+                <span>效率  Efficiency</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floor f-2">
+        <div class="titles">
+          <h2>优选、领先的公有云平台</h2>
+          <p>整合国内外顶尖厂商的公有云产品，供不同业务需求的用户选择和使用</p>
+        </div>
+        <div class="hero">
+          <div class="contents">
+            <div class="row">
+
+              <div class="l-col-4 m-col-4 s-col-12 left-column">
+
+                <div class="row">
+
+                  <div class="l-col-12 m-col-12 s-col-6 blocky-con">
+                    <div class="blocky">
+                      <a href="1111"></a>
+                      <img src="../images/index/f2-icon01.png" alt="">
+                    </div>
+                  </div>
+                  <div class="l-col-12 m-col-12 s-col-6 blocky-con">
+                    <div class="blocky">
+                      <a href=""></a>
+                      <img src="../images/index/f2-icon01.png" alt="">
+                    </div>
+                  </div>
+                  <div class="l-col-12 m-col-12 s-col-6 blocky-con">
+                    <div class="blocky">
+                      <a href=""></a>
+                      <img src="../images/index/f2-icon01.png" alt="">
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="l-col-8 m-col-8 isHidden-s right-side ">
+
+                <div class="right-con">
+                  <img src="../images/index/f2-right.png" alt="">
+                </div>
+
+                <div class="right-text">
+                  <div class="row">
+                    <div class="l-col-9 m-col-9">
+                      <h2>满足更多需求</h2>
+                      <h2>整合国内外 顶尖厂商</h2>
+                    </div>
+                    <div class="l-col-3 m-col-3">
+                      <a href="" class="btns btn-details">
+                        更多产品
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="floor f-3">
+
+        <div class="titles">
+          <h2>甄选可靠云端应用</h2>
+          <p>YUN88设立独立的云产品研究院，基于客户应用场景测试各种云应用，力求帮用户
+          </p>
+          <p>甄选出最优质的产品</p>
+        </div>
+
+        <div class="row hiCon">
+
+          <div class="l-col-2 m-col-3 s-col-6">
+            <div class="blocky hiWatch">
+              <div class="alt">
+                <h3>o2643</h3>
+                <div class="arrow">
+                  <a href="">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                  </a>
+                </div>
+
+              </div>
+              <div>
+                <h3>office365</h3>
+                <p>比以往更轻松地创建专业内容，安全地与客户和合作伙伴联系，充分利用功能强大的 [了解更多...]</p>
+                <img src="../images/shichang/list-logo1.jpg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="l-col-2 m-col-3 s-col-6">
+            <div class="blocky hiWatch">
+              <div class="alt">
+                <h3>o2643</h3>
+                <div class="arrow">
+                  <a href="">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                  </a>
+                </div>
+
+              </div>
+              <div>
+                <h3>office365</h3>
+                <p>比以往更轻松地创建专业内容，安全地与客户和合作伙伴联系，充分利用功能强大的 [了解更多...]</p>
+                <img src="../images/shichang/list-logo2.jpg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="l-col-2 m-col-3 s-col-6">
+            <div class="blocky hiWatch">
+              <div class="alt">
+                <h3>o2643</h3>
+                <div class="arrow">
+                  <a href="">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                  </a>
+                </div>
+
+              </div>
+              <div>
+                <h3>office365</h3>
+                <p>比以往更轻松地创建专业内容，安全地与客户和合作伙伴联系，充分利用功能强大的 [了解更多...]</p>
+                <img src="../images/shichang/list-logo1.jpg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="l-col-2 m-col-3 s-col-6">
+            <div class="blocky hiWatch">
+              <div class="alt">
+                <h3>o2643</h3>
+                <div class="arrow">
+                  <a href="">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                  </a>
+                </div>
+
+              </div>
+              <div>
+                <h3>office365</h3>
+                <p>比以往更轻松地创建专业内容，安全地与客户和合作伙伴联系，充分利用功能强大的 [了解更多...]</p>
+                <img src="../images/shichang/list-logo1.jpg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="l-col-2 m-col-3 s-col-6">
+            <div class="blocky hiWatch">
+              <div class="alt">
+                <h3>o2643</h3>
+                <div class="arrow">
+                  <a href="">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                  </a>
+                </div>
+
+              </div>
+              <div>
+                <h3>office365</h3>
+                <p>比以往更轻松地创建专业内容，安全地与客户和合作伙伴联系，充分利用功能强大的 [了解更多...]</p>
+                <img src="../images/shichang/list-logo1.jpg" alt=""></div>
+            </div>
+          </div>
+
+          <div class="l-col-2 m-col-3 s-col-6">
+            <div class="blocky hiWatch">
+              <div class="alt">
+                <h3>o2643</h3>
+                <div class="arrow">
+                  <a href="">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                  </a>
+                </div>
+
+              </div>
+              <div>
+                <h3>office365</h3>
+                <p>比以往更轻松地创建专业内容，安全地与客户和合作伙伴联系，充分利用功能强大的 [了解更多...]</p>
+                <img src="../images/shichang/list-logo1.jpg" alt=""></div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="more-btn">
+          <a href="" class="btns btn-more">
+            MORE
+          </a>
+        </div>
+
+      </div>
+
+      <div class="floor f-4">
+
+        <div class="titles">
+          <h2>专业、个性化的一站式服务</h2>
+          <p>全程、专人为客户提供咨询规划、技术服务 （数据迁移、集成、托管等）等一站式服务。
+          </p>
+          <p>为用户带来更便捷高效的体验。</p>
+        </div>
+
+        <div class="back-row parallax" >
+          <div class="row" autoHi>
+
+            <div class="l-col-4 m-col-4 s-col-6">
+              <div class="blockie">
+                <img src="../images/index/f4-icon01.png" alt="">
+                <p>咨询服务</p>
+                <p>Cloud Consulting</p>
+              </div>
+            </div>
+
+            <div class="l-col-4 m-col-4 s-col-6">
+              <div class="blockie">
+                <img src="../images/index/f4-icon02.png" alt="">
+                <p>咨询服务</p>
+                <p>Cloud Consulting</p>
+              </div>
+            </div>
+
+            <div class="l-col-4 m-col-4 s-col-6">
+              <div class="blockie">
+                <img src="../images/index/f4-icon03.png" alt="">
+                <p>咨询服务</p>
+                <p>Cloud Consulting</p>
+              </div>
+            </div>
+
+            <div class="l-col-4 m-col-4 s-col-6">
+              <div class="blockie">
+                <img src="../images/index/f4-icon04.png" alt="">
+                <p>咨询服务</p>
+                <p>Cloud Consulting</p>
+              </div>
+            </div>
+
+            <div class="l-col-4 m-col-4 s-col-6">
+              <div class="blockie">
+                <a href=""></a>
+                <img src="../images/index/f4-icon05.png" alt="">
+                <p>培训服务</p>
+                <p>Training services</p>
+              </div>
+            </div>
+
+            <div class="l-col-4 m-col-4 s-col-6">
+              <div class="blockie">
+                <a href=""></a>
+                <img src="../images/index/f4-icon06.png" alt="">
+                <p>安全服务</p>
+                <p>Security services</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="floor f-5 parallax">
+        <div class="titles">
+          <h2>合作案例</h2>
+        </div>
+
+        <div class="row hiCon">
+
+          <div class="l-col-4 m-col-4 s-col-12 coop-block">
+            <a href=""></a>
+            <div class="text-holder">
+              <p>北京元鼎时代科技股份有限公司（前身为北京元鼎时代科技有限公司）成立于2003年，是一家以IT综合服务、专业化解决方案、电子商务和互联网为核心业务的综合型高科技企业。总部位于北京，在河南、上海、深圳设立分公司和技术中心，在广州、武汉、大连设有办事处。</p>
+            </div>
+            <div class="logo-holder">
+              <div class="logo-wrap ">
+                <img src="../images/index/f5-icon01.jpg" alt="">
+              </div>
+              <span>IMO云办公室客户案例</span>
+            </div>
+          </div>
+
+          <div class="l-col-4 m-col-4 s-col-12 coop-block">
+            <a href=""></a>
+            <div class="text-holder">
+              <p>北京元鼎时代科技股份有限公司（前身为北京元鼎时代科技有限公司）成立于2003年，是一家以IT综合服务、专业化解决方案、电子商务和互联网为核心业务的综合型高科技企业。总部位于北京，在河南、上海、深圳设立分公司和技术中心，在广州、武汉、大连设有办事处。</p>
+            </div>
+            <div class="logo-holder">
+              <div class="logo-wrap ">
+                <img src="../images/index/f5-icon02.jpg" alt="">
+              </div>
+              <span>IMO云办公室客户案例</span>
+            </div>
+          </div>
+
+          <div class="l-col-4 m-col-4 s-col-12 coop-block">
+            <a href=""></a>
+            <div class="text-holder">
+              <p>北京元鼎时代科技股份有限公司（前身为北京元鼎时代科技有限公司）成立于2003年，是一家以IT综合服务、专业化解决方案、电子商务和互联网为核心业务的综合型高科技企业。总部位于北京，在河南、上海、深圳设立分公司和技术中心，在广州、武汉、大连设有办事处。</p>
+            </div>
+            <div class="logo-holder">
+              <div class="logo-wrap ">
+                <img src="../images/index/f5-icon01.jpg" alt="">
+              </div>
+              <span>IMO云办公室客户案例</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="floor f-6">
+        <div class="container">
+          <div class="row">
+            <div class="l-col-8 m-col-8 s-col-8 left-sider isHidden-s">
+              <p>YUN88专家以严谨的态度为您甄选可靠、安全的云产品&服务，</p>
+              <p>倾力打造中国首个企业级B2B云平台</p>
+            </div>
+            <div class="l-col-4 m-col-4 s-col-12 right-sider">
+              <a href="" class="btns btn-contact">联系我们</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>

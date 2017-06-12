@@ -1,0 +1,54 @@
+<footer class="page-foot">
+  <div class="container">
+    <div class="row">
+      <div class="l-col-2 m-col-3 s-col-6">
+        <ul>
+          <li>公司</li>
+              <li><a href="/index.php?a=lists&catid=6">关于我们</a></li>
+              <li><a href="/index.php?a=lists&catid=5">加入YUN88</a></li>
+              <li><a href="/index.php?a=lists&catid=11">联系我们</a></li>
+        </ul>
+      </div>
+      <div class="l-col-2 m-col-3 s-col-6">
+        <ul>
+          <li>合作</li>
+              <li><a href="/index.php?a=lists&catid=7">已合作厂商</a></li>
+              <li><a href="/index.php?a=lists&catid=7">成为合作伙伴</a></li>
+        </ul>
+      </div>
+      <div class="l-col-2 m-col-3 s-col-6">
+        <ul>
+          <li>资源</li>
+          <li><a href="http://www.otpub.com">云课堂</a></li>
+        </ul>
+      </div>
+      <div class="l-col-2 m-col-3 s-col-6">
+        <ul>
+          <li>关注</li>
+          <li><a href="/index.php?a=lists&catid=2">新闻中心</a></li>
+          <li><a href="">官方微博</a></li>
+        </ul>
+      </div>
+      <div class="l-col-2 m-col-3 s-col-6">
+        <ul class="no-border">
+          <li>成员</li>
+          <li>
+            <a href="http://www.yuandingit.com/" target="_blank"><img src="{$config_siteurl}statics//images/yuanding.png" /></a>
+          </li>
+          <li>
+            <a href="http://otpub.yuandingit.com/" target="_blank"><img src="{$config_siteurl}statics//images/otpub.png" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="l-col-2 m-col-3 s-col-6">
+        <ul class="no-border">
+          <li>
+            <img src="{$config_siteurl}statics/images/wm.jpg" />
+            <p>关注微信公众平台</p>
+          </li>
+      </div>
+    </div>
+    <p class="copyrights">版权所有2003-2015北京元鼎时代科技股份有限公司 京ICP-3备06005430号 京公网安备11010802010037</p>
+  </div>
+</footer>
+<script src="{$config_siteurl}statics/dist/assets.js"></script>

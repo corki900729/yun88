@@ -1,0 +1,351 @@
+// out : ../usercenter.css
+// Color variables (appears count calculates by raw css)
+@color0: #c6c6c6; // Appears 11 times
+@color1: #ffffff; // Appears 10 times
+@color2: #333333; // Appears 3 times
+@color3: #e0e0e0; // Appears 3 times
+@color4: #cccccc; // Appears 3 times
+@color5: #f5f5f5; // Appears 2 times
+@color6: #dddddd; // Appears 2 times
+@color7: #ff6600; // Appears 2 times
+@color8: #eb5e18; // Appears 2 times
+@color9: #aaaaaa; // Appears 2 times
+
+// Width variables (appears count calculates by raw css)
+@width5: 110px; // Appears 2 times
+@width8: 100%; // Appears 2 times
+
+// Height variables (appears count calculates by raw css)
+@height4: 25px; // Appears 2 times
+@height7: 100%; // Appears 3 times
+
+html {
+	height: @height7;
+}
+body {
+	background-color: white;
+	min-height: @height7;
+}
+.hidden {
+	display: none;
+}
+.icon {
+	background-image: url(../images/usercenter/usercenter-icon.png);
+	background-repeat: no-repeat;
+	font-size: 0;
+	line-height: 0;
+	margin-right: 10px;
+	padding: 12px 11px 11px 12px;
+	vertical-align: middle;
+}
+.min-header {
+	background-color: #212629;
+	border-bottom: 1px solid @color0;
+	height: 92px;
+	left: 0;
+	line-height: 38px;
+	padding:33px 0 24px;
+	position: absolute;
+	top: 0;
+	width: @width8;
+	a {
+		color: @color0;
+		span {
+			padding-left: 10px;
+		}
+	}
+	a.f-r {
+		&:hover {
+			color: @color1;
+		}
+	}
+}
+.min-footer {
+	background-color: #666666;
+	bottom: 0;
+	color: @color0;
+	height: 114px;
+	left: 0;
+	line-height: 34px;
+	padding: 40px 0;
+	position: absolute;
+	width: @width8;
+	a {
+		color: @color0;
+		&:hover {
+			color: @color1;
+		}
+	}
+}
+.main {
+	min-height: @height7;
+	padding: 92px 0 114px;
+}
+.menubox {
+	background-color: #f7f7f7;
+	border-left: 1px solid @color0;
+	border-right: 1px solid @color0;
+	width: 290px;
+	.menu-header {
+		border-bottom: 1px solid @color0;
+		color: @color2;
+		font-size: 16px;
+		height: 100px;
+		line-height: 28px;
+		padding: 42px 30px 30px 23px;
+		i.icon {
+			background-position: -30px 0;
+			padding:14px;
+		}
+	}
+	ul {
+		li {
+			border-bottom: 1px solid @color0;
+			a {
+				color: @color2;
+				display: block;
+				font-size: 14px;
+				line-height: 23px;
+				padding: 25px 30px 25px 23px;
+				&:hover {
+					background-color: @color1;
+				}
+			}
+			a.active {
+				background-color: @color1;
+			}
+		}
+	}
+	i.icon-info {
+		background-position: -60px 0;
+	}
+	i.icon-order {
+		background-position: -90px 0;
+	}
+	i.icon-cart {
+		background-position: -120px 0;
+	}
+	i.icon-security {
+		background-position: 0 -30px;
+	}
+	i.icon-arrow {
+		background-position: 0 0;
+		padding: 9px;
+	}
+}
+.contentbox {
+	padding: 30px 50px;
+	.title {
+		font-size: 20px;
+		line-height: 1.6;
+		margin: 10px 0;
+	}
+	.sub-tit {
+		font-size: 16px;
+	}
+	.content {
+		padding: 10px 0;
+	}
+}
+.table {
+	border:1px solid @color0;
+	th {
+		background-color: #ebebeb;
+		border-bottom: 1px solid @color0;
+		line-height: 24px;
+		padding: 7px 10px;
+		text-align: left;
+	}
+	td {
+		border-bottom: 1px solid @color0;
+		line-height: 24px;
+		padding: 7px 10px;
+		text-align: left;
+		white-space: nowrap;
+	}
+	th[align='center'] {
+		text-align: center;
+	}
+	td[align='center'] {
+		text-align: center;
+	}
+}
+.user-data {
+	font-size: 14px;
+	.data-img {
+		overflow: hidden;
+		position: relative;
+		width: @width5;
+		img {
+			height: 110px;
+			margin-bottom: 10px;
+			width: @width5;
+		}
+		.upload-img {
+			cursor: pointer;
+			height: 145px;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: 10;
+		}
+		span {
+			color: #0086d4;
+			cursor: pointer;
+			line-height: 1.8;
+		}
+	}
+	table {
+		td {
+			padding: 5px 10px;
+			input.txt {
+				padding: 3px 0;
+				width: 300px;
+			}
+			input {
+				&:focus {
+					outline: none;
+				}
+			}
+			textarea {
+				border:none;
+				height: 50px;
+				line-height: 24px;
+				padding:0 5px;
+				width: 490px;
+				&:focus {
+					outline: none;
+				}
+			}
+			input.active {
+				border: 1px solid @color9;
+				&:focus {
+					outline-color: @color8;
+				}
+			}
+			textarea.active {
+				border: 1px solid @color9;
+				&:focus {
+					outline-color: @color8;
+				}
+			}
+		}
+	}
+}
+.btn {
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	height: 34px;
+	line-height: 32px;
+	min-width: 60px;
+	padding: 0 10px;
+	text-align: center;
+	vertical-align: middle;
+	i {
+		color: @color1;
+		margin-right: 3px;
+		vertical-align: middle;
+	}
+	&:hover {
+		i {
+			color: @color1;
+		}
+	}
+}
+.btn-green {
+	background-color: #51df8d;
+	color: @color1;
+	&:hover {
+		background-color: #1c9951;
+		color: @color1;
+	}
+}
+.btn-orange {
+	background-color: #e56c11;
+	color: @color1;
+	&:hover {
+		background-color: @color7;
+		color: @color1;
+	}
+}
+.shopping-cart {
+	.table {
+		td {
+			font-size: 14px;
+			.delete {
+				color: @color2;
+			}
+		}
+		.sums {
+			color: @color7;
+		}
+	}
+}
+.num-box {
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	display: inline-block;
+	overflow: hidden;
+	user-select: none; 
+	vertical-align: middle;
+	i {
+		background-color: #eeeeee;
+		border:1px solid @color4;
+		cursor: default;
+		float: left;
+		font-style: normal;
+		height: @height4;
+		line-height: 23px;
+		text-align: center;
+		width: 17px;
+		&:active {
+			background-color: @color4;
+			font-weight: bold;
+		}
+	}
+	i.disable {
+		background-color: @color5;
+		border-color: @color3;
+		color: @color6;
+		&:active {
+			background-color: @color5;
+			border-color: @color3;
+			color: @color6;
+		}
+	}
+	.minus {
+		border-right: none;
+	}
+	.plus {
+		border-left: none;
+	}
+	input[type='text'] {
+		border:1px solid @color4;
+		float: left;
+		height: @height4;
+		ime-mode:disabled;
+		text-align: center;
+		width: 40px;
+	}
+}
+.security {
+	font-size: 14px;
+	input.txt {
+		border: 1px solid @color3;
+		padding: 5px 10px;
+		width: 200px;
+	}
+	.btn {
+		font-size: 16px;
+		width: 120px;
+	}
+	input.sure-new-psw {
+		width:165px;
+	}
+}

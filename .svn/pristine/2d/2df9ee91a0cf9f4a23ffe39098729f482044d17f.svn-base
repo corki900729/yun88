@@ -1,0 +1,795 @@
+// out: ../gongyouyun
+@import "less-components/variables.less";
+@import "less-components/floors.less";
+
+p.dotted {
+  margin: .75em 0;
+
+  &:before {
+    content: "◆";
+    color: @blue;
+    margin-right: 1em;
+  }
+}
+// the top "banner" same as 云应用
+.banner {
+  height: image-height("../../images/banners/banner-yunyingyong.png");
+  background-position: left center;
+  background-color: black;
+  background-image: url("../images/banners/banner-yunyingyong.png");
+  position: relative;
+
+  .container {
+    height: 100%;
+    position: relative;
+  }
+
+  .banner-inner {
+    height: 50%;
+    max-height: 11em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 1.5em;
+
+    &:after {
+      content: " ";
+      display: table;
+    }
+
+    img {
+      float: left;
+      margin-right: 3.5em;
+      margin-top: 2.5em;
+    }
+
+    img+div {
+      color: white;
+      text-align: left;
+
+      p {
+        height: 3em;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .button {
+    margin-top: 1em;
+    display: inline-block;
+    color: white;
+    font-size: 1.333em;
+    padding: .5em 2em;
+    background-color: @blue;
+  }
+}
+// next to banner, the within-page navi bar.
+.page-hopper {
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+
+  ul {
+    // float: left;
+    li {
+      display: inline;
+      padding: 0 1.5em .75em;
+
+      &:hover,
+      &.active {
+        border-bottom: 2px solid @blue;
+
+        a {
+          color: @blue;
+        }
+      }
+    }
+  }
+
+  a,
+  a:visited {
+    color: black;
+    font-size: 1.167em;
+  }
+}
+// amazon product
+.aws-showcase {
+  .floor {
+    .img-holder {
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+    }
+
+    &.one {
+      position: relative;
+      padding: 3em 0;
+
+      .img-holder {
+        left: 5%;
+        max-width: image-width("../../images/gongyouyun/back-aws01.png");
+        max-height: image-height("../../images/gongyouyun/back-aws01.png");
+        background-image: url("../images/gongyouyun/back-aws01.png");
+      }
+
+      .floor-desc {
+        width: 80%;
+
+        p {
+          text-indent: 2em;
+        }
+
+        h1+p,
+        p+p {
+          margin-top: 1em;
+        }
+      }
+    }
+
+    &.two {
+      position: relative;
+      padding-bottom: 5em;
+
+      .img-holder {
+        right: 5%;
+        max-width: image-width("../../images/gongyouyun/back-aws02.png");
+        max-height: image-height("../../images/gongyouyun/back-aws02.png");
+        background-image: url("../images/gongyouyun/back-aws02.png");
+      }
+
+      .floor-desc {
+        max-width: 75em;
+        padding-top: 3em;
+
+        div+div {
+          margin-top: 3em;
+        }
+
+        h1+div {
+          margin-top: 1em;
+        }
+
+        h3+h4 {
+          margin-top: 1em;
+        }
+      }
+
+      h3 {
+        font-weight: bold;
+
+        &:before {
+          content: " ";
+          display: inline-block;
+          margin-right: 1em;
+          height: image-height("../../images/gongyouyun/i-dblock.png");
+          width: image-width("../../images/gongyouyun/i-dblock.png");
+          background: url("../images/gongyouyun/i-dblock.png") center center no-repeat;
+        }
+      }
+
+      h4 {
+        font-weight: bold;
+        padding-left: 2em;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 1.5em;
+        padding-left: 2em;
+      }
+
+      h3+p,
+      h3+h4 {
+        margin-top: 1.5em;
+      }
+    }
+
+    &.three {
+      padding: 3em 0;
+
+      .thumb-nail-container {
+        padding: 3em;
+      }
+
+      .thumb-nail {
+        text-align: center;
+
+        .nail {
+          display: inline-block;
+          height: 102px;
+          width: 102px;
+          border: 2px solid @blue;
+          border-radius: 50%;
+
+          &.one {
+            background: url("../images/gongyouyun/icon-aws01.png") center no-repeat;
+          }
+
+          &.two {
+            background: url("../images/gongyouyun/icon-aws02.png") center no-repeat;
+          }
+
+          &.three {
+            background: url("../images/gongyouyun/icon-aws03.png") center no-repeat;
+          }
+
+          &.four {
+            background: url("../images/gongyouyun/icon-aws04.png") center no-repeat;
+          }
+
+          &.five {
+            background: url("../images/gongyouyun/icon-aws05.png") center no-repeat;
+          }
+
+          &.six {
+            background: url("../images/gongyouyun/icon-aws06.png") center no-repeat;
+          }
+        }
+
+        h3 {
+          margin-top: 1em;
+          color: @blue;
+        }
+      }
+    }
+  }
+}
+// U Cloud
+.ucloud-showcase {
+  .floor {
+    &.intro {
+      padding: 3em 0;
+
+      .floor-inner {
+        background-image: url("../images/gongyouyun/back-ucloud01.png");
+      }
+
+      .floor-desc {
+        max-width: 75em;
+      }
+    }
+
+    &.two {
+      padding: 5em 0;
+
+      h3 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+
+        &:before {
+          content: " ";
+          display: inline-block;
+          margin-right: 1em;
+          height: image-height("../../images/gongyouyun/i-dblock.png");
+          width: image-width("../../images/gongyouyun/i-dblock.png");
+          background: url("../images/gongyouyun/i-dblock.png") center center no-repeat;
+        }
+      }
+
+      p {
+        padding-left: 2em;
+      }
+
+      .finger-blocks {
+        // the top nail thingy..
+        .fingers {
+          text-align: center;
+          vertical-align: bottom;
+          display: inline-block;
+          width: 19.998%;
+
+          .fingers-inner {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 200px;
+            white-space: normal;
+
+            .finger-nails {
+              position: relative;
+              padding-top: 5em;
+              width: 100%;
+              border-radius: 10em 10em 0 0;
+              background-color: @blue;
+            }
+
+            p {
+              color: white;
+              background-color: @blue;
+              font-size: 12px;
+              font-weight: 300;
+              padding: 2em 1em;
+            }
+          }
+        }
+      }
+    }
+
+    &.three {
+      padding-bottom: 5em;
+
+      h1 {
+        margin: 3em 0;
+      }
+
+      h3 {
+        font-weight: bold;
+        margin-bottom: .5em;
+      }
+
+      .blockies {
+        display: flex;
+      }
+
+      .one-of-five {
+        padding: .5em;
+        flex: 1 1 auto;
+      }
+
+      .bubble-head {
+        height: 100%;
+
+        img {
+          top: -50px;
+        }
+
+        img+div {
+          height: 100%;
+          background-color: white;
+          border: 1px solid #ccc;
+          box-shadow: 0 0 .75em @blue;
+          padding: 3em 2em;
+          // the image off set
+          padding-top: 5em;
+
+          p {
+            min-height: 270px;
+            font-size: 12px;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+  }
+}
+// Azure
+.azure-showcase {
+  .floor {
+    &.intro {
+      padding: 5em 0;
+
+      .floor-inner {
+        background-image: url("../images/gongyouyun/back-azure-banner.png");
+      }
+
+      .floor-desc {
+        max-width: 75em;
+      }
+    }
+
+    &.two {
+      padding-top: 5em;
+
+      h3 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        &:nth-child(2) {
+          margin-bottom: 3em;
+        }
+
+        &:before {
+          content: " ";
+          display: inline-block;
+          margin-right: 1em;
+          height: image-height("../../images/gongyouyun/i-dblock.png");
+          width: image-width("../../images/gongyouyun/i-dblock.png");
+          background: url("../images/gongyouyun/i-dblock.png") center center no-repeat;
+        }
+      }
+
+      h4 {
+        margin-bottom: 1em;
+      }
+
+      p {
+        padding-left: 2em;
+      }
+
+      .row {
+        display: flex;
+        margin-bottom: 5em;
+      }
+
+      .bubble-container {
+        padding: 0 1.5em;
+        margin-top: 2em;
+        flex: 1 1 auto;
+
+        .bubble-head {
+          height: 100%;
+
+          img {
+            top: -45px;
+          }
+
+          img+div {
+            padding: 4em 2em;
+            border: 1px solid #ccc;
+
+            p {
+              font-size: 12px;
+              min-height: 150px;
+            }
+          }
+        }
+      }
+    }
+
+    &.three {
+      h1 {
+        margin: 2em 0 1.5em;
+      }
+
+      .block-holder {
+        margin-bottom: 2em;
+
+        &:first-of-type {
+          margin-bottom: 0;
+        }
+
+        @media (max-width:1179px) {
+          text-align: center;
+        }
+
+        .text-block {
+          display: inline-block;
+          vertical-align: top;
+          text-align: left;
+          width: 538px;
+          min-height: 173px;
+          background: url("../images/gongyouyun/back-azure-textback.png") center center no-repeat;
+          padding: 35px 33px 0 40px;
+          margin-bottom: 2em;
+          color: white;
+
+          @media(min-width:1180px) {
+            &:first-child {
+              margin-right: 4.75em;
+            }
+          }
+
+          h5 {
+            font-weight: 200;
+          }
+
+          h5+p {
+            margin-top: .5em;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+// 阿里云
+.ali-showcase {
+  h1 {
+    text-align: center;
+    position: relative;
+
+    &:before {
+      content: " ";
+      position: absolute;
+      width: 40%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: url("../images/gongyouyun/icon-titleline1.png") right center no-repeat;
+    }
+
+    &:after {
+      content: " ";
+      position: absolute;
+      width: 40%;
+      height: 100%;
+      right: 0;
+      top: 0;
+      background: url("../images/gongyouyun/icon-titleline2.png") left center no-repeat;
+    }
+  }
+
+  .floor {
+    .floor-desc {
+      max-width: 830px;
+    }
+
+    &.intro {
+      padding-top: 4em;
+
+      .floor-inner {
+        padding: 5em 0;
+        background-image: url("../images/gongyouyun/ali-logo.png");
+
+        .floor-desc {}
+      }
+    }
+
+    &.two {
+      .floor-inner {
+        background-image: url("../images/gongyouyun/back-ali01.png");
+
+        .floor-desc {}
+      }
+    }
+
+    &.three {
+      padding-bottom: 3.5em;
+
+      .floor-inner {
+        background-image: url("../images/gongyouyun/back-ali02.png");
+      }
+    }
+
+    &.four {
+      padding-bottom: 3em;
+
+      .row {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+      }
+
+      .text-blocks {
+        flex: 1 1 auto;
+        margin-top: 2em;
+        padding: 0 1.25em;
+        color: white;
+
+        &>div {
+          height: 100%;
+          background-color: darken(@blue, 5%);
+          border: 2px solid #ccc;
+          padding: 2em 1em 1em;
+
+          p {
+            min-height: 200px;
+            font-size: 12px;
+            font-weight: 200;
+          }
+
+          h2 {
+            margin-bottom: 2em;
+            text-align: center;
+            font-size: 16px;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+
+    &.five {
+      padding-bottom: 3em;
+
+      h4 {
+        // font-weight: bold;
+        margin: 1.25em 0;
+      }
+
+      h1 {
+        margin: 3em 0;
+      }
+
+      .row {
+        margin-bottom: 3em;
+      }
+
+      .hybid-blcoks {
+        padding: 0 1.5em;
+
+        &>div {
+          text-align: center;
+
+          img {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+// 需求选择页面
+.submit-demands {
+  color: black;
+  // style for each one of those buttons.
+  .btn-option,
+  .blk-option {
+    padding: .5em 2em;
+    color: white;
+    display: inline-block;
+    background-color: #9b9b9b;
+    vertical-align: middle;
+
+    &.active {
+      background-color: @blue;
+    }
+  }
+
+  .btn-option {
+    &:hover {
+      background-color: @blue;
+    }
+  }
+
+  .inner-head {
+    margin: 3em 0;
+    color: black;
+
+    .container {
+      padding: 0;
+    }
+
+    h3:before {
+      content: " ";
+      border-left: 5px solid @blue;
+      margin-right: 1em;
+    }
+  }
+  // left part
+  .demands-selection {
+    padding-right: 3.5em;
+    padding-bottom: 6em;
+
+    h2 {
+      position: relative;
+      margin: 1.5em 0;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 88%;
+        height: 50%;
+        bottom: 0;
+        right: 0;
+        border-top: 1px solid #ccc;
+      }
+    }
+
+    p {
+      width: 6em;
+      text-align: right;
+    }
+
+    .row-of-options+ .row-of-options {
+      margin-top: 1.5em;
+    }
+    // a row
+    .row-of-options {
+      display: flex;
+      position: relative;
+
+      &>* {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      &>p {
+        align-self: center;
+        flex: 0 0 auto;
+      }
+
+      &>div {
+        flex: 1 1 auto;
+      }
+
+      input {
+        width: 6em;
+        font-size: 14px;
+        padding: .5em 1em;
+        border: 1px solid #ccc;
+      }
+
+      .btn-option {
+        margin-top: .5em;
+        margin-right: .15em;
+      }
+
+      .input-spinner {
+        position: relative;
+
+        a,
+        i {
+          position: absolute;
+          width: 22px;
+          height: 17px;
+          background-repeat: no-repeat;
+          background-position: center;
+          cursor: pointer;
+        }
+
+        .plus {
+          top: 0;
+          left: 7em;
+          background-image: url("../images/gongyouyun/i-plus.png");
+        }
+
+        .min {
+          bottom: 0;
+          left: 7em;
+          background-image: url("../images/gongyouyun/i-min.png");
+        }
+      }
+
+      .range-container {
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+
+        .range-block {
+          color: white;
+          position: absolute;
+          padding: 1em .45em;
+          top: -.5em;
+          left: 0;
+          background-color: lighten(@blue, 20%);
+          cursor: move;
+        }
+      }
+    }
+  }
+  // right part
+  .demands-summary {
+    border: 1px solid #ccc;
+    padding: 1.5em 1.5em 1em;
+    background-color: white;
+
+    h2 {
+      border-bottom: 1px solid #ccc;
+      line-height: 2em;
+    }
+
+    &>* {
+      display: inline-block;
+    }
+
+    form {
+      &>div {
+        margin: 2em 0;
+      }
+    }
+  }
+
+  .submit-completed {
+    .container {
+      border: 1px solid #ccc;
+      background-color: white;
+      padding: 10em 0;
+      text-align: center;
+      margin-bottom: 5em;
+
+      img {
+        margin: auto;
+      }
+
+      h3 {
+        color: @blue;
+        margin-top: 3em;
+      }
+
+      h2 {
+        margin-bottom: 3em;
+      }
+
+      .btn-positive {
+        font-size: 14px;
+      }
+    }
+  }
+}

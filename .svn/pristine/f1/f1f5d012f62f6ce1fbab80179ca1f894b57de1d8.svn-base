@@ -1,0 +1,348 @@
+<?php
+/**
+* 用户中心
+* @date: 2016年7月14日
+* @author: hupeng
+*/
+
+namespace Member\Controller;
+
+class UserController extends MemberbaseController {
+
+    //会员设置界面
+    public function profile() {
+       // getavatar();
+        //====基本资料表单======
+        $modelid = $this->userinfo['modelid'];
+        //会员模型数据表名
+        $tablename = $this->memberModel[$modelid]['tablename'];
+        //相应会员模型数据
+        $modeldata = M(ucwords($tablename))->where(array("userid" => $this->userid))->find();
+        if (!is_array($modeldata)) {
+            $modeldata = array();
+        }
+        $data = array_merge($this->userinfo, $modeldata);
+        $content_form = new \content_form($modelid);
+        $data['modelid'] = $modelid;
+        //字段内容
+        $forminfos = $content_form->get($data);
+
+        //====头像======
+        $user_avatar = service("Passport")->getUploadPhotosHtml($this->userid);
+        $this->assign('user_avatar', $user_avatar);
+        $this->assign("forminfos", $forminfos);
+        $this->assign('type', I('get.type', 'profile'));
+        $this->assign("userinfo", $data);
+        $this->display();
+    }
+
+    //保存基本信息
+    public function doprofile() {
+        if (IS_POST) {
+            $post = $_POST;
+            $info = $post['info'];
+            //获取用户信息
+            $userinfo = service("Passport")->getLocalUser($this->userid);
+            if (empty($userinfo)) {
+                $this->error('该会员不存在！');
+            }
+            //基本信息
+            $data = $this->memberDb->create($post, 2);
+            if (!$data) {
+                $this->error($this->memberDb->getError());
+            }
+            //详细信息验证
+            if (!empty($info)) {
+                $ContentModel = \Content\Model\ContentModel::getInstance($this->userinfo['modelid']);
+                $content_input = new \content_input($this->userinfo['modelid']);
+                $info['userid'] = $this->userid;
+                $inputinfo = $content_input->get($info, 3);
+                if ($inputinfo) {
+                    //数据验证
+                    $inputinfo = $ContentModel->token(false)->create($inputinfo, 2);
+                    if (false == $inputinfo) {
+                        $ContentModel->tokenRecovery($post);
+                        $this->error($ContentModel->getError());
+                    }
+                    //检查详细信息是否已经添加过
+                    if ($ContentModel->where(array("userid" => $this->userid))->find()) {
+                        $status = $ContentModel->where(array("userid" => $this->userid))->save($inputinfo);
+                    } else {
+                        $inputinfo['userid'] = $this->userid;
+                        $status = $ContentModel->add($inputinfo);
+                    }
+                } else {
+                    $ContentModel->tokenRecovery($post);
+                    $this->error($content_input->getError());
+                }
+            }
+            //修改基本资料
+            if ($userinfo['username'] != $data['username'] || !empty($data['password']) || $userinfo['email'] != $data['email']) {
+                $edit = service("Passport")->userEdit($userinfo['username'], '', '', $data['email'], 1);
+                if (empty($edit)) {
+                    $this->error(service("Passport")->getError()? : '修改失败！');
+                }
+            }
+            unset($data['username'], $data['password'], $data['email']);
+            if (!empty($data)) {
+                $this->memberDb->where(array("userid" => $this->userid))->save($data);
+            }
+            if (false !== $status) {
+                $this->success("基本信息修改成功！");
+            } else {
+                $this->error('基本信息修改失败！');
+            }
+        } else {
+            $this->error('基本信息修改失败！');
+        }
+    }
+
+    //修改密码
+    public function dopassword() {
+        if (IS_POST) {
+            $post = I('post.');
+            //dump($post);exit();
+            //旧密码
+            $oldPassword = $post['oldPassword'];
+            if (empty($oldPassword)) {
+                $this->error('请输入你的旧密码！');
+            }
+            //根据当前密码取得用户资料
+            $userInfo = service("Passport")->getLocalUser($this->userid, $oldPassword);
+            if (false == $userInfo) {
+                $this->error('旧密码错误，请重新输入！');
+            }
+            //设置密码
+            $password = $post['password'];
+            if (empty($password)) {
+                $this->error('请输入你的密码！');
+            }
+            if (false == isMin($password, 6)) {
+                $this->error('密码长度不能小于6位！');
+            }
+            //再次密码确认
+            $password2 = $post['password2'];
+            if ($password != $password2) {
+                $this->error('两次密码输入不一致！');
+            }
+            $edit = service("Passport")->userEdit($this->username, '', $password, '', 1);
+            if ($edit) {
+                //注销当前登陆
+                service("Passport")->logoutLocal();
+                $this->success('密码修改成功！');
+            } else {
+                $this->error(service("Passport")->getError()? : '密码修改失败！');
+            }
+        } else {
+            $this->error('修改失败！');
+        }
+    }
+    
+    /**
+     * 账号安全页面
+     */
+    public function account(){
+        $this->display('security');
+    }
+    
+    /**
+     * 订单
+     */
+    public function order(){
+        $uuserid = $this->userid;
+        $count = M('Order')->where('member_id=%d',$uuserid)->count();
+        $page = $this->page($count,4);
+        $orderlist = M('Order')
+            ->where('member_id=%d',$uuserid)
+            ->limit($page->firstRow . ',' . $page->listRows)
+            ->order('add_time desc')
+            ->select();
+        //dump($orderlist);exit();
+        foreach ($orderlist as $k=>$v){
+            $orderlist[$k]['order_status'] = $this->_orderstatus($v['status'],$v['order_id']);
+        }
+        $this->assign('page',$page->show('Admin'));
+        $this->assign('order',$orderlist);
+        $this->display();
+    }
+    
+    /**
+     * 获取详细
+     */
+    public function getOrderDetail(){
+        $id = I('post.id',0,'intval');
+        if($id == 0){
+            echo json_encode(array('status'=>0,'msg'=>'参数有误'));
+            exit();
+        }
+        $orders = M('OrderGoods')->where('order_id=%d',$id)->select();
+        foreach ($orders as $k=>$v){
+            $orders[$k]['goods_name'] = M('GoodsPackage')->where('gp_id=%d',$v['gp_id'])->getField('name');
+            $orders[$k]['type_name'] = M('GoodsType')->where('type_id=%d',$v['type_id'])->getField('name');
+            if(!empty($v['spec01_id'])){
+                $spec = M('GoodsSpec01')->where('id=%d',$v['spec01_id'])->find();
+                $orders[$k]['spec'] = $spec['type'].' '.$spec['cpu'].'核'.$spec['memory'].'GB'.$spec['broadband'].'M';
+            }elseif(!empty($v['spec02_id'])){
+                $orders[$k]['spec'] = M('GoodsSpec02')->where('id=%d',$v['spec02_id'])->getField('version');
+            }
+        }
+        echo json_encode(array('status'=>1,'data'=>$orders));
+        exit();
+    }
+    
+    /**
+     * 我的购物车
+     */
+    public function cart() {
+        $userid = $this->userid;
+        $cartlist = M('GoodsCarts')->where('member_id=%d',$userid)->order('create_time desc')->select();
+        foreach ($cartlist as $k=>$v){
+            $cartlist[$k]['goods_name'] = M('GoodsPackage')->where('gp_id=%d',$v['gp_id'])->getField('name');
+            $cartlist[$k]['type_name'] = M('GoodsType')->where('type_id=%d',$v['type_id'])->getField('name');
+            if(!empty($v['spec01_id'])){
+                $spec = M('GoodsSpec01')->where('id=%d',$v['spec01_id'])->find();
+                $cartlist[$k]['spec'] = $spec['type'].' '.$spec['cpu'].'核'.$spec['memory'].'GB'.$spec['broadband'].'M';
+            }elseif(!empty($v['spec02_id'])){
+                $cartlist[$k]['spec'] = M('GoodsSpec02')->where('id=%d',$v['spec02_id'])->getField('version');
+            }
+            $cartlist[$k]['total'] = $v['price']*$v['num']*$v['purchase'];
+        }
+        $this->assign('cart',$cartlist);
+        $this->display('shoppingcart');
+    }
+    
+    /**
+     * 购物车提交
+     */
+    public function cartSubmit(){
+        $userid = $this->userid;
+        if(IS_POST){
+            $cart_data = I('post.cart','','');
+            $cart_arr = json_decode($cart_data,true);
+            $cart_arr_data = $cart_arr['cart'];
+            //dump($cart_arr_data);
+            $total_fee = 0;
+            //获取总价
+            foreach ($cart_arr_data as $k=>$v){
+                $total_fee += $v['purchase']*$v['num']*$v['price'];
+            }
+            
+            $order_data = array(
+                'orderno' => date('YmdHis').rand(1000,9999),
+                'total_fee' => $total_fee,
+                'add_time' => time(),
+                'status' => 0,
+                'member_id' => $userid
+            );
+            //开启事务
+            M()->startTrans();
+            $order_id = M('Order')->data($order_data)->add();
+            if(empty($order_id)){
+                M()->rollback();
+                echo json_encode(array('status'=>0,'msg'=>'订单结算失败'));
+                exit();
+            }
+            
+            foreach ($cart_arr_data as $k=>$v){
+                $order_goods_data = array(
+                    'order_id' => $order_id,
+                    'gp_id' => $v['gp_id'],
+                    'purchase' => $v['purchase'],
+                    'num' => $v['num'],
+                    'price' => $v['price'],
+                    'type_id' => $v['type_id'],
+                    'spec01_id' => $v['spec01_id'],
+                    'spec02_id' => $v['spec02_id']
+                );
+                
+                $_res = M('OrderGoods')->data($order_goods_data)->add();
+                if(empty($_res)){
+                    M()->rollback();
+                    echo json_encode(array('status'=>0,'msg'=>'订单结算失败'));
+                    exit();
+                }
+            }
+            
+            //事务提交
+            if($_res){
+                M()->commit();
+                echo json_encode(array('status'=>1,'url'=>U('Yun/Mall/pay',array('id'=>$order_id))));
+                exit();
+            }
+            
+            
+        }
+    }
+    
+    /**
+     * 购物车删除
+     */
+    public function cartDel(){
+        $userid = $this->userid;
+        if(IS_POST){
+            $id = I('post.id',0,'intval');
+            if($id == 0){
+                echo json_encode(array('status'=>0,'msg'=>'参数有误'));
+                exit();
+            }
+            $_res = M('GoodsCarts')->where('cart_id=%d and member_id=%d',$id,$userid)->delete();
+            if($_res !== false){
+                echo json_encode(array('status'=>1));
+                exit();
+            }else{
+                echo json_encode(array('status'=>0,'msg'=>'删除失败'));
+                exit();
+            }
+        }
+    }
+    
+    /**
+     * 头像上传
+     */
+    public function avatarUpload() {
+        include_once PROJECT_PATH.'Libs/Util/Upload.php';
+        $upload = new \Upload();
+        $upload->maxSize = 1 * 1024 * 1024 * 2; // 设置附件上传大小
+        $upload->allowExts = array('jpg', 'gif', 'png', 'jpeg');
+        $upload->saveRule = 'uniqid';
+        $upload->savePath = SITE_PATH.'/d/avatar/';
+        
+        $res = $upload->upload();
+        if($res){
+            $info = $upload->getUploadFileInfo();
+            $filePath = '/d/avatar/' . $info[0]['savename'];
+            $_res = M('Member')->where('userid=%d',$this->userid)->save(array('userpic'=>$filePath));
+            if($_res !== false){
+                echo json_encode(array('status'=>1,'path'=>$filePath));
+                exit();
+            }
+           
+        }else{
+            echo json_encode(array('status'=>0,'msg'=>$upload->getErrorMsg()));
+            exit();
+        }
+    }
+    
+    /**
+     * 获取状态
+     * @param unknown $status
+     * @param $order_id
+     * @return string
+     */
+    private function _orderstatus($status,$order_id){
+        $str = '';
+        $url = U('Yun/Mall/pay',array('id'=>$order_id));
+        switch ($status){
+            case 0:
+                $str = '<span style="color:red">未支付</span> | <a href="'.$url.'">去支付</a>';break;
+            case 1:
+                $str = '<span style="color:green">已支付</span>';break;
+            case -1:
+                $str = '已取消';break;
+                
+        }
+        
+        return $str;
+    }
+
+}

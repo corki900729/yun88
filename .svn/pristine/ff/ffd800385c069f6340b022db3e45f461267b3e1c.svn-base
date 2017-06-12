@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * Created by PhpStorm.
+ * User: corki
+ * Date: 2017/1/18
+ * Time: 15:17
+ */
+namespace Bazaar\Controller;
+use Common\Controller\Base;
+
+class SerController extends Base{
+    //初始化
+    protected function _initialize() {
+        parent::_initialize();
+        $this->assign('mark','service');
+    }
+    /*
+        /*
+         *商品详情页面
+         * ***********/
+    public function detail()
+    {
+//        商品信息
+        $id = I('get.id','','intval');
+            $info = M('Goods')->where(array(
+                'id'=>array('EQ',$id),
+            ))->limit(1)->find();
+//商品详情信息
+        $intro = M('ServiceIntro')->where(array(
+            'goods_id'=>array('EQ',$id),
+        ))->select();
+//        获取所有商品
+        $service = M('Goods')->select();
+        if(empty($info)){
+            $this->error('操作非法');
+        }
+        dump($intro);die;
+        $this->assign('mark','service');
+        $this->assign('goods',$info);
+        $this->assign('intro',$intro);
+        $this->assign('service',$service);
+        $this->assign('id',$id);
+        $this->display('service-cloud');
+    }
+
+}

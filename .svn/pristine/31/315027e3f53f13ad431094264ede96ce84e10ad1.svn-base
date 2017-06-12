@@ -1,0 +1,102 @@
+// out: false
+// a short cut for inserting background images.
+// ----- Floor styles -----
+@import "variables.less";
+
+.setFloorColor(@theColor) {
+  background-color: @theColor;
+
+  .floor-desc {
+    background-color: @theColor;
+    background-color: rgba(red(@theColor), green(@theColor), blue(@theColor), 0.8);
+  }
+}
+
+.setInnerImg(@width;@height) {
+  .floor-inner {
+    &>img {
+      max-width: @width;
+      max-height: @height;
+    }
+  }
+}
+
+.floor {
+  background-color: white;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  &.gray-back {
+    background-color: @white-gray;
+
+    .floor-desc {
+      background-color: @white-gray;
+      background-color: rgba(244, 242, 241, 0.9);
+    }
+  }
+
+  .container {
+    height: 100%;
+
+    &>h1 {
+      text-align: center;
+    }
+  }
+
+  .floor-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:after,
+    &:before,
+    .floor-desc:after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+
+    &.img-left {
+      background-position: left center;
+
+      &>*:not(img) {
+        float: right;
+      }
+
+      &>img {
+        float: left;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &.img-right {
+      background-position: right center;
+
+      &>img {
+        float: right;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &.img-center {
+      background-position: center center;
+    }
+
+    &.img-centerBottom {
+      background-position: bottom center;
+    }
+  }
+
+  .floor-desc {
+    display: inline-block;
+    overflow: hidden;
+    padding: 1.2em;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>云巴巴 - 优选客户</title>
+    <link rel="stylesheet" href="{$config_siteurl}statics/extres/newmember/css/normalize.css">
+    <link rel="stylesheet" href="{$config_siteurl}statics/extres/newmember/css/common.css">
+    <link rel="stylesheet" href="{$config_siteurl}statics/extres/newmember/css/general.css">
+    <!-- <link rel="stylesheet/less" href="css/general.less"> -->
+    <!-- <script src="js/less.min.js"></script> -->
+    <script src="{$config_siteurl}statics/extres/newmember/js/respond.min.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+<template file="Content/header.php"/>
+    <!-- header end -->
+    <!-- *content area* -->
+    <div class="banner">
+		<img src="{$config_siteurl}statics/extres/newmember/images/banners/banner-clients.png" alt="banner">
+     </div>
+    <div class="client-details">
+        <div class='container'> <a href="">返回优选客户 >></a>
+            <div class="snapshot">
+                <div class="logo">
+                    <img src="{$img_logo}" alt="" />
+                </div>
+                <div>
+                   {$company_intro}
+                </div>
+            </div>
+            <div class="details">
+                {$content}
+            </div>
+        </div>
+    </div>
+    <!-- footer start -->
+<template file="Content/footer.php"/>
+    <!-- footer end -->
+</body>
+
+</html>

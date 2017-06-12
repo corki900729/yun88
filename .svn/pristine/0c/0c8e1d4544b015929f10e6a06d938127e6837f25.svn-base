@@ -1,0 +1,93 @@
+<!-- <meta http-equiv="x-ua-compatible" content="IE=7;" />
+    <meta http-equiv="x-ua-compatible" content="IE=7; IE=9" /> -->
+    <!--[if IE]>
+        <script type="text/javascript" src="http://download.sangfor.com.cn/Source/default/js/html5.js"></script>
+        <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+        <srcipt src="{$config_siteurl}statics/js/pie.js"></srcipt>
+        <script src="{$config_siteurl}statics/js/respond.js"></script>
+    <![endif]-->
+<link href="/favicon.ico" rel="shortcut icon">
+<link href="{$config_siteurl}statics/market/dist/compos.css" rel="stylesheet"> 
+<script src="http://www.yuandingit.com/statics/js/js/jquery-1.7.2.min.js"></script>
+  <script src="http://www.yuandingit.com/statics/js/js/bomb.js"></script>
+  <script src="http://www.yuandingit.com/statics/js/layer/layer.js"></script>
+  <link rel="stylesheet" href="http://www.yuandingit.com/statics/js/layer/skin/layer.css">
+<script src="{$config_siteurl}statics/market/dist/respond.js"></script>
+<div class="header">
+      <div class="container">
+        <div class="head-inner">
+          <a herf="/" class="f_l logo"><img src="{$config_siteurl}statics/market/images/products-details/logo.png" /></a>
+          <ul class="nav f_l">
+            <li  <if condition="empty($mark)">class="navact"</if> ><a href="/">首页 </a></li>
+            <li <if condition="$mark eq 'Market'"> class="navact"</if>><a href="{:U('Bazaar/Market/index')}">云市场 </a></li>
+            <li class="nav-hover <if condition="$mark eq 'service'"> navact</if> ">
+             <a href="/index.php?g=Bazaar&m=Ser&a=detail&id=3"> 云服务</a>
+              <div class="hide-nav">
+              <volist name='service' id='vo' >                
+                  <span><a href="/index.php?g=Bazaar&m=Ser&a=detail&id={$vo.id}">{$vo.name}</a></span>   
+              </volist>          
+              </div>
+            </li>
+<!--             <li <if condition="$mark eq 'service'">class="navact"</if>>
+                <a href="/index.php?a=lists&catid=10">云服务</a>
+            </li>          -->   
+            <li <if condition="$mark eq 'Solution'">class="navact"</if>>
+                        <a href="/index.php?g=Bazaar&m=Solution&a=video"  >解决方案</a>
+              <div class="hide-nav">               
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=video">视频</a></span>   
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=medical">医疗</a></span> 
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=game">游戏</a></span> 
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=safe">安全</a></span>  
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=finance">金融</a></span>     
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=figure">数字营销</a></span>     
+                  <span><a href="/index.php?g=Bazaar&m=Solution&a=travel">旅游</a></span>     
+              </div>        
+            </li>            
+<!--              <li <if condition="$mark eq 'yun'">class="navact"</if>>
+                        <a href="/index.php?g=Yun&m=Company&a=lists&type=1"  >公有云</a>
+            </li> -->
+<!--             <li <if condition="$mark eq 'app'">class="navact"</if>>
+                <a href="/index.php?g=Yun&m=Company&a=lists&type=2">云应用</a>
+            </li> -->
+<!--             <li <if condition="$mark eq 'mall'">class="navact"</if>>
+                <a href="{:U('Yun/Mall/index')}">云商城</a>
+            </li> -->
+            <li <if condition="$mark eq 'why'">class="navact"</if>>
+                <a href="/index.php?a=lists&catid=8">为什么选择YUN88</a>
+            </li>
+            <li <if condition="$mark eq 'client'">class="navact"</if>>
+                <a href="/index.php?a=lists&catid=9">优选客户</a>
+            </li>
+          </ul>
+          <div class="item-bar f_r">三</div>
+          <div class="logon f_r">
+                    <if condition="login_status()">
+                    <a href="{:U('Member/User/profile')}">个人中心</a>|
+                    <a href="{:U('Member/Index/logout')}">退出登录</a>
+                    <else />
+                      <a href="{:U('Member/Index/login')}">登录</a>|
+                      <a href="{:U('Member/Index/register')}">注册</a>
+                    </if>
+          </div>
+
+        </div>
+      </div>
+    </div>
+ <!--右侧聊天-->
+    <div class="right-box">
+      <div class="ul-box">
+        <ul class="ul-show">
+          <li class="meiqia"><a  href="javascript:void(0)" target="_self"  class="consult"><img src="{$config_siteurl}statics/market/images/new_index/meiqia.png" /></a></li>
+          <li class="qq"><a  href="javascript:void(0)" target="_self"  class="consult"><img src="{$config_siteurl}statics/market/images/new_index/qq.png" /></a></li>
+          <li class="telephone"><img src="{$config_siteurl}statics/market/images/new_index/telephone.png" /></li>
+          <li class="liao" data-toggle="modal" data-target="#formModal"><img src="{$config_siteurl}statics/market/images/new_index/text.png" /></li>
+          <li class="weixin"><img src="{$config_siteurl}statics/market/images/new_index/weixin.png" /></li>
+          <li class="top"><img src="{$config_siteurl}statics/market/images/new_index/top.png" /></li>
+        </ul>
+        <ul class="ul-hide">
+          <li class="tel-hide"><img src="{$config_siteurl}statics/market/images/new_index/telephone.png" /><span>400-007-0628</span></li>
+          <li class="ewm"><img src="{$config_siteurl}statics/market/images/new_index/ewm.png"/></li>
+        </ul>
+      </div>
+    </div>
+    

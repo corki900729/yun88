@@ -1,0 +1,463 @@
+// out: ../mall
+@import "less-components/variables.less";
+@import "less-components/mic.less";
+
+.useIconBack(@iconNum) {
+  background-repeat: no-repeat;
+  background-image: url("../images/icon@{iconNum}.png");
+}
+
+.useIconBack(@iconNum; alt) {
+  background-repeat: no-repeat;
+  background-image: url("../images/icon@{iconNum}-alt2.png");
+}
+
+.banner {
+  height: image-height("../../images/banners/banner-mall.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black;
+
+  &>img {
+    max-height: image-height("../../images/banners/banner-mall.png");
+  }
+}
+
+.banner-mall {
+  background-image: url("../images/banners/banner-mall.png");
+}
+
+body {
+  // background-color: @whitest-gray;
+  background-color: white;
+}
+
+.nails {
+  margin-top: 3em;
+  // display: inline-block;
+  position: relative;
+  // height: 300px;
+  padding-top: 41px;
+
+  .nailhead {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 82px;
+    height: 82px;
+    border: 5px solid #ccc;
+    background-position: center;
+    .circled();
+
+    &.icon05 {
+      .useIconBack("05");
+    }
+
+    &.icon06 {
+      .useIconBack("06");
+    }
+
+    &.icon07 {
+      .useIconBack("07");
+    }
+  }
+
+  .nailhead+div {
+    padding-top: 66px;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 249px;
+    text-align: center;
+  }
+
+  &:hover {
+    color: white;
+
+    .nailhead+div {
+      background-color: darken(@blue, 5%);
+    }
+
+    .nailhead {
+      border-color: white;
+      background-color: darken(@blue, 15%);
+
+      &.icon05 {
+        .useIconBack("05", alt);
+      }
+
+      &.icon06 {
+        .useIconBack("06", alt);
+      }
+
+      &.icon07 {
+        .useIconBack("07", alt);
+      }
+    }
+  }
+}
+
+.lower-section {
+  padding: 7em 0;
+  background-color: white;
+  text-align: center;
+
+  .subtitle {
+    margin: 1em 0;
+
+    h1 {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.bottom-line {
+  text-align: center;
+  color: white;
+  padding: 2em 0;
+  height: 179px;
+  background: url("../images/mall/back-bottom-line.png") center center no-repeat;
+
+  .btn-positive {
+    margin-top: 2em;
+    font-size: 1.33em;
+  }
+}
+// font-page
+.mall-fontpage {
+  color: black;
+
+  .upper-section {
+    overflow-x: hidden;
+
+    &>.row {
+      // margin: 0;
+      display: flex;
+
+      &>* {
+        flex: 1 1 auto;
+      }
+    }
+    // the right index menu.
+    .index-menu {
+      padding-top: 3em;
+      text-align: right;
+      .useClearFix();
+
+      ul {
+        margin-top: 2.5em;
+        width: 10em;
+        float: right;
+
+        li {
+          padding: 1em 0;
+          font-size: 1.333em;
+          border-top: 1px solid #ccc;
+
+          a,
+          a:visited {
+            color: black;
+          }
+        }
+      }
+    }
+    // the acutal product shelf thingy.
+    .the-shelf {
+      padding-top: 3em;
+      padding-left: 3em;
+      height: 100%;
+      background-color: white;
+      .useClearFix();
+
+      .class-title {
+        margin-bottom: 2em;
+        margin-top: 3em;
+
+        &:first-child {
+          margin-top: 0;
+        }
+
+        &>* {
+          display: inline;
+        }
+
+        &>h2:first-child {
+          font-weight: bold;
+        }
+      }
+
+      &>.row {
+        height: auto;
+        margin: 0;
+      }
+
+      .shelf-item {
+        display: block;
+        margin-bottom: 2em;
+        padding: 2em 0;
+        border: 1px solid #ccc;
+        text-align: center;
+        float: left;
+        height: 225px;
+        width: 24.998%;
+        color: @font-gray;
+        overflow: hidden;
+
+        h3 {
+          font-weight: 500;
+          white-space: nowrap;
+        }
+
+        .img-holder {
+          margin-bottom: .35em;
+          width: 80%;
+          height: 80px;
+          margin: .35em auto;
+          padding: 0 1em;
+
+          img {
+            width: 100%;
+            max-height: 70px;
+            // max-width: 190px;
+          }
+        }
+
+        .prcing {
+          margin-bottom: .5em;
+          white-space: nowrap;
+
+          p {
+            display: inline;
+          }
+
+          p:first-child {
+            color: @font-orange;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .shelf-item+.shelf-item {
+        border-left: 0;
+      }
+    }
+  }
+}
+// payment page
+.mall-payment {
+  padding: 3em 0;
+
+  .upper-section {
+    border: 1px solid #ccc;
+    margin-bottom: 5em;
+  }
+
+  .bread-crumbs {
+    padding: 1em 2em 1em 0;
+    border-bottom: 1px solid #ccc;
+
+    li {
+      display: inline-block;
+
+      &:before {
+        content: ">";
+        color: #ccc;
+        padding: 0 5px;
+      }
+
+      &:first-child {
+        &:before {
+          content: "";
+        }
+      }
+    }
+
+    a,
+    a:visited {
+      color: black;
+    }
+  }
+
+  .payment-details {
+    .top {
+      padding-left: 4em;
+      margin-bottom: 3em;
+
+      p {
+        width: 80%;
+      }
+
+      .title {
+        margin-bottom: 2em;
+
+        img {
+          margin-right: 2em;
+        }
+
+        &>* {
+          display: inline-block;
+        }
+      }
+    }
+
+    .mid {
+      .control-group {
+        padding-left: 4em;
+
+        label {
+          padding-right: 2em;
+        }
+      }
+
+      .spec-block {
+        vertical-align: top;
+        display: inline-block;
+        border: 1px solid #ccc;
+        text-align: center;
+        padding: .5em 1em;
+        cursor: pointer;
+
+        p {
+          font-size: 18px;
+        }
+
+        &:hover,
+        &.active {
+          border-color: @blue;
+          background: url("../images/mall/i-check.png") bottom right no-repeat;
+        }
+      }
+
+      .input-spinner {
+        position: relative;
+        margin-right: 30px;
+
+        input {
+          width: 6em;
+          font-size: 14px;
+          padding: .5em 1em;
+          border: 1px solid #ccc;
+        }
+
+        a,
+        i {
+          position: absolute;
+          width: 22px;
+          height: 17px;
+          background-repeat: no-repeat;
+          background-position: center;
+          cursor: pointer;
+        }
+
+        .plus {
+          top: 0;
+          left: 7em;
+          background-image: url("../images/gongyouyun/i-plus.png");
+        }
+
+        .min {
+          bottom: 0;
+          left: 7em;
+          background-image: url("../images/gongyouyun/i-min.png");
+        }
+      }
+    }
+
+    .btm {
+      padding-bottom: 5em;
+
+      &>* {
+        padding-left: 4em;
+      }
+
+      &>.pricing {
+        margin-left: 2em;
+        padding-left: 2em;
+        padding-top: 2em;
+        margin-bottom: 3em;
+        background: url("../images/mall/back-pricing.png") left center no-repeat;
+        height: 83px;
+
+        &>* {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .price {
+          padding-left: 1.25em;
+          color: #f97319;
+          font-weight: bold;
+          font-size: 22px;
+
+          &.actual {
+            padding-left: 0;
+          }
+        }
+      }
+
+      .btn-buy {
+        display: inline-block;
+        padding: .75em 3em;
+        color: white;
+
+        &>* {
+          display: inline-block;
+          vertical-align: middle;
+
+          img {
+            margin-right: .75em;
+          }
+        }
+
+        &.buyNow {
+          background: #fef1ed;
+          color: #f97319;
+          border: 1px solid #f97319;
+        }
+
+        &.buyLater {
+          background: #f97319;
+          border: 1px solid #f97319;
+        }
+      }
+
+      .btn-buy+.btn-buy {
+        margin-left: 2em;
+      }
+    }
+  }
+
+  .contact-method {
+    border: 5px solid #ccc;
+    padding: 2em 1.2em;
+    margin-right: 2em;
+
+    .img-holder {
+      width: 53px;
+      height: 53px;
+
+      &.first {
+        background: url("../images/mall/contact-icon.png") 0 0 no-repeat;
+      }
+
+      &.second {
+        background: url("../images/mall/contact-icon.png") -53px 0 no-repeat;
+      }
+    }
+
+    &>.control-group {
+      margin: 1.5em 0;
+    }
+
+    p {
+      display: inline;
+      font-size: 13px;
+    }
+
+    a,
+    a:visited {
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,776 @@
+/**
+* This file contains critical variabes, NEED to be import in every "get togather" less files, and in the first import order.
+* 此文件为基础关键变量，尽量在汇总性less文件中，第一个引入。
+*/
+/**
+* Common classes.
+* mainly for tweeking or other minor styles.
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+}
+.form-block > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+span {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+.page-contents-wrapper {
+  overflow: hidden;
+}
+.floor {
+  padding: 2em 0;
+}
+.floor.f-one {
+  padding-top: 4em;
+}
+.floor.f-btm {
+  padding-bottom: 0;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:after,
+body:before {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.row {
+  *zoom: 1;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.row:after,
+.row:before {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@media (min-width:1201px) {
+  .l-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-push-1 {
+    margin-left: 8.33333333%;
+  }
+  .l-push-2 {
+    margin-left: 16.66666667%;
+  }
+  .l-push-3 {
+    margin-left: 25%;
+  }
+  .l-push-4 {
+    margin-left: 33.33333333%;
+  }
+  .l-push-5 {
+    margin-left: 41.66666667%;
+  }
+  .l-push-6 {
+    margin-left: 50%;
+  }
+  .l-push-7 {
+    margin-left: 58.33333333%;
+  }
+  .l-push-8 {
+    margin-left: 66.66666667%;
+  }
+  .l-push-9 {
+    margin-left: 75%;
+  }
+  .l-push-10 {
+    margin-left: 83.33333333%;
+  }
+  .l-push-11 {
+    margin-left: 91.66666667%;
+  }
+  .l-push-12 {
+    margin-left: 100%;
+  }
+}
+@media (max-width:1200px) and (min-width:800px) {
+  .m-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+@media (max-width:800px) and (min-width:300px) {
+  .s-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+/*
+    Mixins
+
+    these contents wouldn't be output to the actual css unless it's used somewhere.
+
+    除非在引入的less文件中使用，否则这些mixin将不会被全部包含在最终css里。
+*/
+.isHidden {
+  display: none;
+}
+.ta_c {
+  text-align: center;
+}
+.ta_l {
+  text-align: left;
+}
+.ta_r {
+  text-align: right;
+}
+.va_t {
+  vertical-align: top;
+}
+.va_m {
+  vertical-align: middle;
+}
+.m_center {
+  margin: 0 auto;
+}
+.mb_1 {
+  margin-bottom: 1em!important;
+}
+.mb_2 {
+  margin-bottom: 2em!important;
+}
+.mb_3 {
+  margin-bottom: 3em!important;
+}
+.mt_05 {
+  margin-top: .5em;
+}
+.mt_1 {
+  margin-top: 1em;
+}
+.mt_2 {
+  margin-top: 2em;
+}
+.mt_3 {
+  margin-top: 3em;
+}
+.mt_5 {
+  margin-top: 5em;
+}
+.fa_025 {
+  font-size: .25em!important;
+}
+.fa_05 {
+  font-size: .5em!important;
+}
+.fa_1 {
+  font-size: 1em!important;
+}
+.fa_2 {
+  font-size: 2em!important;
+}
+.fa_3 {
+  font-size: 3em!important;
+}
+.fa_4 {
+  font-size: 4em!important;
+}
+.fa_5 {
+  font-size: 5em!important;
+}
+.fa_6 {
+  font-size: 6em!important;
+}
+.fa_7 {
+  font-size: 7em!important;
+}
+.fa_8 {
+  font-size: 8em!important;
+}
+.f_l {
+  float: left;
+}
+.f_r {
+  float: right;
+}
+.page-contents-wrapper .banner {
+  position: relative;
+}
+.page-contents-wrapper .banner .img-holder {
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner {
+  position: relative;
+  height: 500px;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-title {
+  font-size: 42px;
+  position: absolute;
+  color: #fff;
+  top: 140px;
+  font-weight: lighter;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-text1 {
+  font-size: 46px;
+  color: #fff;
+  position: absolute;
+  top: 200px;
+  font-weight: bold;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-text1 span {
+  background-image: gradient(linear, 0 0, 0 bottom, from(#c5f27e), to(#84eccd));
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#c5f27e), to(#84eccd));
+  background-image: -moz-gradient(linear, 0 0, 0 bottom, from(#c5f27e), to(#84eccd));
+  background-image: -o-gradient(linear, 0 0, 0 bottom, from(#c5f27e), to(#84eccd));
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-text-fill-color: transparent;
+  font-size: 46px;
+  font-weight: bold;
+}
+.page-contents-wrapper .banner .img-holder .banner-inner .banner-text2 {
+  position: absolute;
+  width: 45%;
+  line-height: 28px;
+  top: 280px;
+  font-size: 18px;
+  color: #7a95ca;
+}
+.page-contents-wrapper .banner .slick-dots {
+  bottom: 25px!important;
+}
+.page-contents-wrapper .banner .slick-dots li button:before {
+  color: white;
+}
+.page-contents-wrapper .banner .slick-dots li.slick-active button:before {
+  color: #ffa40b;
+}
+.page-contents-wrapper .banner .slick-dots li button:before {
+  color: white;
+  opacity: 1!important;
+}
+.page-contents-wrapper .lay01 {
+  padding: 50px 0;
+  overflow: hidden;
+}
+.page-contents-wrapper .lay01 .lay01-block {
+  height: 180px;
+}
+.page-contents-wrapper .lay01 .lay01-block .img-holder {
+  text-align: center;
+}
+.page-contents-wrapper .lay01 .lay01-block .text-holder p:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 20px;
+}
+.page-contents-wrapper .lay01 .lay01-block .text-holder p:nth-child(2) {
+  text-align: center;
+  line-height: 20px;
+  padding: 0 20px;
+}
+.page-contents-wrapper .lay02 {
+  width: 100%;
+  height: 618px;
+  background-repeat: no-repeat;
+}
+.page-contents-wrapper .lay02 .lay02-inner {
+  position: relative;
+}
+.page-contents-wrapper .lay02 .lay02-inner .title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 120px;
+  color: white;
+}
+.page-contents-wrapper .lay02 .lay02-inner .exp {
+  margin-left: 200px;
+  margin-top: 20px;
+  color: white;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list {
+  width: 1000px;
+  height: 180px;
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  padding-left: 30px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list.visible {
+  display: block;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list.hidden {
+  display: none;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  background: url(../../images/index/bg2.png);
+  background-position: center center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap:hover {
+  animation: move 2s linear 0.2s infinite alternate;
+  -webkit-animation: move 2s linear 0.2s infinite alternate;
+  -moz-animation: move 2s linear 0.2s infinite alternate;
+  -o-animation: move 2s linear 0.2s infinite alternate;
+}
+@keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@-moz-keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@-o-keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap span {
+  display: inline-block;
+  width: 146px;
+  height: 146px;
+  background: white;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 106px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap span img {
+  display: inline-block;
+  width: 140px;
+  height: 86px;
+  overflow: hidden;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap span a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap2 {
+  margin-left: 10px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap3 {
+  margin-left: 10px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap4 {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  background: url(../../images/index/bg2.png);
+  background-position: center center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .product-list .y-wrap4 span {
+  display: inline-block;
+  width: 146px;
+  height: 146px;
+  background: white;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 106px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-btm {
+  margin-left: 20%;
+  border-top: 1px solid white;
+  margin-top: 300px;
+  padding-left: 12%;
+  padding-top: 50px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-btm ul li {
+  float: left;
+  padding: 11px 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-btm ul li:hover {
+  background: white;
+  color: #22a3e2;
+}
+.page-contents-wrapper .lay02 .lay02-inner .lay02-btm ul li.active {
+  background: white;
+  color: #22a3e2;
+}
+.page-contents-wrapper .lay03 {
+  background: #f3faff;
+  height: 188px;
+}
+.page-contents-wrapper .lay03 .lay03-inner {
+  width: 100%;
+  height: 188px;
+  background: url(../../images/index/bg3.png) no-repeat right bottom;
+  position: relative;
+}
+.page-contents-wrapper .lay03 .lay03-inner p {
+  padding-top: 100px;
+  font-size: 22px;
+  color: #006297;
+  padding-left: 30px;
+}
+.page-contents-wrapper .lay03 .lay03-inner p i {
+  font-weight: bold;
+  font-style: normal;
+}
+.page-contents-wrapper .lay03 .lay03-inner p a {
+  display: inline-block;
+  padding: 15px 38px;
+  background: #0093ff;
+  color: white;
+  font-size: 16px;
+  float: right;
+  margin-right: 70px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -o-border-radius: 18px;
+  margin-top: -10px;
+}
+.page-contents-wrapper .lay03 .lay03-inner p img {
+  position: absolute;
+  right: 80px;
+  bottom: 18px;
+}
+@media (max-width:800px) and (min-width:300px) {
+  .page-contents-wrapper .banner-title {
+    top: 70px!important;
+  }
+  .page-contents-wrapper .banner-text1 {
+    width: 100%!important;
+    top: 140px!important;
+  }
+  .page-contents-wrapper .banner-text2 {
+    width: 80%!important;
+    top: 280px!important;
+  }
+}
+.bottom {
+  margin-top: 0!important;
+}
+.layui-layer-ico {
+  background: url(../../images/index/icon.png) center center no-repeat !important;
+}

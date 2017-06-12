@@ -1,0 +1,374 @@
+@charset 'utf-8';
+.clearFix, .layer.lay02 .subtitle {
+  *zoom: 1;
+  clear: both
+}
+
+.layer.lay03, .no-wrap {
+  white-space: nowrap
+}
+
+.clearFix:after, .clearFix:before {
+  display: table;
+  clear: both;
+  content: " "
+}
+
+.control-group>* {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  vertical-align: middle
+}
+
+.outter-wrapper {
+  position: absolute;
+  padding: 0 10%;
+  width: 100%;
+  height: 100%
+}
+
+.outter-wrapper .table-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle
+}
+
+.outter-wrapper .table-wrapper .cell-wrapper {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle
+}
+
+.bubble-head {
+  position: relative;
+  height: 100%;
+  text-align: center
+}
+
+.bubble-head img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto
+}
+
+.bubble-head img+div {
+  padding: 1em;
+  height: 100%
+}
+
+.one-of-five {
+  float: left;
+  width: 19.998%
+}
+
+.white-back {
+  background-color: #ebeff3
+}
+
+.black-back {
+  background-color: #212629
+}
+
+.banner {
+  width: 100%
+}
+
+.cross:after {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: .25em;
+  color: #008cd7;
+  content: "+";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px
+}
+
+.layer {
+  overflow: hidden;
+  letter-spacing: .15em
+}
+
+.layer .layer-tit>* {
+  font-size: 2.917em
+}
+
+.layer .layer-button {
+  position: relative;
+  display: inline-block;
+  padding: .7em 3em;
+  border: 1px solid #fff;
+  background-color: #000;
+  text-align: center;
+  font-size: 14px
+}
+
+.layer .layer-button * {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.layer.lay01>.container {
+  padding: 5em 0
+}
+
+.layer.lay01>.container p {
+  color: #666;
+  font-size: 18px
+}
+
+.layer.lay01>.container a>p {
+  padding-top: .5em;
+  font-size: 24px
+}
+
+.layer.lay02 .container {
+  padding: 8em 0;
+  color: #fff
+}
+
+.layer.lay02 .layer-tit+.row {
+  padding-top: 3.75em
+}
+
+.layer.lay02 .text {
+  padding-right: 5%
+}
+
+.layer.lay02 .text p {
+  display: none;
+  overflow: hidden;
+  max-height: 185px;
+  text-overflow: ellipsis
+}
+
+.layer.lay02 .subtitle:after, .layer.lay02 .subtitle:before {
+  display: table;
+  clear: both;
+  content: " "
+}
+
+.layer.lay02 .subtitle img {
+  float: left;
+  vertical-align: middle
+}
+
+.layer.lay02 .subtitle img+span {
+  vertical-align: middle;
+  font-size: 14px
+}
+
+.layer.lay02 p {
+  font-size: 14px
+}
+
+.layer.lay03 .layer-tit+div p, .layer.lay04 p, .layer.lay04 span {
+  font-size: 1.167em;
+  word-wrap: break-word;
+  word-break: break-all
+}
+
+.layer.lay02 .bLogo-1 {
+  float: left;
+  overflow: hidden;
+  margin-top: 2em;
+  width: 24.998%;
+  height: 123px
+}
+
+@media screen and (max-width:81.875em) {
+  .layer.lay02 .bLogo-1 {
+    width: 50%
+  }
+  .layer.lay02 .bLogo-1:nth-child(odd) {
+    padding-left: 5em
+  }
+}
+
+.layer.lay02 .bLogo-1 img {
+  position: relative;
+  cursor: pointer
+}
+
+.layer.lay03 {
+  padding-top: 6em;
+  padding-bottom: 6em;
+  width: 100%;
+  text-align: center
+}
+
+.layer.lay03>* {
+  display: inline-block;
+  margin-top: 5em;
+  vertical-align: top
+}
+
+.layer.lay03 .pc-img {
+  max-width: 714px;
+  width: 50%;
+  height: 471px;
+  background-image: url(../images/index/icon06.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.layer.lay03 .layer-tit+div {
+  height: 3.167em;
+  background-image: url(../images/index/icon07.png);
+  background-position: left;
+  background-repeat: no-repeat
+}
+
+.layer.lay03 .layer-tit+div p {
+  padding-left: 3.5em;
+  max-width: 41em
+}
+
+.layer.lay03 .des {
+  padding-left: 3em;
+  width: 50%;
+  text-align: left;
+  white-space: normal;
+  float: left;
+}
+
+.layer.lay03 .des .bLogo-2 {
+  float: left;
+  margin-top: 3em;
+  padding-right: 2em;
+  width: 33.333%;
+  cursor: pointer
+}
+
+.layer.lay03 .des .bLogo-2 .bg-wrapper {
+  padding: 1.083em;
+  max-width: 180px;
+  max-height: 10.167em;
+  background: url(../images/index/bLogoBase.png) no-repeat;
+  background-size: contain
+}
+
+.layer.lay03 .des .bLogo-2 .bg-wrapper img {
+  max-width: 155px;
+  max-height: 98px;
+  width: 100%
+}
+
+.layer.lay03 .des .bLogo-2 .bg-wrapper:hover {
+  background-image: url(../images/index/bLogoBaseHover.png);
+  background-repeat: none
+}
+
+.layer.lay04 {
+  background-image: url(../images/index/banner2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff
+}
+
+.layer.lay04 .container {
+  padding-top: 12em;
+  height: 35em
+}
+
+.layer.lay04 .layer-button {
+  color: #fff;
+  margin: 0 auto;
+  background-color: #212629
+}
+
+.layer.lay05 {
+  position: relative
+}
+
+.layer.lay05 p {
+  word-wrap: break-word;
+  word-break: break-all
+}
+
+.layer.lay05 .slick-dots-larger button:before {
+  font-size: 15px;
+  line-height: 1.5em
+}
+
+.layer.lay05 .layer-wrapper {
+  position: relative;
+  white-space: nowrap
+}
+
+.layer.lay05 .layer-wrapper>* {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top
+}
+
+.layer.lay05 .layer-wrapper .lefty {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  white-space: normal;
+  overflow: hidden
+}
+
+.layer.lay05 .layer-wrapper .lefty .cell-wrapper {
+  padding: 4em 0 4em 15%;
+  text-align: left
+}
+
+.layer.lay05 .layer-wrapper .lefty .cell-wrapper .sliders {
+  padding: 0 1.25em
+}
+
+.layer.lay05 .layer-wrapper .lefty .cell-wrapper .subtitle {
+  margin: 2em 0 1.25em;
+  font-weight: 600;
+  font-size: 16px
+}
+
+.layer.lay05 .layer-wrapper .righty {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: url(../images/index/icon08.png) center center no-repeat;
+  background-size: cover
+}
+
+.layer.lay05 .layer-button {
+  margin-top: 3em;
+  border-color: #000;
+  border-radius: .25em;
+  background-color: #ebeef2;
+  color: #666
+}
+
+.layer.lay06 {
+  height: 39.083em;
+  background-image: url(../images/index/banner3.png);
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.layer.lay06 .container {
+  padding-top: 15em
+}
+
+.layer.lay06 .layer-tit {
+  color: #fff
+}
+
+.layer.lay06 .layer-button {
+  margin: 0 auto;
+  border-width: 2px;
+  border-radius: .25em;
+  background-color: #404345;
+  color: #fff;
+  font-size: 21px
+}

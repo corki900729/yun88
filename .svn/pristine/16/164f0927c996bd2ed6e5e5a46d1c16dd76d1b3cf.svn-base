@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--公用组件-->
+  <link href="../../dist/assets.css" rel="stylesheet">
+  <script src="../../dist/assets.js"></script>
+
+</head>
+
+<body>
+  <!--页面特有CSS-->
+  <link href="../../dist/shichang/shichang.css" rel="stylesheet">
+  <script src="../../dist/shichang/index.js"></script>
+
+  <main class="page-wrap devHead shichang-index">
+
+    <section class="top">
+      <div class="contents">
+        <h2>在云端继续您的人力云业务</h2>
+        <div class="row">
+          <div class="l-col-4 m-col-5 s-col-12">
+
+            <div class="desc-roller">
+
+              <div>
+                <p>不管你处于什么行业，YUN88云已定制多套解决方案,助你轻松 跨入“互联网+”时代
+                </p>
+                <div class="icons-row">
+                  <div class="row">
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p>22222
+                </p>
+                <div class="icons-row">
+                  <div class="row">
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p>3333
+                </p>
+                <div class="icons-row">
+                  <div class="row">
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p>44444
+                </p>
+                <div class="icons-row">
+                  <div class="row">
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                    <div class="l-col-4">
+                      <div class="icon-wrapper"><img src="../../images/shichang/bicon01.jpg" alt=""></div>
+                    </div>
+                  </div>
+                </div>>
+              </div>
+
+            </div>
+
+            <div class="btn-row">
+              <a href="" class="btn-more btns">More</a>
+              <div class="arrows isHidden-s">
+                <i class="fa fa-arrow-left"></i>
+                <i class="fa fa-arrow-right"></i>
+              </div>
+            </div>
+
+          </div>
+          <div class="l-col-8 m-col-7 s-col-12">
+            <div class="row img-roller">
+              <div class="l-col-3 m-col-6 s-col-6 blocky-con">
+                <span class="isHidden-s isHidden-m">H</span>
+                <!--data-desc-goto 之属性与 .desc-roller 对应-->
+                <div class="blocky" data-desc-goto="0">
+                  <img src="../../images/shichang/top-icon01-alt.png" class="alt">
+                  <img src="../../images/shichang/top-icon01.png" class="normal">
+                  <p>人力云 Human cloud</p>
+                </div>
+              </div>
+              <div class="l-col-3 m-col-6 s-col-6 blocky-con">
+                <span class="isHidden-s isHidden-m">M</span>
+                <div class="blocky" data-desc-goto="1">
+                  <img src="../../images/shichang/top-icon02-alt.png" class="alt">
+                  <img src="../../images/shichang/top-icon02.png" class="normal">
+                  <p>市场云 Market cloud</p>
+                </div>
+              </div>
+              <div class="l-col-3 m-col-6 s-col-6 blocky-con">
+                <span class="isHidden-s isHidden-m">SA</span>
+                <div class="blocky" data-desc-goto="2">
+                  <img src="../../images/shichang/top-icon03-alt.png" class="alt" hasAlts>
+                  <img src="../../images/shichang/top-icon03.png" class="normal" hasAlts>
+                  <p>销售云 Sales cloud </p>
+                </div>
+              </div>
+              <div class="l-col-3 m-col-6 s-col-6 blocky-con">
+                <span class="isHidden-s isHidden-m">SE</span>
+                <div class="blocky" data-desc-goto="3">
+                  <img src="../../images/shichang/top-icon04-alt.png" class="alt" hasAlts>
+                  <img src="../../images/shichang/top-icon04.png" class="normal" hasAlts>
+                  <p>服务云 Service cloud</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mid">
+      <h2>明星产品</h2>
+      <div class="logo-wall">
+        <div class="container">
+          <div class="row logo-con" autoHi>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon01.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon02.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon03.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon04.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon05.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon06.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <img src="../../images/shichang/mid-icon07.png" alt="">
+              </div>
+            </div>
+
+            <div class="l-col-3 m-col-4 s-col-6 logo-item">
+              <a href=""></a>
+              <div class="logo-inner">
+                <p>MORE</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="l-col-7 m-col-6 isHidden-s left-col">
+            <div>
+              <img src="../../images/shichang/icon-quote.jpg" alt="">
+              <p class="notey">也许您不明白什么是最适合您，点击咨询了解更多云产品 YUN88为您甄选提供主流云产品及服务
+              </p>
+            </div>
+          </div>
+          <div class="l-col-5 m-col-6 s-col-12 right-col">
+            <img class="btns" src="../../images/shichang/buckle-btm.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+<?php
+//000000000000a:1:{i:1;a:16:{s:7:"modelid";s:1:"1";s:4:"name";s:12:"会员模型";s:11:"description";s:9:"会员表";s:9:"tablename";s:11:"member_list";s:7:"setting";s:0:"";s:7:"addtime";s:10:"1467008429";s:5:"items";s:1:"0";s:12:"enablesearch";s:1:"0";s:8:"disabled";s:1:"0";s:13:"default_style";s:0:"";s:17:"category_template";s:0:"";s:13:"list_template";s:0:"";s:13:"show_template";s:0:"";s:11:"js_template";s:0:"";s:4:"sort";s:1:"0";s:4:"type";s:1:"2";}}
+?>

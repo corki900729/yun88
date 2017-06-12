@@ -1,0 +1,2387 @@
+// out : ../yunyingyong.css
+// 云应用系列页面布局
+// by LIJIALIN
+@import "less-components\mic.less";
+@import "less-components\variables.less";
+@import "less-components\floors.less";
+// --- form 
+@inp-small: 30%;
+// 云应用 banner, with a fixed height and fixed image.
+body {
+  color: @font-gray;
+}
+
+.banner {
+  position: relative;
+  height: image-height("../../images/banners/banner-yunyingyong.png");
+  background-color: black;
+  background-image: url("../images/banners/banner-yunyingyong.png");
+  background-position: left center;
+
+  .container {
+    position: relative;
+    height: 100%;
+  }
+
+  .banner-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 1.5em;
+    max-height: 11em;
+    height: 50%;
+
+    &:after {
+      display: table;
+      content: " ";
+    }
+
+    img {
+      float: left;
+      margin-top: 2.5em;
+      margin-right: 3.5em;
+    }
+
+    img+div {
+      color: white;
+      text-align: left;
+
+      p {
+        overflow: hidden;
+        height: 3em;
+      }
+    }
+  }
+
+  .button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: .5em 2em;
+    background-color: @blue;
+    color: white;
+    font-size: 1.333em;
+  }
+}
+// next to banner, the within-page navi bar.
+.page-hopper {
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+
+  ul {
+    // float: left;
+    li {
+      display: inline;
+      padding: 0 1.5em .75em;
+
+      &:hover,
+      &.active {
+        border-bottom: 2px solid @blue;
+
+        a {
+          color: @blue;
+        }
+      }
+    }
+  }
+
+  a,
+  a:visited {
+    color: black;
+    font-size: 1.167em;
+  }
+}
+
+.useImgBack(@url) {
+  background-image: url("../images/yunyingyong/back-@{url}.png");
+}
+
+.setInnerBack(@url) {
+  .floor-inner {
+    .useImgBack(@url)
+  }
+}
+
+.btn-placeOrder {
+  display: block;
+  padding: .75em;
+  background-color: @blue;
+  color: white;
+  text-align: center;
+  font-size: 1.667em;
+}
+// gradient for all the one apm's splashing.
+.gradient() {
+  width: 100%;
+  background: #55b2fb;
+  /* Old browsers */
+  background: -moz-linear-gradient(bottom, #55b2fb 0%, #0579d3 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(bottom, #55b2fb 0%, #0579d3 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top, #55b2fb 0%, #0579d3 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#55b2fb', endColorstr='#0579d3', GradientType=0);
+}
+// imo product shower
+.imo-showcase {
+  h1,
+  h2 {
+    color: @font-orange;
+  }
+
+  p {
+    width: 25em;
+  }
+
+  .floor {
+    .container {
+      padding-right: 9.167em;
+      padding-left: 10em;
+
+      @media(max-width: 1300px) {
+        padding: 0 5em;
+      }
+
+      @media(max-width:900px) {
+        padding: 0 1em;
+      }
+    }
+    // 企业介绍
+    &.intro {
+      height: 400px;
+
+      h1 {
+        margin-bottom: 3.5em;
+        color: @font-gray;
+        text-align: center;
+      }
+
+      p {
+        width: auto;
+      }
+      .useImgBack("imointro");
+
+      .floor-inner {
+        padding: 0 6%;
+        text-indent: 2em;
+
+        @media(max-width: 1140px) {
+          padding: 0;
+        }
+      }
+    }
+    // 热销产品
+    &.two {
+      h1 {
+        color: @font-gray;
+        text-align: center;
+      }
+    }
+
+    &.three {
+      height: 440px;
+      .setInnerBack("cellphone1");
+
+      .floor-inner {
+        padding-top: 10em;
+      }
+    }
+
+    &.four {
+      height: 770px;
+      .setInnerBack("cellphone2");
+
+      .floor-inner {
+        padding-top: 17.833em;
+      }
+    }
+
+    &.five {
+      height: 510px;
+      .setInnerBack("cellphone3");
+
+      .floor-inner {
+        padding-top: 192px;
+        background-position: right bottom;
+      }
+    }
+
+    &.six {
+      height: 793px;
+      .setInnerBack("cellphone4");
+
+      .floor-inner {
+        padding-top: 290px;
+      }
+    }
+
+    &.seven {
+      height: 509px;
+      .setInnerBack("cellphone5");
+
+      .floor-inner {
+        padding-top: 105px;
+        background-position: right bottom;
+      }
+    }
+
+    &.eight {
+      height: 725px;
+      .setInnerBack("cellphone6");
+
+      .floor-inner {
+        padding-top: 191px;
+        background-position: left bottom;
+      }
+    }
+
+    &.nine {
+      text-align: center;
+
+      h1 {
+        margin-top: 60px;
+        margin-bottom: 80px;
+        color: black;
+      }
+
+      h3 {
+        margin-bottom: .5em;
+        font-size: 1.333em;
+        line-height: 1.1em;
+      }
+
+      .rd-1 {
+        color: #c173f9;
+      }
+
+      .rd-2 {
+        color: #52cdbf;
+      }
+
+      .rd-3 {
+        color: #ea8c6a;
+      }
+
+      .rd-4 {
+        color: #419df3;
+      }
+
+      .floor-inner {
+        margin-bottom: 5em;
+
+        .nailbutt {
+          img {
+            margin-bottom: .75em;
+          }
+
+          p {
+            width: 10em;
+          }
+
+          &>div {
+            display: inline-block;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+// office产品
+.office-showcase {
+  h1,
+  h2,
+  h3 {
+    color: black;
+  }
+
+  .gray-back {
+    background-color: #eeeeee;
+
+    .floor-desc {
+      background-color: rgba(238, 238, 238, 0.9);
+    }
+  }
+
+  .diamond {
+    position: relative;
+    padding-left: 2em;
+  }
+
+  .diamond:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -6px;
+    width: 13px;
+    height: 13px;
+    // display: inline-block;
+    background: url("../images/yunyingyong/i-diamond.png") center center no-repeat;
+    content: ' ';
+  }
+
+  .floor {
+    &.intro {
+      padding-bottom: 5em;
+      // height: 250px;
+      background-color: #ccc;
+      color: black;
+
+      img {
+        float: left;
+        margin-right: 2em;
+      }
+
+      .floor-inner {
+        padding-top: 3em;
+      }
+    }
+
+    &.products {
+      padding-top: 1.5em;
+      height: 350px;
+      .setInnerBack("pc1");
+
+      .floor-desc {
+        padding: 1.2em;
+        width: 690px;
+      }
+
+      .floor-inner {
+        padding-top: 3.5em;
+      }
+      // no pun intended.
+      .micro-hooper {
+        margin-top: 1.5em;
+
+        span {
+          display: inline-block;
+          margin-right: 3em;
+
+          a {
+            display: inline-block;
+            color: black;
+            vertical-align: middle;
+
+            &.hover {
+              color: @blue;
+            }
+          }
+        }
+      }
+    }
+
+    &.three {
+      .setInnerBack('pc2');
+
+      .floor-inner {
+        height: 330px;
+      }
+
+      .floor-desc {
+        position: absolute;
+        bottom: 5em;
+        left: 0;
+        &:extend(.office-showcase .floor.products .floor-desc);
+      }
+
+      .container {
+        padding-right: 3.5em;
+      }
+
+      .spliter {
+        margin-bottom: 2em;
+        padding: 2em 0;
+        border: 1px solid #ccc;
+        text-align: center;
+
+        img {
+          display: inline-block;
+        }
+      }
+    }
+
+    &.four {
+      height: 330px;
+      .setInnerBack('pc3');
+
+      .container {
+        padding-left: 3em;
+      }
+    }
+
+    &.five {
+      height: 300px;
+      .setInnerBack('pc4');
+
+      .container {
+        padding-top: 2.5em;
+      }
+    }
+
+    &.six {
+      height: 380px;
+      .setInnerBack('pc1');
+
+      .container {
+        padding-top: 2.5em;
+      }
+
+      .floor-desc {
+        padding-top: 5em;
+      }
+    }
+
+    &.seven {
+      height: 323px;
+      .setInnerBack('pc4');
+
+      .floor-desc {
+        padding-top: 5em;
+      }
+    }
+
+    &.eight {
+      padding-top: 5em;
+
+      .feature {
+        margin-top: 5em;
+        margin-bottom: 10em;
+        padding-right: 4em;
+        text-align: center;
+
+        p {
+          height: 10em;
+          text-align: left;
+        }
+
+        img {
+          display: inline-block;
+        }
+      }
+    }
+
+    &.nine {
+      .pricing-list {
+        margin: 5em 0;
+        text-align: center;
+
+        &>.group {
+          display: inline-block;
+          vertical-align: top;
+
+          &:first-child {
+            margin-right: 1em;
+
+            @media(max-width: 1195px) {
+              margin-right: 0;
+            }
+          }
+
+          &>*:first-child {
+            margin-right: 1em;
+          }
+        }
+
+        .pricing-block {
+          position: relative;
+          display: inline-block;
+          padding-bottom: 1em;
+          width: 280px;
+          border: 1px solid #ccc;
+          background-color: #f6f6f6;
+          color: black;
+          vertical-align: top;
+          text-align: center;
+
+          h1 {
+            background-color: #68bbe7;
+            font-size: 1.167em;
+            line-height: 3em;
+          }
+
+          h1+div {
+            padding-top: 1em;
+            height: 4em;
+            border-bottom: 1px solid #ccc;
+            background-color: #f6f6f6;
+
+            p {
+              overflow: hidden;
+              height: 3em;
+              line-height: 1em;
+            }
+          }
+
+          h2 {
+            border-bottom: 1px solid #ccc;
+            background-color: white;
+            color: #ff7200;
+            line-height: 2em;
+          }
+
+          h3 {
+            color: @font-gray;
+            text-align: center;
+            font-size: 1.5em;
+          }
+
+          div.what-included {
+            padding: 1.75em 1.25em 1em;
+            min-height: 30px;
+            text-align: left;
+
+            ul {
+              overflow: hidden;
+              height: 435px;
+            }
+
+            img {
+              float: left;
+              margin-top: .5em;
+              margin-right: 1em;
+            }
+
+            li {
+              padding: .5em 0;
+            }
+          }
+
+          .btn-purchase {
+            display: inline-block;
+            // position: absolute;
+            // left: 0;
+            // right: 0;
+            // bottom: 2em;
+            // margin: 0 auto;
+            margin-bottom: 2em;
+            padding: .5em 2.5em;
+            background-color: #2777a2;
+            color: white;
+            font-size: 1.167em;
+          }
+        }
+      }
+    }
+  }
+}
+// Oracle 产品
+.oracle-showcase {
+  .gray-back {
+    background-color: #eeeeee;
+  }
+
+  .floor {
+    &.one {
+      padding: 1.5em 0;
+      text-align: center;
+    }
+
+    &.intro {
+      position: relative;
+      height: 330px;
+      background: url('../images/banners/banner-yunyingyong-oracle.png') center left no-repeat;
+    }
+
+    &.three {
+      padding: 1.5em 0;
+    }
+    // blocky array...and the button!
+    &.four {
+      padding: 3em 0;
+
+      .container {
+        margin-bottom: 7em;
+      }
+
+      h3 {
+        margin-bottom: 2em;
+      }
+
+      .feature-blocky {
+        text-align: center;
+
+        div.icon {
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+        // each of those blcok.
+        &>* {
+          display: inline-block;
+          margin-top: .5em;
+          margin-left: 1.5em;
+          padding-top: 80px;
+          min-width: 165px;
+          max-width: 371px;
+          width: 29.9998%;
+          height: 280px;
+          border: 1px solid #ccc;
+          background: white;
+          color: black;
+          vertical-align: top;
+          // the image
+          &>div {
+            &.icon.loudspeaker {
+              background-image: url("../images/yunyingyong/icon-loudspeaker.png");
+            }
+
+            &.icon.target {
+              background-image: url("../images/yunyingyong/icon-target.png");
+            }
+
+            &.icon.headphone {
+              background-image: url("../images/yunyingyong/icon-headphone.png");
+            }
+
+            &.icon.suitcase {
+              background-image: url("../images/yunyingyong/icon-suitcase.png");
+            }
+
+            &.icon.social {
+              background-image: url("../images/yunyingyong/icon-social.png");
+            }
+
+            &.icon.currency {
+              background-image: url("../images/yunyingyong/icon-currency.png");
+            }
+          }
+          // block sub title.
+          h2 {
+            margin: 1em 0;
+            font-size: 20px;
+          }
+          // the block description
+          p {
+            display: none;
+          }
+          // placeholder - literally.
+          img {
+            visibility: hidden;
+          }
+
+          &:first-child {
+            margin-left: 0;
+          }
+          // change the shit outta it when hovered.
+          &.active {
+            color: white;
+
+            p {
+              display: block;
+            }
+
+            &.blocky {
+              background-position: center center;
+              background-repeat: no-repeat;
+
+              &.one {
+                background: url("../images/yunyingyong/back-blocky1.png");
+              }
+
+              &.two {
+                background: url("../images/yunyingyong/back-blocky2.png");
+              }
+
+              &.three {
+                background: url("../images/yunyingyong/back-blocky3.png");
+              }
+
+              &.four {
+                background: url("../images/yunyingyong/back-blocky4.png");
+              }
+
+              &.five {
+                background: url("../images/yunyingyong/back-blocky5.png");
+              }
+
+              &.six {
+                background: url("../images/yunyingyong/back-blocky6.png");
+              }
+            }
+            // the image
+            &>div {
+              &.icon.loudspeaker {
+                background-image: url("../images/yunyingyong/icon-loudspeaker-alt.png");
+              }
+
+              &.icon.target {
+                background-image: url("../images/yunyingyong/icon-target-alt.png");
+              }
+
+              &.icon.headphone {
+                background-image: url("../images/yunyingyong/icon-headphone-alt.png");
+              }
+
+              &.icon.suitcase {
+                background-image: url("../images/yunyingyong/icon-suitcase-alt.png");
+              }
+
+              &.icon.social {
+                background-image: url("../images/yunyingyong/icon-social-alt.png");
+              }
+
+              &.icon.currency {
+                background-image: url("../images/yunyingyong/icon-currency-alt.png");
+              }
+            }
+          }
+        }
+      }
+
+      .feature-desc {
+        margin: 2.5em 0;
+      }
+    }
+  }
+}
+// 国灵通讯 product
+.guoling-showcase {
+  color: black;
+
+  .clear-fix {
+    clear: both;
+
+    &:after {
+      display: table;
+      clear: both;
+      content: " ";
+    }
+  }
+
+  .floor {
+    &>h1,
+    .container>h1 {
+      margin-bottom: 2.5em;
+    }
+
+    &.one {
+      padding: 2em 0;
+
+      h1 {
+        margin: 0;
+      }
+    }
+
+    &.intro {
+      height: 293px;
+      background: url("../images/banners/banner-yunyingyong-guoling.png") center center no-repeat;
+      color: white;
+
+      p {
+        text-indent: 2em;
+      }
+
+      p+p {
+        margin-top: 1em;
+      }
+    }
+
+    &.two {
+      padding: 2em 0;
+      border-bottom: 1px solid #ccc;
+
+      h1 {
+        margin-bottom: 1.5em;
+      }
+
+      .quoted {
+        text-align: center;
+
+        img {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .content {
+          display: inline-block;
+          vertical-align: middle;
+
+          p {
+            margin: 0 3em;
+            max-width: 910px;
+          }
+        }
+
+        div {
+          white-space: normal;
+        }
+      }
+    }
+
+    &.three {
+      padding-top: 3em;
+      padding-bottom: 5em;
+      min-height: 10em;
+      background-color: #3d4351;
+      color: white;
+
+      .thumbnail-line {
+        margin-bottom: 2em;
+      }
+
+      .thumbnail {
+        position: relative;
+        overflow: hidden;
+        padding: 30px .5em 0;
+        color: black;
+        @text-heihgt: 300px;
+
+        .nail {
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          margin: auto;
+        }
+
+        .text {
+          padding: 5em 1em 0;
+          height: @text-heihgt;
+          background-color: white;
+
+          h2 {
+            margin-bottom: .5em;
+            text-align: center;
+          }
+
+          p {
+            overflow: hidden;
+            max-height: 10.5em;
+          }
+        }
+
+        &.the-last {
+          &>* {
+            height: @text-heihgt;
+            background-color: #497d9d;
+
+            img {
+              position: absolute;
+              top: 50%;
+              right: 0;
+              left: 0;
+              margin: -91.5px auto 0;
+            }
+          }
+        }
+      }
+    }
+
+    &.four {
+      padding: 5em 0;
+      min-height: 10em;
+      color: black;
+
+      .button-details {
+        display: inline-block;
+        padding: .5em 2em;
+        border-radius: 2em;
+        background-color: #55b7e9;
+        color: white;
+      }
+
+      .column {
+        padding: 0 1em;
+
+        h3 {
+          font-weight: bold;
+        }
+      }
+
+      .column-inner {
+        border: 1px solid #ccc;
+
+        .top,
+        .mid {
+          padding: 1em 1.75em .5em;
+        }
+
+        .top {
+          border-bottom: 1px solid #55b7e9;
+          text-align: center;
+
+          h1 {
+            color: #b1daee;
+          }
+
+          h3 {
+            overflow: hidden;
+            height: 3em;
+          }
+        }
+
+        .mid {
+          .type-indi {
+            margin-bottom: 1.5em;
+            text-align: center;
+
+            img {
+              display: inline-block;
+              margin-bottom: 1em;
+            }
+          }
+
+          .type-indi+div {
+            text-indent: 2em;
+            // overflow-y: scroll;
+          }
+        }
+
+        .btm {
+          padding-bottom: 1em;
+
+          &>* {
+            padding: 1em 1.75em .5em;
+          }
+
+          h3 {
+            margin-bottom: 1em;
+            // line-height: 3em;
+            background-color: #55b7e9;
+            color: white;
+            // padding-left: 1.75em;
+          }
+
+          h3+div {
+            p {
+              text-indent: 2em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// One-Apm series
+.oneApm-showcase {
+  background-color: white;
+  color: black;
+
+  i.icon {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &.check {
+      background-image: url('../images/yunyingyong/i-checkmark.png');
+    }
+
+    &.cross {
+      background-image: url('../images/yunyingyong/i-crossmark.png');
+    }
+  }
+
+  .splash,
+  .splash-head {
+    .gradient()
+  }
+
+  .floor {
+    &.intro.splash {
+      position: relative;
+      color: white;
+      padding-top: 2em;
+      padding-bottom: 2em; 
+
+      img {
+        width: 100%;
+      }
+
+      .text-wrapper {
+        padding-top: 2em;
+        padding-left: 30%;
+
+        p {
+          padding-top: 1em;
+          text-indent: 2em;
+        }
+      }
+    }
+
+    &.product-menu {
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+
+      .menu-item {
+        position: relative;
+        float: left;
+        padding: 2.5em .5em;
+        width: 19.998%;
+        height: 218px;
+        vertical-align: top;
+
+        a,
+        a:visited {
+          color: black;
+        }
+        // blue line
+        &.active,
+        &:hover {
+          &:after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            border-top: 2px solid @blue;
+            content: " ";
+          }
+        }
+        // placeholder
+        img {
+          visibility: hidden;
+        }
+
+        div.img {
+          background-position: top center;
+          background-repeat: no-repeat;
+        }
+
+        &.one {
+          div.img {
+            background-image: url("../images/yunyingyong/icon-oneapm-menu1.png");
+          }
+        }
+
+        &.two {
+          div.img {
+            background-image: url("../images/yunyingyong/icon-oneapm-menu2.png");
+          }
+        }
+
+        &.three {
+          div.img {
+            background-image: url("../images/yunyingyong/icon-oneapm-menu3.png");
+          }
+        }
+
+        &.four {
+          div.img {
+            background-image: url("../images/yunyingyong/icon-oneapm-menu4.png");
+          }
+        }
+
+        &.five {
+          div.img {
+            background-image: url("../images/yunyingyong/icon-oneapm-menu5.png");
+          }
+        }
+
+        &.six {
+          div.img {
+            background-image: url("../images/yunyingyong/icon-oneapm-menu6.png");
+          }
+        }
+        // change images and all.
+        &.active,
+        &:hover {
+          a,
+          a:visited {
+            color: @blue;
+          }
+
+          &.one {
+            div.img {
+              background-image: url("../images/yunyingyong/icon-oneapm-menu1-alt.png");
+            }
+          }
+
+          &.two {
+            div.img {
+              background-image: url("../images/yunyingyong/icon-oneapm-menu2-alt.png");
+            }
+          }
+
+          &.three {
+            div.img {
+              background-image: url("../images/yunyingyong/icon-oneapm-menu3-alt.png");
+            }
+          }
+
+          &.four {
+            div.img {
+              background-image: url("../images/yunyingyong/icon-oneapm-menu4-alt.png");
+            }
+          }
+
+          &.five {
+            div.img {
+              background-image: url("../images/yunyingyong/icon-oneapm-menu5-alt.png");
+            }
+          }
+
+          &.six {
+            div.img {
+              background-image: url("../images/yunyingyong/icon-oneapm-menu6-alt.png");
+            }
+          }
+        }
+      }
+    }
+
+    &.one {
+      padding: 2em 0;
+    }
+
+    &.two {
+      padding: 2em 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    &.features-table {
+      h1 {
+        margin-bottom: 3em;
+        padding: .5em 0;
+        background-color: #6e93d5;
+        color: white;
+        text-align: center;
+      }
+      // the big ass table thingy.
+      .product-details {
+        margin-bottom: 4em;
+        padding-top: 1em;
+
+        table {
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          font-size: 1.250em;
+          line-height: 1.2em;
+
+          td,
+          th {
+            margin-bottom: .25em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            vertical-align: middle;
+          }
+
+          th {
+            color: white;
+            white-space: nowrap;
+            font-size: 1.833em;
+          }
+
+          tr {
+            border-bottom: 1px solid #ccc;
+          }
+        }
+
+        .details-table {
+          th {
+            color: @blue;
+          }
+
+          tbody>tr>td:first-child,
+          tbody>tr>td:nth-child(2) {
+            border-right: 1px solid #ccc;
+          }
+        }
+      }
+    }
+  }
+  // application insight
+  .oneApm-ai {
+    .floor {
+      &.three {
+        padding: 5em 0 7em;
+        border-bottom: 1px solid #ccc;
+
+        .row-item {
+          text-align: center;
+
+          div.img-wrapper {
+            margin-bottom: 2em;
+            height: 134px;
+          }
+
+          h2 {
+            margin-bottom: 1em;
+          }
+        }
+      }
+
+      &.four,
+      &.five,
+      &.six {
+        // padding: 5em 0 7em 0;
+        .floor-inner {
+          position: relative;
+          margin: 5em 0 7em;
+          height: 860px;
+          text-align: center;
+        }
+
+        p.bottom-line {
+          position: absolute;
+          right: 0;
+          bottom: 2em;
+          left: 0;
+          margin: 0 auto;
+          width: 42em;
+          font-size: 1.5em;
+        }
+
+        h1 {
+          font-size: 3.000em;
+          line-height: 1.2em;
+        }
+
+        h2 {
+          color: @blue;
+        }
+      }
+
+      &.four {
+        .setInnerBack("oneapm1");
+
+        .floor-inner {
+          margin-top: 3em;
+        }
+      }
+
+      &.five {
+        .setInnerBack("oneapm2");
+      }
+
+      &.six {
+        .setInnerBack("oneapm3");
+      }
+    }
+  }
+  // cloud insight
+  .oneApm-ci {
+    .floor {
+      &.three {
+        padding: 10em 0 3em;
+        border-bottom: 1px solid #ccc;
+
+        .lefty {
+          padding-top: 3em;
+          padding-left: 3em;
+
+          &>div:first-child {
+            margin-bottom: 2em;
+          }
+
+          p {
+            width: 29em;
+          }
+        }
+
+        .righty {
+          @media(max-width: 1012px) {
+            width: 100%;
+          }
+
+          table {
+            font-size: 1.167em;
+          }
+
+          th {
+            white-space: nowrap;
+          }
+
+          .first-table {
+            padding-left: 3em;
+
+            td {
+              padding: .5em 0;
+              border-top: 1px solid #ccc;
+            }
+
+            th {
+              padding: 1em 0;
+              color: white;
+            }
+          }
+
+          .second-table {
+            padding-left: 5em;
+            text-align: center;
+
+            th {
+              padding: 1em 3em;
+            }
+
+            td {
+              padding: .5em 3em;
+              border-top: 1px solid #ccc;
+
+              &:first-child {
+                border-right: 1px solid #ccc;
+              }
+            }
+          }
+        }
+      }
+
+      &.flush-floor {
+        height: 670px;
+
+        h2 {
+          color: @blue;
+        }
+
+        p+p {
+          margin-top: 2em;
+        }
+
+        .floor-desc {
+          margin-top: 12em;
+          max-width: 36em;
+        }
+      }
+
+      &.four {
+        padding-top: 5em;
+        text-align: center;
+
+        h2 {
+          color: @blue;
+        }
+
+        p {
+          margin: 0 auto;
+          max-width: 55em;
+        }
+
+        hr {
+          margin: 2em auto;
+          width: 88px;
+          border: 1px solid #ccc;
+        }
+
+        .logo-wall {
+          overflow: hidden;
+          margin: 5em 0;
+        }
+      }
+
+      &.five {
+        .setInnerBack("oneapm4")
+      }
+
+      &.six {
+        .setInnerBack("oneapm5")
+      }
+
+      &.seven {
+        .setInnerBack("oneapm6")
+      }
+
+      &.eight {
+        .setInnerBack("oneapm7")
+      }
+
+      &.nine {
+        padding-top: 5em;
+        padding-bottom: 10em;
+        min-height: 20em;
+        color: white;
+
+        p+p {
+          margin-top: 2em;
+        }
+
+        h2 {
+          color: #84baec;
+          font-size: 2.167em;
+        }
+
+        .caption {
+          margin-bottom: 10em;
+          text-align: center;
+
+          h1 {
+            font-size: 3.333em;
+          }
+        }
+
+        .left,
+        .right {
+          padding: 0 5%;
+
+          hr {
+            margin: 3em 0;
+            width: 95px;
+            border: 1px solid white;
+          }
+
+          span {
+            color: #1268ab;
+          }
+        }
+      }
+
+      &.ten {
+        .setInnerBack("oneapm8")
+      }
+
+      &.eleven {
+        .setInnerBack("oneapm9")
+      }
+    }
+  }
+  // browser insight
+  .oneApm-bi {
+    .floor {
+      &.three {
+        &:extend(.oneApm-showcase .oneApm-ai .floor.three);
+
+        .row-item {
+          width: 19.887%;
+          &:extend(.oneApm-showcase .oneApm-ai .floor.three .row-item);
+
+          div.img-wrapper {
+            margin-bottom: 2em;
+            height: 85px;
+          }
+
+          h2 {
+            &:extend(.oneApm-showcase .oneApm-ai .floor.three .row-item h2);
+          }
+        }
+      }
+
+      &.flush-floor {
+        height: 680px;
+
+        h2 {
+          color: @blue;
+        }
+
+        h1 {
+          margin-bottom: 1em;
+        }
+
+        .floor-desc {
+          margin-top: 12em;
+          max-width: 38em;
+
+          p+p {
+            margin-top: .5em;
+          }
+        }
+      }
+
+      &.four {
+        .setInnerBack("oneapm10");
+      }
+
+      &.five {
+        .setInnerBack("oneapm11");
+      }
+
+      &.six {
+        .setInnerBack("oneapm12");
+      }
+
+      &.seven {
+        .setInnerBack("oneapm13");
+      }
+
+      &.eight {
+        .setInnerBack("oneapm14");
+      }
+
+      &.nine {
+        height: auto;
+        padding-top: 5em;
+        text-align: center;
+
+        .logo-wall {
+          overflow: hidden;
+        }
+      }
+    }
+  }
+  // mobile insight
+  .oneApm-mi {
+    .floor {
+      &.three {
+        padding: 7em 0;
+        min-height: 5em;
+
+        .row-item {
+          margin-top: 3em;
+          padding-right: 5em;
+
+          &>* {
+            vertical-align: top;
+          }
+
+          .img-wrapper {
+            float: left;
+            overflow: hidden;
+            margin-right: 1em;
+            // the largest img width;
+            width: 54px;
+
+            img {
+              float: right;
+            }
+          }
+
+          p {
+            margin-top: 1em;
+          }
+
+          &:after {
+            display: table;
+            clear: both;
+            content: " ";
+          }
+        }
+      }
+
+      &.four,
+      &.five {
+        color: white;
+
+        h2 {
+          color: @blue;
+        }
+      }
+
+      &.four {
+        padding-top: 7em;
+        height: 530px;
+        background: url("../images/yunyingyong/back-oneapm15.png") center center no-repeat;
+        text-align: center;
+
+        .lefty,
+        .righty {
+          float: left;
+          padding: 0 3em;
+          width: 49.998%;
+          text-align: left;
+        }
+
+        .lefty {
+          h1 {
+            margin: .3em 0 1em;
+          }
+
+          p {
+            max-width: 30em;
+          }
+        }
+
+        .righty {
+          padding-right: 2em;
+          text-align: right;
+
+          &>* {
+            display: inline-block;
+          }
+        }
+      }
+
+      &.five {
+        margin-bottom: 20em;
+        padding-top: 7em;
+        height: 670px;
+
+        .lefty,
+        .righty {
+          &:extend(.oneApm-showcase .oneApm-mi .floor.four .lefty);
+        }
+
+        .lefty {
+          padding-top: 5em;
+          padding-left: 5em;
+
+          h1 {
+            margin-bottom: 1em;
+          }
+
+          p {
+            max-width: 25em;
+          }
+
+          .bar {
+            margin-top: 2em;
+            // p tag's size;
+            max-width: 25em;
+            text-align: center;
+
+            &>* {
+              display: inline-block;
+              margin-left: 1em;
+              vertical-align: top;
+
+              &:first-child {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+
+        .righty {
+          text-align: right;
+
+          &>* {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  // the pricing page
+  // *********** deprecated *************
+  .oneApm-pricing {
+    .btn {
+      display: inline-block;
+      padding: .75em 1.5em;
+      border-radius: .5em;
+      color: white;
+      font-size: 1.333em;
+
+      &.btn-buyNow {
+        background-color: @blue;
+        color: white;
+      }
+    }
+    // the header section including those "price tags"
+    .splash-head {
+      margin-bottom: 20em;
+      height: 680px;
+    }
+    /* IE6-9 */
+    .head-inner {
+      padding-top: 10em;
+      color: white;
+      text-align: center;
+
+      h1 {
+        font-size: 3.833em;
+        line-height: 1.25em;
+      }
+
+      p {
+        font-size: 1.500em;
+      }
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .price-tags {
+      position: absolute;
+      top: 5em;
+      // height: 100%;
+      left: 0;
+      width: 100%;
+      color: black;
+      text-align: center;
+
+      .tag {
+        z-index: 2;
+        display: inline-block;
+        margin: 0 -4px;
+        width: 32.998%;
+        box-shadow: 0 0 1em #aaa;
+        vertical-align: middle;
+        // border: 1px solid white;
+        text-align: center;
+        cursor: hand;
+
+        &.active,
+        &:hover {
+          z-index: 99;
+          width: 31.998%;
+
+          h1+div {
+            padding: 10em 0 5em;
+            background-color: white;
+          }
+        }
+
+        h1 {
+          padding: 1em;
+          background-color: #8bbce1;
+          color: white;
+          font-size: 2.333em;
+          line-height: 2em;
+        }
+
+        .pricing {
+          &>* {
+            display: inline-block;
+            vertical-align: top;
+          }
+
+          h3 {
+            color: black;
+            font-size: 3.833em;
+            line-height: 1em;
+          }
+
+          h2 {
+            font-size: 2.000em;
+            line-height: 1em;
+          }
+        }
+
+        span {
+          display: block;
+          margin: 3em 0;
+          color: @font-gray;
+        }
+
+        p {
+          margin: 3em 0;
+        }
+
+        h1+div {
+          padding: 5em 0 3em;
+          background-color: white;
+        }
+      }
+    }
+  }
+
+}
+// sales force
+.sales-force-showcase {
+  color: black;
+
+  .floor {
+    &.one,
+    &.two,
+    &.eight {
+      padding: 2em 0;
+      text-align: center;
+    }
+
+    &.intro {
+      height: image-height("../../images/banners/banner-yunyingyong-saleforce.png");
+      background: url("../images/banners/banner-yunyingyong-saleforce.png") center center no-repeat;
+      text-indent: 2em;
+    }
+
+    &.product-hopper {
+      .head {
+        padding: 3em 0;
+        background-color: @white-gray;
+
+        &>* {
+          margin: auto;
+          max-width: 67em;
+          text-align: center;
+        }
+      }
+
+      .hopper {
+        float: left;
+        margin: 5em 0;
+        width: 19.998%;
+        border-left: 1px solid #ccc;
+        text-align: center;
+
+        a,
+        a:visited {
+          color: black;
+        }
+
+        &:first-child {
+          border: none;
+        }
+
+        &:hover {
+          .img-wrapper {
+            background-color: @blue;
+          }
+        }
+      }
+
+      .img-wrapper {
+        margin: auto auto 1em;
+        width: 6.667em;
+        height: 6.667em;
+        border-radius: 50%;
+        background-color: #9a9a9a;
+      }
+
+      .img-holder {
+        width: 100%;
+        height: 100%;
+
+        &.one {
+          background: url("../images/yunyingyong/icon-rd-sf1.png") center center no-repeat;
+        }
+
+        &.two {
+          background: url("../images/yunyingyong/icon-rd-sf2.png") center center no-repeat;
+        }
+
+        &.three {
+          background: url("../images/yunyingyong/icon-rd-sf3.png") center center no-repeat;
+        }
+
+        &.four {
+          background: url("../images/yunyingyong/icon-rd-sf4.png") center center no-repeat;
+        }
+
+        &.five {
+          background: url("../images/yunyingyong/icon-rd-sf5.png") center center no-repeat;
+        }
+      }
+    }
+
+    .floor-header {
+      margin-top: 3em;
+      padding-bottom: 1em;
+      padding-left: 5%;
+
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+
+    .floor-desc {
+      padding-top: 5em;
+
+      p {
+        max-width: 25em;
+      }
+
+      h1 {
+        margin-bottom: 1em;
+      }
+
+      .btn-positive {
+        margin-top: 2em;
+      }
+
+      &>div {
+        margin-bottom: 5em;
+      }
+    }
+
+    &.flush-floor {
+      color: @font-gray;
+
+      .floor-inner {
+        min-height: 750px;
+      }
+    }
+
+    &.three {
+      .setInnerBack("sf1")
+    }
+
+    &.four {
+      .setInnerBack("sf2")
+    }
+
+    &.five {
+      .setInnerBack("sf3")
+    }
+
+    &.six {
+      .setInnerBack("sf4")
+    }
+
+    &.seven {
+      .setInnerBack("sf5")
+    }
+
+    &.eight {
+      background-color: @blue;
+      color: white;
+    }
+
+    &.pricing {
+      margin-bottom: 5em;
+      min-height: 10em;
+
+      .index {
+        padding-top: 10em;
+        border-right: 1px solid @blue;
+
+        li {
+          position: relative;
+          padding: 1em 0;
+          border-bottom: 1px solid #ccc;
+          font-size: 1.333em;
+          line-height: 2em;
+
+          a,
+          a:visited {
+            color: black;
+          }
+
+          &.active,
+          &:hover {
+            &:before {
+              position: absolute;
+              top: 0;
+              left: -1em;
+              display: block;
+              width: 100%;
+              height: 100%;
+              border-left: 5px solid #5eb4ff;
+              content: " ";
+            }
+          }
+        }
+      }
+
+      .table {
+        padding-bottom: 10em;
+
+        h1 {
+          color: @font-gray;
+          font-size: 4.500em;
+        }
+
+        h2 {
+          font-size: 2.250em;
+        }
+
+        .btn-positive {
+          margin: .5em 0;
+          background-color: #1c275f;
+        }
+
+        &>div:first-child {
+          margin-bottom: 3em;
+          padding-top: 3em;
+          padding-left: 3em;
+        }
+
+        .pricing-row {
+          margin-bottom: 2em;
+          .useClearFix();
+        }
+
+        .pricing-column {
+          float: left;
+          padding: 0 .5em;
+          width: 24.998%;
+
+          .column-inner {
+            border: 1px solid #ccc;
+
+            .price {
+              font-weight: bold;
+              font-size: 2.167em;
+            }
+
+            .top {
+              margin-bottom: 2em;
+              padding: 1em 0;
+              background-color: #5eb4ff;
+              color: white;
+              text-align: center;
+            }
+
+            .mid {
+              margin-bottom: 2em;
+              text-align: center;
+            }
+
+            .btm {
+              padding-bottom: 3em;
+
+              &>div {
+                padding: 1em 0 1em 2em;
+                background-color: #d8ddf3;
+
+                p {
+                  text-indent: 0;
+                }
+              }
+
+              p {
+                text-indent: 2em;
+                line-height: 2em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// 订单页面
+.placing-order {
+  .price {
+    color: #ff6600;
+  }
+
+  .btn-orderNow,
+  .btn-addtoCart,
+  .btn-otherMethod,
+  .btn-payConfirm {
+    display: inline-block;
+    padding: .75em 1.5em;
+    border-radius: .5em;
+    color: white;
+    font-size: 1.333em;
+  }
+
+  .btn-otherMethod {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    color: @blue;
+  }
+
+  .btn-orderNow,
+  .btn-payConfirm {
+    background-color: darken(@blue, 10%);
+  }
+
+  .btn-addtoCart {
+    background-color: #fa7821;
+  }
+
+  .order-product-name {
+    margin-top: 3em;
+    color: black;
+
+    .container {
+      padding: 0;
+    }
+
+    h3:before {
+      margin-right: 1em;
+      border-left: 5px solid @blue;
+      content: " ";
+    }
+  }
+
+  .order-summary {
+    .container {
+      margin-top: 1em;
+      margin-bottom: 5em;
+      padding: 2em;
+      min-height: 5em;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+
+    .step-indy {
+      margin-bottom: 2em;
+      border-bottom: 1px solid #ccc;
+      color: black;
+      vertical-align: top;
+      text-align: center;
+
+      &>div {
+        display: inline-block;
+      }
+
+      span {
+        display: inline-block;
+        width: 215px;
+        font-size: 1.5em;
+        line-height: 60px;
+
+        &.active {
+          color: @blue;
+        }
+      }
+
+      div.arraow {
+        display: inline-block;
+        width: 49px;
+        height: 60px;
+        background: url("../images/yunyingyong/icon-arrow.png") center center no-repeat;
+      }
+    }
+
+    .payment-confirmation {
+      padding: 0 2em;
+
+      .pay-method {
+        position: relative;
+        min-height: 3em;
+        color: black;
+
+        &>div {
+          display: inline-block;
+          padding: 1.25em;
+          text-align: right;
+        }
+
+        .pricing {
+          float: right;
+        }
+
+        &.active:after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 100%;
+          border: 5px solid #85a1d4;
+          content: " ";
+        }
+      }
+
+      .other-method {
+        margin-top: 2em;
+      }
+
+      .pay-confirm {
+        margin-top: 3em;
+      }
+    }
+
+    .order-info {
+      margin-bottom: 10em;
+      padding: 0 2em;
+      color: black;
+
+      .info-table {
+        border: 1px solid @blue;
+
+        h4 {
+          color: @blue;
+        }
+
+        &>div:first-child {
+          border-bottom: 1px solid @blue;
+          background-color: @light-blue;
+        }
+
+        &>div {
+          padding: .5em 1.5em;
+        }
+      }
+    }
+
+    .order-product {
+      margin-bottom: 5em;
+      padding: 0 2em;
+      .useClearFix();
+
+      .logy-cutty {
+        float: left;
+        overflow: hidden;
+        margin-right: 1.75em;
+        width: 155px;
+        height: 85px;
+      }
+
+      .product-desc {
+        &>*:first-child {
+          margin-bottom: .5em;
+        }
+      }
+    }
+
+    .order-product-type {
+      margin-bottom: 5em;
+      padding: 0 2em;
+      .useClearFix();
+
+      table {
+        margin-bottom: 3em;
+        width: 100%;
+        color: black;
+        font-size: 1.167em;
+
+        select {
+          max-width: 15em;
+        }
+
+        thead {
+          border-top: 1px solid #c3dbe9;
+          border-bottom: 1px solid #a7d8f6;
+          background-color: @light-blue;
+
+          th:first-child {
+            width: 3em;
+          }
+
+          th:nth-child(2) {
+            text-align: left;
+          }
+        }
+
+        td,
+        th {
+          padding: 1em 0;
+          vertical-align: middle;
+          text-align: center;
+        }
+
+        tbody {
+          td:first-child {
+            text-align: right;
+          }
+
+          td:nth-child(2) {
+            padding-left: .5em;
+            text-align: left;
+          }
+
+          tr.active {
+            background-color: #bcdbed;
+          }
+        }
+      }
+
+      .term-of-service {
+        margin-bottom: 2em;
+        padding-right: 2em;
+        text-align: right;
+
+        a {
+          color: red;
+          font-size: 1.25em;
+          line-height: 2em;
+        }
+      }
+
+      .order-buttons {
+        float: right;
+
+        &>*:first-child {
+          margin-right: 2em;
+        }
+      }
+    }
+  }
+
+  .product-interested {
+    .inp-small {
+      width: @inp-small;
+    }
+
+    .container {
+      overflow: hidden;
+      padding-top: 0;
+      padding-bottom: 0;
+      &:extend(.placing-order .order-summary .container);
+    }
+
+    .interest-inner {
+      position: relative;
+
+      .contact-info {
+        padding-top: 5em;
+        padding-right: 3em;
+        padding-left: 3em;
+
+        @media screen and (max-width: 1024px) {
+          padding-left: .5em;
+        }
+
+        &>* {
+          margin-bottom: 1em;
+        }
+
+        &>img {
+          margin-bottom: 2em;
+        }
+
+        h2 {
+          margin-bottom: 2em;
+        }
+
+        p img {
+          margin-right: 1em;
+        }
+      }
+
+      .right-part {
+        padding: 4em 0 0 5em;
+        border-left: 1px solid #ccc;
+      }
+
+      .interest-form {
+        margin-bottom: 5em;
+        text-align: left;
+        // min-width: 680px;
+        form {
+          width: 100%;
+          font-size: 1.167em;
+
+          &:before,
+          &:after {
+            display: table;
+            clear: both;
+            content: " ";
+          }
+
+          & > div {
+            // display: table-row;
+            margin: 2em 0 1em;
+
+            &:first-of-type {
+              margin-top: 3em;
+            }
+
+            * {
+              display: inline-block;
+            }
+          }
+          // name of the input text
+          label {
+            position: relative;
+            padding-right: .5em;
+            width: 20%;
+            text-align: right;
+
+            @media (max-width: 765px) {
+              width: auto;
+            }
+          }
+          // the input
+          input,
+          select,
+          textarea {
+            padding: .6em 0 .6em .5em;
+            border: 1px solid #ccc;
+            text-align: left;
+          }
+
+          textarea {
+            width: 79%;
+            vertical-align: top;
+          }
+
+          .bottom-line {
+            position: relative;
+
+            &:after,
+            &:before {
+              display: table;
+              clear: both;
+              content: " ";
+            }
+
+            h4,
+            p {
+              font-size: 12px;
+            }
+
+            &>h4 {
+              display: block;
+            }
+
+            button {
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

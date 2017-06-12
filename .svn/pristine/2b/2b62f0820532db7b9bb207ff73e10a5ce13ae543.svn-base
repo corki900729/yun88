@@ -1,0 +1,63 @@
+<?php if (!defined('SHUIPF_VERSION')) exit(); ?>
+<Admintemplate file="Common/Head"/>
+<body class="J_scroll_fixed">
+<div class="wrap J_check_wrap">
+ <!--<div class="h_a">搜索</div>
+  <form name="searchform" action="" method="get" >
+    <input type="hidden" value="Mail" name="g">
+    <input type="hidden" value="Demand" name="m">
+    <input type="hidden" value="applist" name="a">
+    <input type="hidden" value="1" name="search">
+    <div class="search_type cc mb10">
+      <div class="mb10"> 
+      	<span class="mr20"> 
+        <input name="keyword" type="text" value="{$Think.get.keyword}" class="input" />
+        <button class="btn">搜索</button>
+        </span> 
+      </div>
+    </div>
+  </form>   -->
+   <div class="table_list">
+      <table width="100%" cellspacing="0">
+        <thead>
+          <tr>
+            <td align="center">名称</td>
+            <td align="center">{$data.name}</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center">省</td>
+            <td align="center">{$data.province}</td>
+          </tr>
+          <tr>
+            <td align="center">市</td>
+            <td align="center">{$data.city}</td>
+          </tr>
+          <tr>
+            <td align="center">地区</td>
+            <td align="center">{$data.county}</td>
+          </tr>
+          <tr>
+            <td align="center">详细信息</td>
+            <td align="center">{data.pary}</td>
+          </tr>    
+         <tr>
+          <td align="center">邮政编码</td>
+          <td align="center">{$data.post}</td>
+        </tr>
+         <tr>
+          <td align="center">联系电话</td>
+          <td align="center">{$data.mobile}</td>
+        </tr>                                                       
+        </tbody>
+      </table>
+      <div class="p10">
+        <div class="pages"> {$page} </div>
+      </div>
+    </div>
+</div>
+<script src="{$config_siteurl}statics/js/common.js?v"></script>
+<script src="{$config_siteurl}statics/js/content_addtop.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--公用组件-->
+  <link href="../../dist/assets.css" rel="stylesheet">
+  <script src="../../dist/assets.js"></script>
+
+</head>
+
+<body>
+  <!--页面特有CSS-->
+  <link href="../../dist/personal-center/personal-center.css" rel="stylesheet">
+  <script src="../../dist/personal-center/personal-center.js"></script>
+
+  <main class="page-wrap personal-center orders devHead">
+
+    <section class="bread-crumb">
+      <div class="container">
+        <div>
+          <span><a href="">首页</a></span>
+          <span><a href="">个人中心</a></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-prim">
+      <div class="container">
+
+        <div class="main-row row" autoHi>
+          <!--手机菜单-->
+          <div class="s-col-12 isHidden-l" noAutoHi>
+            <div class="col-inner side-bar mobile-side">
+              <ul>
+                <li class="active"><a href="">个人资料管理</a></li>
+                <li class=""><a href="">发票管理</a></li>
+                <li class=""><a href="">订单管理</a></li>
+                <li class=""><a href="">我的购物车</a></li>
+                <li class=""><a href="">账户安全</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--菜单-->
+          <div class="l-col-3 m-col-3 isHidden-s">
+            <!--side bar-->
+            <div class="col-inner side-bar ">
+              <ul>
+                <li class="active"><a href="">个人资料管理</a></li>
+                <li class=""><a href="">发票管理</a></li>
+                <li class=""><a href="">订单管理</a></li>
+                <li class=""><a href="">我的购物车</a></li>
+                <li class=""><a href="">账户安全</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="l-col-9 m-col-9 s-col-12">
+            <form action="">
+
+              <!--main display-->
+              <div class="col-inner main-area">
+
+                <div class="step-indi">
+                  <ul>
+                    <li class="active">全部订单</li>
+                    <li>已支付订单</li>
+                    <li>未支付订单</li>
+                  </ul>
+                </div>
+
+                <div class="generic-table">
+                  <table>
+                    <caption><b>可开发票订单</b></caption>
+                    <thead>
+                      <tr>
+                        <td width="30%">订单编号</td>
+                        <td>商品名称</td>
+                        <td>金额</td>
+                        <td>支付时间</td>
+                        <td></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          1111111111111111 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+                        </td>
+                        <td>
+                          111111
+                        </td>
+                        <td class="headsUp-color">
+                          111111
+                        </td>
+                        <td>
+                          111111
+                        </td>
+                        <td>
+                          <a href="" class="btns btn-check-for-details" data-id="ck1">查看详情</a>
+                          <!--or-->
+                          <a href="" class="btns btn-buy-item" data-id="ck1">购买</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <!--详情内容-->
+                <div class="details-area">
+                  <!--循环这些内容，id与上面对应-->
+                  <div id="ck1" class="check-details">
+                    <div class="details-inner">
+                      <table>
+                        <thead>
+                          <tr>
+                            <td>商品名称</td>
+                            <td>购买时长（月）</td>
+                            <td>数量</td>
+                            <td>单价（元）</td>
+                            <td>类型</td>
+                            <td>规格</td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1111</td>
+                            <td>1111</td>
+                            <td>1111</td>
+                            <td>1111</td>
+                            <td>1111</td>
+                            <td>1111</td>
+                          </tr>
+                        </tbody>
+
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

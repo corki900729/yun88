@@ -1,0 +1,304 @@
+// out : ../log
+@import "less-components/variables.less";
+// the white back ground color
+@white: #f7f7f7;
+// input size
+@inp-normal: 25em;
+@inp-large: 28.333em;
+@inp-small: 15.833em;
+
+body {
+  background-color: @white;
+}
+/* log page header*/
+.log-head {
+  position: relative;
+  height: 7.667em;
+  border-bottom: solid 1px #ccc;
+  background-color: #fff;
+
+  .logo,
+  .logo-text {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .logo {
+    padding-top: 2.750em;
+  }
+
+  .logo-text {
+    padding-top: 3.3em;
+    padding-left: 2em;
+
+    @media (max-width:620px) {
+      display: none;
+    }
+  }
+
+  .head-right {
+    position: relative;
+    right: 2em;
+    float: right;
+    padding-top: 3.3em;
+    padding-right: 3em;
+
+    @media (max-width:620px) {
+      display: inline-block;
+    }
+  }
+}
+
+.inp-normal {
+  width: @inp-normal;
+}
+
+.inp-large {
+  width: @inp-large;
+}
+
+.inp-small {
+  width: @inp-small;
+}
+/* ./ log page header */
+// register page
+.reg-sheet {
+  min-height: 10em;
+  // the title
+  .title {
+    font-size: 2.083em;
+    color: #333;
+  }
+
+  .sheet {
+    // the line of input
+    form {
+      width: 100%;
+      font-size: 1.167em;
+
+      & > div {
+        // display: table-row;
+        margin: 2em 0 1em;
+
+        &:first-of-type {
+          margin-top: 3em;
+        }
+
+        * {
+          display: inline-block;
+        }
+      }
+      // name of the input text
+      label {
+        position: relative;
+        width: 40%;
+        padding-right: 1em;
+        text-align: right;
+
+        @media (max-width:765px) {
+          width: auto;
+        }
+
+        &:before {
+          position: relative;
+          top: .15em;
+          padding-right: .3em;
+          content: '*';
+          color: red;
+        }
+      }
+      // the input
+      input {
+        // width: 50%;
+        // display: table-cell;
+        padding: .6em 0 .6em .5em;
+        text-align: left;
+        border: 1px solid #ccc;
+      }
+
+      .captcha-button {
+        padding: .6em .5em;
+        text-align: center;
+        color: white;
+        background-color: #008cd7;
+
+        &:visited {
+          color: white;
+        }
+      }
+
+      .security-level {
+        padding-left: 40%+@inp-normal/10;
+
+        @media(max-width:765px) {
+          padding-left: 5%;
+        }
+
+        &>* {
+          vertical-align: middle;
+          display: inline-block;
+        }
+
+        span {
+          font-size: 1.167em;
+          padding-right: 1em;
+        }
+
+        div {
+          width: 3.917em;
+          height: 1.917em;
+          text-align: center;
+          color: white;
+          background-color: #ccc;
+        }
+
+        .active {
+          &.strong {
+            background-color: @blue;
+          }
+
+          &.middle {
+            background-color: greenyellow;
+          }
+
+          &.weak {
+            background-color: indianred;
+          }
+
+          &.too-weak {
+            background-color: darkred;
+          }
+        }
+      }
+
+      .agreement,
+      .bottom-line {
+        text-align: center;
+      }
+
+      .agreement {
+        a,
+        a:visited {
+          color: @blue;
+        }
+
+        &>* {
+          vertical-align: middle;
+        }
+      }
+
+      .bottom-line {
+        .reg-button {
+          font-size: 1.5em;
+          width: 12.000em;
+          height: 2.444em;
+          color: white;
+          border-radius: .5em;
+          background-color: #e66c12;
+        }
+      }
+    }
+  }
+}
+// log in page
+.login-sheet {
+  .container {
+    min-height: 278px;
+    background-image: url('../images/logIn.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .login-form {
+    right: 5em;
+    float: right;
+    width: 39.083em;
+    height: 43.167em;
+    margin-top: 10.750em;
+    margin-bottom: 3.167em;
+    padding: 5em 0 0 5em;
+    // border: 1px solid black;
+    background-color: white;
+
+    .title {
+      font-size: 2.500em;
+      position: relative;
+
+      &:after {
+        position: relative;
+        top: -.3em;
+        display: inline-block;
+        width: 213px;
+        height: 1.5px;
+        margin-left: .7em;
+        content: ' ';
+        // border-bottom: 1.5px solid black;
+        background-color: black;
+      }
+    }
+
+    form {
+      font-size: 1.167em;
+
+      input {
+        &:extend(.reg-sheet .sheet form input);
+      }
+
+      a,
+      a:visited {
+        color: @blue;
+      }
+
+      & > div:first-child {
+        margin-top: 3em;
+      }
+
+      &> div {
+        margin-top: 2em;
+      }
+
+      .log-button {
+        font-size: 1.5em;
+        color: white;
+        padding: .5em 3em;
+        border-radius: .5em;
+        background-color: @blue;
+      }
+
+      .log-button+a {
+        margin-left: 1em;
+      }
+    }
+
+    @media(max-height:700px) {
+      margin-top: 5em;
+      margin-bottom: 5em;
+    }
+
+    @media(max-height:600px) {
+      margin-top: 3em;
+      margin-bottom: 2em;
+    }
+  }
+}
+/* log page footer */
+.log-footer {
+  height: 9.500em;
+  color: white;
+  background-color: #666;
+
+  .footer-left {
+    display: inline-block;
+    padding-top: 3em;
+  }
+  .footer-right:extend(.log-footer .footer-left){
+    float: right;
+
+    @media (max-width:900px) {
+      display: block;
+      float: none;
+      padding-top: 0;
+    }
+  }
+}
+/* ./ log page footer */

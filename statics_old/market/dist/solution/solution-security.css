@@ -1,0 +1,387 @@
+/**
+* This file contains critical variabes, NEED to be import in every "get togather" less files, and in the first import order.
+* 此文件为基础关键变量，尽量在汇总性less文件中，第一个引入。
+*/
+/**
+* Common classes.
+* mainly for tweeking or other minor styles.
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+}
+.form-block > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 {
+  font-size: 23px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+span {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+.page-contents-wrapper {
+  overflow: hidden;
+}
+.floor {
+  padding: 2em 0;
+}
+.floor.f-one {
+  padding-top: 4em;
+}
+.floor.f-btm {
+  padding-bottom: 0;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:after,
+body:before {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.row {
+  *zoom: 1;
+  margin-left: -11px;
+  margin-right: -11px;
+}
+.row:after,
+.row:before {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@media (min-width:1201px) {
+  .l-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .l-push-1 {
+    margin-left: 8.33333333%;
+  }
+  .l-push-2 {
+    margin-left: 16.66666667%;
+  }
+  .l-push-3 {
+    margin-left: 25%;
+  }
+  .l-push-4 {
+    margin-left: 33.33333333%;
+  }
+  .l-push-5 {
+    margin-left: 41.66666667%;
+  }
+  .l-push-6 {
+    margin-left: 50%;
+  }
+  .l-push-7 {
+    margin-left: 58.33333333%;
+  }
+  .l-push-8 {
+    margin-left: 66.66666667%;
+  }
+  .l-push-9 {
+    margin-left: 75%;
+  }
+  .l-push-10 {
+    margin-left: 83.33333333%;
+  }
+  .l-push-11 {
+    margin-left: 91.66666667%;
+  }
+  .l-push-12 {
+    margin-left: 100%;
+  }
+}
+@media (max-width:1200px) and (min-width:800px) {
+  .m-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .m-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+@media (max-width:800px) and (min-width:300px) {
+  .s-col-1 {
+    float: left;
+    width: 8.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-2 {
+    float: left;
+    width: 16.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-3 {
+    float: left;
+    width: 25%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-5 {
+    float: left;
+    width: 41.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-6 {
+    float: left;
+    width: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-7 {
+    float: left;
+    width: 58.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-8 {
+    float: left;
+    width: 66.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-9 {
+    float: left;
+    width: 75%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-10 {
+    float: left;
+    width: 83.33333333%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-11 {
+    float: left;
+    width: 91.66666667%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .s-col-12 {
+    float: left;
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+}
+.page-contents-wrapper .banner {
+  width: 100%;
+  background:#68cccc;
+}
+.page-contents-wrapper .banner img {
+  width: 100%;
+}
+.page-contents-wrapper .lay01 {
+  padding: 50px 0;
+}
+.page-contents-wrapper .lay01 .lay01-inner .img-holder {
+  text-align: center;
+}
+.page-contents-wrapper .lay01 .lay01-inner .text-holder {
+  padding: 0 30px;
+}
+.page-contents-wrapper .lay01 .lay01-inner .text-holder h4 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 0 12px;
+  text-align: center;
+}
+.page-contents-wrapper .lay01 .lay01-inner .text-holder .lay01-text {
+  line-height: 26px;
+}
+.page-contents-wrapper .floor {
+  padding: 80px 0;
+}
+.page-contents-wrapper .floor img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.page-contents-wrapper .floor.f-1 {
+  background-color: #edf7ff;
+}
+.page-contents-wrapper .floor.f-2 {
+  background-color: #f8fcff;
+}
